@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T17:28:00+00:00",
+ "updated": "2026-11-04T17:43:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -92,7 +92,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Noise area 752.20 to 765.21. Next check on the half hour.",
+   "thought": "Noise area 751.95 to 765.47. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -156,9 +156,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "AIOK",
-   "charge": 44,
-   "thought": "Price below VWAP 11.16. No cross yet.",
+   "focus": "IWM",
+   "charge": 18,
+   "thought": "Price above VWAP 283.80. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -185,13 +185,13 @@
     "AIOK"
    ],
    "symbol_count": 5,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 10,
-   "thought": "Higher timeframes not lined up (bias +3, chop). Sitting out.",
+   "charge": 80,
+   "thought": "Uptrend. Price is testing the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -218,13 +218,13 @@
     "AIOK"
    ],
    "symbol_count": 5,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "FIS",
-   "charge": 40,
-   "thought": "RSI(2) 60. Nothing stretched enough.",
+   "charge": 76,
+   "thought": "RSI(2) 23. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -251,13 +251,13 @@
     "AIOK"
    ],
    "symbol_count": 5,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "IWM",
-   "charge": 85,
-   "thought": "Setup is ready but outside the trading windows.",
+   "focus": "SPY",
+   "charge": 50,
+   "thought": "Swept the opening range high at 767.75. Waiting for a fair value gap.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -285,9 +285,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "BTC/USD",
-   "charge": 42,
-   "thought": "Channel 80206.43 to 80660.92. Waiting for a break.",
+   "focus": "ETH/USD",
+   "charge": 29,
+   "thought": "Channel 2417.93 to 2440.60. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -301,6 +301,12 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-04T17:41:00+00:00",
+   "worker": "trend",
+   "kind": "shadow",
+   "text": "TREND (shadow) would short AIOK: Trend pullback short"
+  },
   {
    "t": "2026-11-04T17:09:00+00:00",
    "worker": "trend",
@@ -534,20 +540,14 @@
    "worker": "turtle",
    "kind": "shadow",
    "text": "TURTLE (shadow) would long ETH/USD: 60-bar breakout"
-  },
-  {
-   "t": "2026-11-04T14:30:00+00:00",
-   "worker": "turtle",
-   "kind": "shadow",
-   "text": "TURTLE (shadow) would long BTC/USD: 60-bar breakout"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
    "bias": 3,
-   "regime": "chop",
-   "rvol": 2.23,
+   "regime": "normal",
+   "rvol": 2.18,
    "liquidity": {
     "prior day high": 757.06,
     "prior day low": 752.44,
@@ -558,7 +558,7 @@
   },
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": 3,
+   "bias": 1,
    "regime": "chop",
    "rvol": null,
    "liquidity": {
