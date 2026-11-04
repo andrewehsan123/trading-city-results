@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T16:28:00+00:00",
+ "updated": "2026-11-04T16:43:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -91,8 +91,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 73,
-   "thought": "Noise area 751.88 to 765.54. Next check on the half hour.",
+   "charge": 100,
+   "thought": "Noise area 751.86 to 765.56. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -156,9 +156,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "AIOK",
-   "charge": 17,
-   "thought": "Price below VWAP 11.25. No cross yet.",
+   "focus": "SPY",
+   "charge": 48,
+   "thought": "Price above VWAP 766.13. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -185,13 +185,13 @@
     "AIOK"
    ],
    "symbol_count": 5,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 10,
-   "thought": "Higher timeframes not lined up (bias +1, normal). Sitting out.",
+   "focus": "FIS",
+   "charge": 80,
+   "thought": "Rejected at the 9 EMA in a downtrend. Going short.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -222,9 +222,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 64,
-   "thought": "RSI(2) 35. Nothing stretched enough.",
+   "focus": "FIS",
+   "charge": 66,
+   "thought": "RSI(2) 34. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -281,13 +281,13 @@
     "ETH/USD"
    ],
    "symbol_count": 2,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "BTC/USD",
-   "charge": 52,
-   "thought": "Channel 80072.86 to 80782.36. Waiting for a break.",
+   "charge": 77,
+   "thought": "Channel 80072.86 to 80674.37. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -527,8 +527,8 @@
  "regime": {
   "lead": {
    "symbol": "SPY",
-   "bias": 1,
-   "regime": "normal",
+   "bias": 3,
+   "regime": "chop",
    "rvol": 2.21,
    "liquidity": {
     "prior day high": 757.06,
@@ -541,13 +541,13 @@
   "crypto": {
    "symbol": "BTC/USD",
    "bias": 3,
-   "regime": "normal",
+   "regime": "chop",
    "rvol": null,
    "liquidity": {
     "prior day high": 77981.95,
     "prior day low": 76246.6
    },
-   "fvgs": 19
+   "fvgs": 18
   }
  },
  "scanner": {
