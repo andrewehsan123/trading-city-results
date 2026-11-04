@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T16:43:00+00:00",
+ "updated": "2026-11-04T16:57:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -156,9 +156,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 48,
-   "thought": "Price above VWAP 766.13. No cross yet.",
+   "focus": "IWM",
+   "charge": 24,
+   "thought": "Price above VWAP 283.74. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -185,13 +185,13 @@
     "AIOK"
    ],
    "symbol_count": 5,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "FIS",
-   "charge": 80,
-   "thought": "Rejected at the 9 EMA in a downtrend. Going short.",
+   "focus": "SPY",
+   "charge": 40,
+   "thought": "Uptrend. Waiting for a dip to the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -218,13 +218,13 @@
     "AIOK"
    ],
    "symbol_count": 5,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "FIS",
-   "charge": 66,
-   "thought": "RSI(2) 34. Nothing stretched enough.",
+   "focus": "IWM",
+   "charge": 81,
+   "thought": "RSI(2) 19. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -257,7 +257,7 @@
    "position": null,
    "focus": "IWM",
    "charge": 50,
-   "thought": "Swept the prior day high at 281.99. Waiting for a fair value gap.",
+   "thought": "Swept the opening range low at 284.17. Waiting for a fair value gap.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -281,12 +281,12 @@
     "ETH/USD"
    ],
    "symbol_count": 2,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "BTC/USD",
-   "charge": 77,
+   "charge": 64,
    "thought": "Channel 80072.86 to 80674.37. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -301,6 +301,24 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-04T16:49:00+00:00",
+   "worker": "snapback",
+   "kind": "shadow",
+   "text": "SNAPBACK (shadow) would short FIS: RSI(2) overbought in downtrend"
+  },
+  {
+   "t": "2026-11-04T16:48:00+00:00",
+   "worker": "vwap",
+   "kind": "shadow",
+   "text": "VWAP (shadow) would long IWM: VWAP reclaim"
+  },
+  {
+   "t": "2026-11-04T16:46:00+00:00",
+   "worker": "vwap",
+   "kind": "shadow",
+   "text": "VWAP (shadow) would long QQQ: VWAP reclaim"
+  },
   {
    "t": "2026-11-04T15:36:00+00:00",
    "worker": "vwap",
@@ -528,15 +546,15 @@
   "lead": {
    "symbol": "SPY",
    "bias": 3,
-   "regime": "chop",
-   "rvol": 2.21,
+   "regime": "trend",
+   "rvol": 2.25,
    "liquidity": {
     "prior day high": 757.06,
     "prior day low": 752.44,
     "opening range high": 767.75,
     "opening range low": 762.71
    },
-   "fvgs": 4
+   "fvgs": 6
   },
   "crypto": {
    "symbol": "BTC/USD",
