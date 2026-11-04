@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T15:13:00+00:00",
+ "updated": "2026-11-04T15:28:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -92,7 +92,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Noise area 752.95 to 764.46. Next check on the half hour.",
+   "thought": "Noise area 752.27 to 765.15. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -152,13 +152,13 @@
     "AIOK"
    ],
    "symbol_count": 5,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "AIOK",
-   "charge": 87,
-   "thought": "Price below VWAP 11.85. No cross yet.",
+   "focus": "SPY",
+   "charge": 59,
+   "thought": "Price below VWAP 766.47. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -185,13 +185,13 @@
     "AIOK"
    ],
    "symbol_count": 5,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "QQQ",
-   "charge": 80,
-   "thought": "Bounced off the 9 EMA in an uptrend. Going long.",
+   "focus": "SPY",
+   "charge": 10,
+   "thought": "Higher timeframes not lined up (bias +3, chop). Sitting out.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -218,13 +218,13 @@
     "AIOK"
    ],
    "symbol_count": 5,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 0,
-   "thought": "Waiting for enough data.",
+   "focus": "IWM",
+   "charge": 85,
+   "thought": "Strong move against the hourly trend. Not fading it.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -255,9 +255,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "QQQ",
+   "focus": "SPY",
    "charge": 85,
-   "thought": "Gap 697.20-697.44 ready. Waiting for price to tap it.",
+   "thought": "Gap 767.13-767.49 ready. Waiting for price to tap it.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -285,9 +285,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "BTC/USD",
-   "charge": 100,
-   "thought": "Channel 78166.86 to 80695.43. Waiting for a break.",
+   "focus": "ETH/USD",
+   "charge": 87,
+   "thought": "Channel 2312.86 to 2446.76. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -301,6 +301,18 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-04T15:19:00+00:00",
+   "worker": "snapback",
+   "kind": "shadow",
+   "text": "SNAPBACK (shadow) would long SPY: RSI(2) oversold in uptrend"
+  },
+  {
+   "t": "2026-11-04T15:19:00+00:00",
+   "worker": "snapback",
+   "kind": "shadow",
+   "text": "SNAPBACK (shadow) would long QQQ: RSI(2) oversold in uptrend"
+  },
   {
    "t": "2026-11-04T15:02:00+00:00",
    "worker": "vwap",
@@ -511,14 +523,14 @@
    "symbol": "SPY",
    "bias": 3,
    "regime": "chop",
-   "rvol": 2.12,
+   "rvol": 2.1,
    "liquidity": {
     "prior day high": 757.06,
     "prior day low": 752.44,
     "opening range high": 767.75,
     "opening range low": 762.71
    },
-   "fvgs": 2
+   "fvgs": 3
   },
   "crypto": {
    "symbol": "BTC/USD",
@@ -529,7 +541,7 @@
     "prior day high": 77981.95,
     "prior day low": 76246.6
    },
-   "fvgs": 19
+   "fvgs": 20
   }
  },
  "scanner": {
