@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T18:28:00+00:00",
+ "updated": "2026-11-04T18:43:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -92,7 +92,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Noise area 751.56 to 765.86. Next check on the half hour.",
+   "thought": "Noise area 751.42 to 766.00. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -152,13 +152,13 @@
     "AIOK"
    ],
    "symbol_count": 5,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "QQQ",
-   "charge": 93,
-   "thought": "Price above VWAP 694.88. No cross yet.",
+   "focus": "AIOK",
+   "charge": 24,
+   "thought": "Price below VWAP 11.10. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -218,13 +218,13 @@
     "AIOK"
    ],
    "symbol_count": 5,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "QQQ",
-   "charge": 81,
-   "thought": "Strong move against the hourly trend. Not fading it.",
+   "charge": 57,
+   "thought": "RSI(2) 43. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -255,9 +255,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "IWM",
+   "focus": "SPY",
    "charge": 50,
-   "thought": "Swept the opening range low at 284.17. Waiting for a fair value gap.",
+   "thought": "Swept the opening range high at 767.75. Waiting for a fair value gap.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -281,13 +281,13 @@
     "ETH/USD"
    ],
    "symbol_count": 2,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "ETH/USD",
-   "charge": 82,
-   "thought": "Channel 2417.93 to 2434.80. Waiting for a break.",
+   "focus": "BTC/USD",
+   "charge": 2,
+   "thought": "Channel 80256.98 to 80646.98. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -545,9 +545,9 @@
  "regime": {
   "lead": {
    "symbol": "SPY",
-   "bias": 3,
+   "bias": 1,
    "regime": "normal",
-   "rvol": 2.04,
+   "rvol": 1.99,
    "liquidity": {
     "prior day high": 757.06,
     "prior day low": 752.44,
@@ -558,14 +558,14 @@
   },
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": 3,
-   "regime": "normal",
+   "bias": 1,
+   "regime": "trend",
    "rvol": null,
    "liquidity": {
     "prior day high": 77981.95,
     "prior day low": 76246.6
    },
-   "fvgs": 17
+   "fvgs": 18
   }
  },
  "scanner": {
