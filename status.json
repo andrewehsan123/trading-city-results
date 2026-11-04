@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T19:58:00+00:00",
+ "updated": "2026-11-04T20:13:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -92,7 +92,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Noise area 751.06 to 766.37. Next check on the half hour.",
+   "thought": "Noise area 751.01 to 766.42. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -157,8 +157,8 @@
    "pending": [],
    "position": null,
    "focus": "FIS",
-   "charge": 33,
-   "thought": "Price below VWAP 29.96. No cross yet.",
+   "charge": 43,
+   "thought": "VWAP 29.96. Waiting for the 10:00 to 3:00 window.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -189,9 +189,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "QQQ",
-   "charge": 40,
-   "thought": "Downtrend. Waiting for a pop to the 9 EMA.",
+   "focus": "SPY",
+   "charge": 0,
+   "thought": "Too late in the day.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -218,13 +218,13 @@
     "AIOK"
    ],
    "symbol_count": 5,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "QQQ",
-   "charge": 77,
-   "thought": "RSI(2) 23. Nothing stretched enough.",
+   "focus": "SPY",
+   "charge": 0,
+   "thought": "Too late in the day.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -257,7 +257,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 85,
-   "thought": "Gap 767.52-767.68 ready. Waiting for price to tap it.",
+   "thought": "Setup is ready but outside the trading windows.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -286,8 +286,8 @@
    "pending": [],
    "position": null,
    "focus": "BTC/USD",
-   "charge": 22,
-   "thought": "Channel 79850.09 to 80328.89. Waiting for a break.",
+   "charge": 40,
+   "thought": "Channel 79850.09 to 80281.40. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -547,25 +547,25 @@
    "symbol": "SPY",
    "bias": 1,
    "regime": "normal",
-   "rvol": 1.77,
+   "rvol": 1.72,
    "liquidity": {
     "prior day high": 757.06,
     "prior day low": 752.44,
     "opening range high": 767.75,
     "opening range low": 762.71
    },
-   "fvgs": 8
+   "fvgs": 7
   },
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": 0,
-   "regime": "trend",
+   "bias": -1,
+   "regime": "chop",
    "rvol": null,
    "liquidity": {
     "prior day high": 77981.95,
     "prior day low": 76246.6
    },
-   "fvgs": 17
+   "fvgs": 18
   }
  },
  "scanner": {
