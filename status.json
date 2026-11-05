@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-05T15:14:51.636116+00:00",
+ "updated": "2026-11-05T15:29:45.058068+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
- "equity": 100106.95,
+ "equity": 100019.68,
  "day_pnl": 0,
  "workers": [
   {
@@ -99,7 +99,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Noise area 763.79 to 768.49. Next check on the half hour.",
+   "thought": "Noise area 763.28 to 768.99. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -166,8 +166,8 @@
    "pending": [],
    "position": null,
    "focus": "AEHL",
-   "charge": 89,
-   "thought": "Price above VWAP 11.38. No cross yet.",
+   "charge": 82,
+   "thought": "Price below VWAP 11.65. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -199,9 +199,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "APPX",
+   "focus": "AEHL",
    "charge": 80,
-   "thought": "Bounced off the 9 EMA in an uptrend. Going long.",
+   "thought": "Uptrend. Price is testing the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -233,9 +233,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 0,
-   "thought": "Waiting for enough data.",
+   "focus": "IWM",
+   "charge": 40,
+   "thought": "RSI(2) 59. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -267,9 +267,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "QQQ",
+   "focus": "APP",
    "charge": 50,
-   "thought": "Swept the opening range low at 670.91. Waiting for a fair value gap.",
+   "thought": "Swept the opening range high at 360.17. Waiting for a fair value gap.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -298,8 +298,8 @@
    "pending": [],
    "position": null,
    "focus": "BTC/USD",
-   "charge": 2,
-   "thought": "Channel 76755.83 to 79541.30. Waiting for a break.",
+   "charge": 8,
+   "thought": "Channel 76067.49 to 79541.30. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -313,6 +313,12 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-05T15:15:00+00:00",
+   "worker": "trend",
+   "kind": "shadow",
+   "text": "TREND (shadow) would long APP: Trend pullback long"
+  },
   {
    "t": "2026-11-05T15:11:00+00:00",
    "worker": "vwap",
@@ -546,12 +552,6 @@
    "worker": "gapgo",
    "kind": "order",
    "text": "GAP&GO buy-stop 637 Z @ 31.43"
-  },
-  {
-   "t": "2026-11-04T19:51:00+00:00",
-   "worker": "trend",
-   "kind": "shadow",
-   "text": "TREND (shadow) would short QQQ: Trend pullback short"
   }
  ],
  "regime": {
@@ -559,14 +559,14 @@
    "symbol": "SPY",
    "bias": -3,
    "regime": "trend",
-   "rvol": 2.04,
+   "rvol": 2.18,
    "liquidity": {
     "prior day high": 769.19,
     "prior day low": 762.71,
     "opening range high": 765.96,
     "opening range low": 756.94
    },
-   "fvgs": 11
+   "fvgs": 12
   },
   "crypto": {
    "symbol": "BTC/USD",
@@ -577,7 +577,7 @@
     "prior day high": 81119.62,
     "prior day low": 75576.58
    },
-   "fvgs": 18
+   "fvgs": 19
   }
  },
  "scanner": {
