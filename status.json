@@ -1,11 +1,47 @@
 {
- "updated": "2026-11-05T14:28:00+00:00",
+ "updated": "2026-11-05T14:44:00+00:00",
  "mode": "paper",
- "market_open": false,
+ "market_open": true,
  "halted": null,
- "equity": 100177.32,
+ "equity": 99828.32,
  "day_pnl": 0,
  "workers": [
+  {
+   "id": "gapgo",
+   "name": "GAP&GO",
+   "market": "stock",
+   "inspired_by": "Zarattini, Barbon & Aziz (2024) ORB on Stocks in Play, developed: 1-min range, gappers, quick partial",
+   "method": "At 9:31 ET picks stocks that gapped 7%+ whose first minute traded 3x+ normal. Places a buy-stop (or sell-stop) at the first 1-minute candle's high (low). Takes 30% off at a quick +0.25R, the rest rides with no risk. Exits any trade that hasn't paid within 60 minutes.",
+   "tier": "core",
+   "symbols": [
+    "Z",
+    "ZG"
+   ],
+   "symbol_count": 2,
+   "state": "in_trade",
+   "open_count": 1,
+   "pending": [],
+   "position": {
+    "symbol": "Z",
+    "side": "long",
+    "entry": 31.37,
+    "stop": 30.376016923076925,
+    "target": 31.668194923076925
+   },
+   "focus": "Z",
+   "charge": 90,
+   "thought": "Gapped -9.2% on 23.7x volume. Buy stop at 31.43.",
+   "pnl_today": 0,
+   "trades_today": 0,
+   "wins_today": 0,
+   "pnl_total": 0,
+   "trades_total": 0,
+   "win_rate": 0,
+   "profit_factor": 0,
+   "allowed": true,
+   "size_x": 0.75,
+   "lab": null
+  },
   {
    "id": "opener",
    "name": "OPENER",
@@ -27,14 +63,14 @@
     "PLTR",
     "COIN"
    ],
-   "symbol_count": 50,
-   "state": "watching",
+   "symbol_count": 53,
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "AAPL",
-   "charge": 0,
-   "thought": "Waiting for the market.",
+   "focus": "NVDA",
+   "charge": 90,
+   "thought": "In play (1.8x volume). Short stop at 193.63, stop-loss 196.86.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -57,13 +93,13 @@
     "SPY"
    ],
    "symbol_count": 1,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 0,
-   "thought": "Waiting for the market.",
+   "charge": 100,
+   "thought": "Noise area 764.54 to 767.73. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -85,16 +121,19 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM"
+    "IWM",
+    "AEHL",
+    "APPX",
+    "APP"
    ],
-   "symbol_count": 3,
+   "symbol_count": 6,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 0,
-   "thought": "Waiting for the market.",
+   "charge": 37,
+   "thought": "Building the opening range: 756.94 to 765.96.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -116,16 +155,19 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM"
+    "IWM",
+    "AEHL",
+    "APPX",
+    "APP"
    ],
-   "symbol_count": 3,
-   "state": "watching",
+   "symbol_count": 6,
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 0,
-   "thought": "Waiting for the market.",
+   "focus": "APP",
+   "charge": 85,
+   "thought": "VWAP 351.51. Waiting for the 10:00 to 3:00 window.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -147,16 +189,19 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM"
+    "IWM",
+    "AEHL",
+    "APPX",
+    "APP"
    ],
-   "symbol_count": 3,
+   "symbol_count": 6,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Waiting for the market.",
+   "thought": "Letting the averages settle.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -178,16 +223,19 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM"
+    "IWM",
+    "AEHL",
+    "APPX",
+    "APP"
    ],
-   "symbol_count": 3,
+   "symbol_count": 6,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Waiting for the market.",
+   "thought": "Waiting for enough data.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -209,16 +257,19 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM"
+    "IWM",
+    "AEHL",
+    "APPX",
+    "APP"
    ],
-   "symbol_count": 3,
+   "symbol_count": 6,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 0,
-   "thought": "Waiting for the market.",
+   "charge": 40,
+   "thought": "Nearest liquidity: opening range low 756.94. Waiting for a sweep.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -247,8 +298,8 @@
    "pending": [],
    "position": null,
    "focus": "ETH/USD",
-   "charge": 44,
-   "thought": "Channel 2374.79 to 2392.82. Waiting for a break.",
+   "charge": 9,
+   "thought": "Channel 2358.22 to 2392.82. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -262,6 +313,156 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-05T14:36:40.445208+00:00",
+   "worker": "gapgo",
+   "kind": "entry",
+   "text": "GAP&GO LONG 563 Z @ 31.37 (Gap -9.2%, 23.7x volume)"
+  },
+  {
+   "t": "2026-11-05T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would short XYZ: Stock in play, 1.4x opening volume"
+  },
+  {
+   "t": "2026-11-05T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would long XOM: Stock in play, 1.2x opening volume"
+  },
+  {
+   "t": "2026-11-05T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would short UBER: Stock in play, 2.6x opening volume"
+  },
+  {
+   "t": "2026-11-05T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would short TSLA: Stock in play, 1.6x opening volume"
+  },
+  {
+   "t": "2026-11-05T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would short SNOW: Stock in play, 1.8x opening volume"
+  },
+  {
+   "t": "2026-11-05T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would short RIOT: Stock in play, 1.4x opening volume"
+  },
+  {
+   "t": "2026-11-05T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would short PLTR: Stock in play, 1.3x opening volume"
+  },
+  {
+   "t": "2026-11-05T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would short PANW: Stock in play, 2.0x opening volume"
+  },
+  {
+   "t": "2026-11-05T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would short NVDA: Stock in play, 1.8x opening volume"
+  },
+  {
+   "t": "2026-11-05T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would short MU: Stock in play, 1.6x opening volume"
+  },
+  {
+   "t": "2026-11-05T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would short JPM: Stock in play, 1.6x opening volume"
+  },
+  {
+   "t": "2026-11-05T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would long DIS: Stock in play, 2.9x opening volume"
+  },
+  {
+   "t": "2026-11-05T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would short CRWD: Stock in play, 1.9x opening volume"
+  },
+  {
+   "t": "2026-11-05T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would short COST: Stock in play, 2.5x opening volume"
+  },
+  {
+   "t": "2026-11-05T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would long BAC: Stock in play, 1.3x opening volume"
+  },
+  {
+   "t": "2026-11-05T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would short AVGO: Stock in play, 2.0x opening volume"
+  },
+  {
+   "t": "2026-11-05T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would long ARM: Stock in play, 5.6x opening volume"
+  },
+  {
+   "t": "2026-11-05T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would long APP: Stock in play, 17.2x opening volume"
+  },
+  {
+   "t": "2026-11-05T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would short AMZN: Stock in play, 1.6x opening volume"
+  },
+  {
+   "t": "2026-11-05T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would short AMD: Stock in play, 1.5x opening volume"
+  },
+  {
+   "t": "2026-11-05T14:35:21.725729+00:00",
+   "worker": "scanner",
+   "kind": "scan",
+   "text": "Stocks in play: AEHL +86.0%, APPX +61.3%, APP +30.4%"
+  },
+  {
+   "t": "2026-11-05T14:31:26.099341+00:00",
+   "worker": "gapgo",
+   "kind": "scan",
+   "text": "GAP&GO picked 2: Z -9%, ZG -8%"
+  },
+  {
+   "t": "2026-11-05T14:31:06.497039+00:00",
+   "worker": "gapgo",
+   "kind": "order",
+   "text": "GAP&GO sell-stop 637 ZG @ 31.45"
+  },
+  {
+   "t": "2026-11-05T14:31:06.497039+00:00",
+   "worker": "gapgo",
+   "kind": "order",
+   "text": "GAP&GO buy-stop 637 Z @ 31.43"
+  },
   {
    "t": "2026-11-04T19:51:00+00:00",
    "worker": "trend",
@@ -351,177 +552,66 @@
    "worker": "trend",
    "kind": "shadow",
    "text": "TREND (shadow) would short FIS: Trend pullback short"
-  },
-  {
-   "t": "2026-11-04T14:55:00+00:00",
-   "worker": "orb",
-   "kind": "shadow",
-   "text": "ORB (shadow) would short IWM: Opening range breakout down"
-  },
-  {
-   "t": "2026-11-04T14:46:00+00:00",
-   "worker": "orb",
-   "kind": "shadow",
-   "text": "ORB (shadow) would long SPY: Opening range breakout up"
-  },
-  {
-   "t": "2026-11-04T14:46:00+00:00",
-   "worker": "orb",
-   "kind": "shadow",
-   "text": "ORB (shadow) would long QQQ: Opening range breakout up"
-  },
-  {
-   "t": "2026-11-04T14:46:00+00:00",
-   "worker": "orb",
-   "kind": "shadow",
-   "text": "ORB (shadow) would short FIS: Opening range breakout down"
-  },
-  {
-   "t": "2026-11-04T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long XYZ: Stock in play, 10.1x opening volume"
-  },
-  {
-   "t": "2026-11-04T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short XOM: Stock in play, 3.9x opening volume"
-  },
-  {
-   "t": "2026-11-04T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short UNH: Stock in play, 4.8x opening volume"
-  },
-  {
-   "t": "2026-11-04T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short SNOW: Stock in play, 2.0x opening volume"
-  },
-  {
-   "t": "2026-11-04T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long SMCI: Stock in play, 2.2x opening volume"
-  },
-  {
-   "t": "2026-11-04T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long RIVN: Stock in play, 3.9x opening volume"
-  },
-  {
-   "t": "2026-11-04T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short RIOT: Stock in play, 11.8x opening volume"
-  },
-  {
-   "t": "2026-11-04T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long PLTR: Stock in play, 2.7x opening volume"
-  },
-  {
-   "t": "2026-11-04T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long ORCL: Stock in play, 2.9x opening volume"
-  },
-  {
-   "t": "2026-11-04T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short NVDA: Stock in play, 3.3x opening volume"
-  },
-  {
-   "t": "2026-11-04T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long MSFT: Stock in play, 3.4x opening volume"
-  },
-  {
-   "t": "2026-11-04T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long MARA: Stock in play, 2.5x opening volume"
-  },
-  {
-   "t": "2026-11-04T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long GOOGL: Stock in play, 1.9x opening volume"
-  },
-  {
-   "t": "2026-11-04T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long FIS: Stock in play, 9.8x opening volume"
-  },
-  {
-   "t": "2026-11-04T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long DIS: Stock in play, 3.8x opening volume"
-  },
-  {
-   "t": "2026-11-04T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short CVX: Stock in play, 3.0x opening volume"
-  },
-  {
-   "t": "2026-11-04T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long CCL: Stock in play, 1.9x opening volume"
-  },
-  {
-   "t": "2026-11-04T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long BA: Stock in play, 2.3x opening volume"
-  },
-  {
-   "t": "2026-11-04T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long AMZN: Stock in play, 5.2x opening volume"
-  },
-  {
-   "t": "2026-11-04T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short AMD: Stock in play, 2.2x opening volume"
-  },
-  {
-   "t": "2026-11-04T14:35:03.288486+00:00",
-   "worker": "scanner",
-   "kind": "scan",
-   "text": "Stocks in play: FIS -18.1%, AIOK +16.8%"
   }
  ],
  "regime": {
-  "lead": null,
+  "lead": {
+   "symbol": "SPY",
+   "bias": -1,
+   "regime": "trend",
+   "rvol": 1.67,
+   "liquidity": {
+    "prior day high": 769.19,
+    "prior day low": 762.71,
+    "opening range high": 765.96,
+    "opening range low": 756.94
+   },
+   "fvgs": 6
+  },
   "crypto": {
    "symbol": "BTC/USD",
    "bias": -3,
-   "regime": "chop",
+   "regime": "normal",
    "rvol": null,
    "liquidity": {
     "prior day high": 81119.62,
     "prior day low": 75576.58
    },
-   "fvgs": 14
+   "fvgs": 13
   }
  },
  "scanner": {
-  "picks": [],
-  "note": "Scanner runs at 9:35 ET on market days."
+  "picks": [
+   "AEHL",
+   "APPX",
+   "APP"
+  ],
+  "note": "AEHL +86.0%, APPX +61.3%, APP +30.4%"
  },
- "fills": null,
+ "fills": {
+  "n": 1,
+  "avg_slip_c": -6.5,
+  "avg_slip_r": -0.061,
+  "total_usd": -36.59,
+  "entry_r": -0.061,
+  "stop_r": null,
+  "target_r": null,
+  "budget_r": 0.05,
+  "recent": [
+   {
+    "t": "2026-11-05T14:36:40.445208+00:00",
+    "kind": "entry",
+    "sym": "Z",
+    "side": "long",
+    "planned": 31.435,
+    "actual": 31.37,
+    "qty": 563,
+    "slip_c": -6.5,
+    "slip_r": -0.061,
+    "slip_usd": -36.59
+   }
+  ]
+ },
  "scorecard": {
   "version": "v2.8-...+shortint",
   "since": "2026-10-27",
@@ -538,6 +628,665 @@
   },
   "verdict": "not enough trades yet (need ~40)"
  },
- "gates": null,
+ "gates": {
+  "day": "2026-11-05",
+  "counts": {
+   "liquid": 856,
+   "gap": 35,
+   "gap_atr": 27,
+   "volume": 14,
+   "short_rule": 7,
+   "calm": 4,
+   "thin_history": 4,
+   "gap_band": 2,
+   "odds": 2,
+   "news": 2
+  },
+  "picked": 2,
+  "stocks": [
+   {
+    "sym": "GIL",
+    "gap": -25.5,
+    "gap_atr": 8.56,
+    "rvol": 67.4,
+    "side": "short",
+    "level": 31.4,
+    "fail": "short_rule",
+    "aplus": {
+     "strong_close": false,
+     "big_body": false,
+     "under_25": false,
+     "jumpy": false,
+     "short": true,
+     "fades_gap": false
+    }
+   },
+   {
+    "sym": "QCOM",
+    "gap": -13.2,
+    "gap_atr": 3.04,
+    "rvol": 32.6,
+    "side": "long",
+    "level": 152.54,
+    "fail": "gap_band",
+    "aplus": {
+     "strong_close": false,
+     "big_body": false,
+     "under_25": false,
+     "jumpy": false,
+     "short": false,
+     "fades_gap": true
+    },
+    "rng_atr": 0.43,
+    "sure": true
+   },
+   {
+    "sym": "Z",
+    "gap": -9.2,
+    "gap_atr": 1.89,
+    "rvol": 23.7,
+    "side": "long",
+    "level": 31.43,
+    "fail": null,
+    "aplus": {
+     "strong_close": false,
+     "big_body": false,
+     "under_25": false,
+     "jumpy": false,
+     "short": false,
+     "fades_gap": true,
+     "few_stories": false,
+     "no_analyst_news": true
+    },
+    "rng_atr": 0.45,
+    "sure": true,
+    "size_x": 1.423,
+    "short_ratio": 3.69,
+    "odds": 0.88,
+    "news": 6,
+    "score": 2,
+    "tone": true
+   },
+   {
+    "sym": "VIAV",
+    "gap": -9.9,
+    "gap_atr": 1.1,
+    "rvol": 17.4,
+    "side": "short",
+    "level": 25.83,
+    "fail": "short_rule",
+    "aplus": {
+     "strong_close": true,
+     "big_body": true,
+     "under_25": false,
+     "jumpy": true,
+     "short": true,
+     "fades_gap": false
+    }
+   },
+   {
+    "sym": "APP",
+    "gap": 28.7,
+    "gap_atr": 6.22,
+    "rvol": 13.4,
+    "side": "short",
+    "level": 339.03,
+    "fail": "calm",
+    "aplus": {
+     "strong_close": false,
+     "big_body": false,
+     "under_25": false,
+     "jumpy": false,
+     "short": true,
+     "fades_gap": true
+    },
+    "rng_atr": 1.37,
+    "sure": false
+   },
+   {
+    "sym": "SMTC",
+    "gap": -7.8,
+    "gap_atr": 0.75,
+    "rvol": 11.4,
+    "side": "short",
+    "level": 100.54,
+    "fail": "gap_atr",
+    "aplus": {
+     "strong_close": true,
+     "big_body": true,
+     "under_25": false,
+     "jumpy": true,
+     "short": true,
+     "fades_gap": false
+    }
+   },
+   {
+    "sym": "ACHC",
+    "gap": 14.2,
+    "gap_atr": 3.1,
+    "rvol": 5.2,
+    "side": "short",
+    "level": 34.97,
+    "fail": "calm",
+    "aplus": {
+     "strong_close": false,
+     "big_body": false,
+     "under_25": false,
+     "jumpy": false,
+     "short": true,
+     "fades_gap": true
+    },
+    "rng_atr": 1.26,
+    "sure": false
+   },
+   {
+    "sym": "FSLY",
+    "gap": -18.2,
+    "gap_atr": 2.03,
+    "rvol": 5.0,
+    "side": "long",
+    "level": 17.45,
+    "fail": "gap_band",
+    "aplus": {
+     "strong_close": true,
+     "big_body": true,
+     "under_25": true,
+     "jumpy": true,
+     "short": false,
+     "fades_gap": true
+    },
+    "rng_atr": 0.16,
+    "sure": false
+   },
+   {
+    "sym": "EXPE",
+    "gap": -9.1,
+    "gap_atr": 1.97,
+    "rvol": 4.4,
+    "side": "short",
+    "level": 283.14,
+    "fail": "short_rule",
+    "aplus": {
+     "strong_close": false,
+     "big_body": false,
+     "under_25": false,
+     "jumpy": false,
+     "short": true,
+     "fades_gap": false
+    }
+   },
+   {
+    "sym": "ARQT",
+    "gap": -14.5,
+    "gap_atr": 3.35,
+    "rvol": 3.9,
+    "side": "short",
+    "level": 29.01,
+    "fail": "short_rule",
+    "aplus": {
+     "strong_close": false,
+     "big_body": false,
+     "under_25": false,
+     "jumpy": false,
+     "short": true,
+     "fades_gap": false
+    }
+   },
+   {
+    "sym": "UMC",
+    "gap": -11.5,
+    "gap_atr": 2.21,
+    "rvol": 3.9,
+    "side": "short",
+    "level": 14.06,
+    "fail": "short_rule",
+    "aplus": {
+     "strong_close": true,
+     "big_body": false,
+     "under_25": true,
+     "jumpy": false,
+     "short": true,
+     "fades_gap": false
+    }
+   },
+   {
+    "sym": "ZG",
+    "gap": -7.7,
+    "gap_atr": 1.64,
+    "rvol": 3.6,
+    "side": "short",
+    "level": 31.45,
+    "fail": null,
+    "aplus": {
+     "strong_close": true,
+     "big_body": true,
+     "under_25": false,
+     "jumpy": false,
+     "short": true,
+     "fades_gap": false,
+     "few_stories": false,
+     "no_analyst_news": false
+    },
+    "rng_atr": 0.22,
+    "sure": false,
+    "size_x": 1.898,
+    "short_ratio": 3.57,
+    "odds": 0.84,
+    "news": 7,
+    "score": 3,
+    "tone": true
+   },
+   {
+    "sym": "RELY",
+    "gap": -16.5,
+    "gap_atr": 4.43,
+    "rvol": 3.4,
+    "side": "long",
+    "level": 23.42,
+    "fail": "calm",
+    "aplus": {
+     "strong_close": false,
+     "big_body": false,
+     "under_25": false,
+     "jumpy": false,
+     "short": false,
+     "fades_gap": true
+    },
+    "rng_atr": 0.84,
+    "sure": false
+   },
+   {
+    "sym": "ARM",
+    "gap": -10.3,
+    "gap_atr": 1.51,
+    "rvol": 3.3,
+    "side": "short",
+    "level": 170.76,
+    "fail": "short_rule",
+    "aplus": {
+     "strong_close": false,
+     "big_body": false,
+     "under_25": false,
+     "jumpy": true,
+     "short": true,
+     "fades_gap": false
+    }
+   },
+   {
+    "sym": "CAI",
+    "gap": -17.1,
+    "gap_atr": 2.96,
+    "rvol": 3.3,
+    "side": "short",
+    "level": 27.2,
+    "fail": "short_rule",
+    "aplus": {
+     "strong_close": true,
+     "big_body": false,
+     "under_25": false,
+     "jumpy": false,
+     "short": true,
+     "fades_gap": false
+    }
+   },
+   {
+    "sym": "CELH",
+    "gap": 7.3,
+    "gap_atr": 1.88,
+    "rvol": 2.9,
+    "side": "short",
+    "level": 32.39,
+    "fail": "volume",
+    "aplus": {
+     "strong_close": true,
+     "big_body": false,
+     "under_25": false,
+     "jumpy": false,
+     "short": true,
+     "fades_gap": true
+    }
+   },
+   {
+    "sym": "FOUR",
+    "gap": -10.8,
+    "gap_atr": 2.45,
+    "rvol": 2.9,
+    "side": "long",
+    "level": 40.48,
+    "fail": "volume",
+    "aplus": {
+     "strong_close": true,
+     "big_body": true,
+     "under_25": false,
+     "jumpy": false,
+     "short": false,
+     "fades_gap": true
+    }
+   },
+   {
+    "sym": "APPN",
+    "gap": 9.9,
+    "gap_atr": 1.66,
+    "rvol": 2.8,
+    "side": "long",
+    "level": 56,
+    "fail": "volume",
+    "aplus": {
+     "strong_close": true,
+     "big_body": true,
+     "under_25": false,
+     "jumpy": true,
+     "short": false,
+     "fades_gap": false
+    }
+   },
+   {
+    "sym": "WRBY",
+    "gap": 19.8,
+    "gap_atr": 2.79,
+    "rvol": 2.6,
+    "side": "long",
+    "level": 25.81,
+    "fail": "volume",
+    "aplus": {
+     "strong_close": true,
+     "big_body": false,
+     "under_25": true,
+     "jumpy": true,
+     "short": false,
+     "fades_gap": false
+    }
+   },
+   {
+    "sym": "ASX",
+    "gap": -9.6,
+    "gap_atr": 1.41,
+    "rvol": 2.4,
+    "side": "short",
+    "level": 33.25,
+    "fail": "volume",
+    "aplus": {
+     "strong_close": true,
+     "big_body": true,
+     "under_25": false,
+     "jumpy": true,
+     "short": true,
+     "fades_gap": false
+    }
+   },
+   {
+    "sym": "VERX",
+    "gap": 14.4,
+    "gap_atr": 3.33,
+    "rvol": 2.1,
+    "side": "long",
+    "level": 18.52,
+    "fail": "volume",
+    "aplus": {
+     "strong_close": true,
+     "big_body": true,
+     "under_25": true,
+     "jumpy": false,
+     "short": false,
+     "fades_gap": false
+    }
+   },
+   {
+    "sym": "SNDK",
+    "gap": -7.2,
+    "gap_atr": 0.77,
+    "rvol": 2.1,
+    "side": "short",
+    "level": 947.15,
+    "fail": "gap_atr",
+    "aplus": {
+     "strong_close": true,
+     "big_body": true,
+     "under_25": false,
+     "jumpy": true,
+     "short": true,
+     "fades_gap": false
+    }
+   },
+   {
+    "sym": "ACMR",
+    "gap": -7.6,
+    "gap_atr": 0.92,
+    "rvol": 2.0,
+    "side": "long",
+    "level": 42.37,
+    "fail": "gap_atr",
+    "aplus": {
+     "strong_close": true,
+     "big_body": true,
+     "under_25": false,
+     "jumpy": true,
+     "short": false,
+     "fades_gap": true
+    }
+   },
+   {
+    "sym": "U",
+    "gap": 14.1,
+    "gap_atr": 2.98,
+    "rvol": 1.8,
+    "side": "short",
+    "level": 46.25,
+    "fail": "volume",
+    "aplus": {
+     "strong_close": true,
+     "big_body": true,
+     "under_25": false,
+     "jumpy": false,
+     "short": true,
+     "fades_gap": true
+    }
+   },
+   {
+    "sym": "AMD",
+    "gap": -7.4,
+    "gap_atr": 1.13,
+    "rvol": 1.7,
+    "side": "short",
+    "level": 448.57,
+    "fail": "volume",
+    "aplus": {
+     "strong_close": false,
+     "big_body": false,
+     "under_25": false,
+     "jumpy": true,
+     "short": true,
+     "fades_gap": false
+    }
+   },
+   {
+    "sym": "CAVA",
+    "gap": -8.8,
+    "gap_atr": 1.72,
+    "rvol": 1.6,
+    "side": "short",
+    "level": 56.01,
+    "fail": "volume",
+    "aplus": {
+     "strong_close": false,
+     "big_body": true,
+     "under_25": false,
+     "jumpy": false,
+     "short": true,
+     "fades_gap": false
+    }
+   },
+   {
+    "sym": "AEHR",
+    "gap": -7.6,
+    "gap_atr": 0.68,
+    "rvol": 1.5,
+    "side": "short",
+    "level": 55.5,
+    "fail": "gap_atr",
+    "aplus": {
+     "strong_close": true,
+     "big_body": true,
+     "under_25": false,
+     "jumpy": true,
+     "short": true,
+     "fades_gap": false
+    }
+   },
+   {
+    "sym": "EPAM",
+    "gap": 15.0,
+    "gap_atr": 3.17,
+    "rvol": 1.5,
+    "side": "long",
+    "level": 159.7,
+    "fail": "volume",
+    "aplus": {
+     "strong_close": true,
+     "big_body": true,
+     "under_25": false,
+     "jumpy": false,
+     "short": false,
+     "fades_gap": false
+    }
+   },
+   {
+    "sym": "VSH",
+    "gap": -7.5,
+    "gap_atr": 0.95,
+    "rvol": 1.4,
+    "side": "short",
+    "level": 23.86,
+    "fail": "gap_atr",
+    "aplus": {
+     "strong_close": true,
+     "big_body": true,
+     "under_25": false,
+     "jumpy": true,
+     "short": true,
+     "fades_gap": false
+    }
+   },
+   {
+    "sym": "TS",
+    "gap": 8.7,
+    "gap_atr": 2.93,
+    "rvol": 1.0,
+    "side": "short",
+    "level": 60.25,
+    "fail": "volume",
+    "aplus": {
+     "strong_close": true,
+     "big_body": true,
+     "under_25": false,
+     "jumpy": false,
+     "short": true,
+     "fades_gap": true
+    }
+   },
+   {
+    "sym": "TPR",
+    "gap": 14.7,
+    "gap_atr": 5.38,
+    "rvol": 0.9,
+    "side": "short",
+    "level": 142.5,
+    "fail": "volume",
+    "aplus": {
+     "strong_close": false,
+     "big_body": true,
+     "under_25": false,
+     "jumpy": false,
+     "short": true,
+     "fades_gap": true
+    }
+   },
+   {
+    "sym": "PENG",
+    "gap": -7.2,
+    "gap_atr": 0.65,
+    "rvol": 0.8,
+    "side": "short",
+    "level": 44.58,
+    "fail": "gap_atr",
+    "aplus": {
+     "strong_close": true,
+     "big_body": true,
+     "under_25": false,
+     "jumpy": true,
+     "short": true,
+     "fades_gap": false
+    }
+   },
+   {
+    "sym": "MXL",
+    "gap": -8.2,
+    "gap_atr": 0.63,
+    "rvol": 0.7,
+    "side": "short",
+    "level": 51.53,
+    "fail": "gap_atr",
+    "aplus": {
+     "strong_close": true,
+     "big_body": true,
+     "under_25": false,
+     "jumpy": true,
+     "short": true,
+     "fades_gap": false
+    }
+   },
+   {
+    "sym": "RPD",
+    "gap": 14.5,
+    "gap_atr": 1.73,
+    "rvol": 0.7,
+    "side": "short",
+    "level": 16.26,
+    "fail": "volume",
+    "aplus": {
+     "strong_close": true,
+     "big_body": true,
+     "under_25": true,
+     "jumpy": true,
+     "short": true,
+     "fades_gap": true
+    }
+   },
+   {
+    "sym": "AXTI",
+    "gap": -7.7,
+    "gap_atr": 0.54,
+    "rvol": 0.3,
+    "side": "short",
+    "level": 43,
+    "fail": "gap_atr",
+    "aplus": {
+     "strong_close": true,
+     "big_body": true,
+     "under_25": false,
+     "jumpy": true,
+     "short": true,
+     "fades_gap": false
+    }
+   }
+  ],
+  "news_ok": true,
+  "rules": {
+   "min_price": 10,
+   "min_gap": 0.07,
+   "min_gap_atr": 1.0,
+   "min_rvol": 3.0,
+   "top_n": 10
+  },
+  "entries": {
+   "placed": 2,
+   "filled": 1,
+   "cancelled": 1,
+   "syms": {
+    "Z": "filled",
+    "ZG": "no break"
+   }
+  }
+ },
  "history": []
 }
