@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-05T14:59:43.895649+00:00",
+ "updated": "2026-11-05T15:14:51.636116+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
- "equity": 100157.62,
+ "equity": 100106.95,
  "day_pnl": 0,
  "workers": [
   {
@@ -99,7 +99,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Noise area 764.42 to 767.85. Next check on the half hour.",
+   "thought": "Noise area 763.79 to 768.49. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -161,13 +161,13 @@
     "APP"
    ],
    "symbol_count": 6,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "APP",
-   "charge": 39,
-   "thought": "VWAP 353.93. Waiting for the 10:00 to 3:00 window.",
+   "focus": "AEHL",
+   "charge": 89,
+   "thought": "Price above VWAP 11.38. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -199,9 +199,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "IWM",
+   "focus": "APPX",
    "charge": 80,
-   "thought": "Downtrend. Price is testing the 9 EMA.",
+   "thought": "Bounced off the 9 EMA in an uptrend. Going long.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -297,9 +297,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "ETH/USD",
-   "charge": 13,
-   "thought": "Channel 2332.03 to 2388.07. Waiting for a break.",
+   "focus": "BTC/USD",
+   "charge": 2,
+   "thought": "Channel 76755.83 to 79541.30. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -313,6 +313,48 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-05T15:11:00+00:00",
+   "worker": "vwap",
+   "kind": "shadow",
+   "text": "VWAP (shadow) would long AEHL: VWAP reclaim"
+  },
+  {
+   "t": "2026-11-05T15:02:00+00:00",
+   "worker": "trend",
+   "kind": "shadow",
+   "text": "TREND (shadow) would short QQQ: Trend pullback short"
+  },
+  {
+   "t": "2026-11-05T15:01:00+00:00",
+   "worker": "trend",
+   "kind": "shadow",
+   "text": "TREND (shadow) would short SPY: Trend pullback short"
+  },
+  {
+   "t": "2026-11-05T15:06:43.969190+00:00",
+   "worker": "system",
+   "kind": "error",
+   "text": "Loop error: Alpaca not reachable: https://data.alpaca.markets/v2/stocks/bars?symbols=SPY%2CQQQ%2CIWM%2CAEHL%2CAPPX%2CAPP%2CAAPL%2CMSFT%2CNVDA%2CAMZN%2CMETA%2CGOOGL%2CTSLA%2CAMD%2CAVGO%2CNFLX%2CPLTR%2CCOIN%2CMSTR%2CSMCI%2CMU%2CINTC%2CBA%2CDIS%2CJPM%2CBAC%2CXOM%2CCVX%2CUBER%2CSHOP%2CCRM%2CORCL%2CADBE%2CPYPL%2CXYZ%2CSOFI%2CRIVN%2CNIO%2CMARA%2CRIOT%2CHOOD%2CSNOW%2CCRWD%2CPANW%2CARM%2CLLY%2CUNH%2CWMT%2CCOST%2CNKE%2CSBUX%2CF%2CGM%2CAAL%2CCCL%2CT%2CZ%2CZG&timeframe=1Min&start=2026-11-05T14%3A57%3A00Z&limit=10000&feed=iex&adjustment=raw"
+  },
+  {
+   "t": "2026-11-05T15:03:46.466964+00:00",
+   "worker": "system",
+   "kind": "error",
+   "text": "Loop error: Alpaca not reachable: https://data.alpaca.markets/v2/stocks/bars?symbols=SPY%2CQQQ%2CIWM%2CAEHL%2CAPPX%2CAPP%2CAAPL%2CMSFT%2CNVDA%2CAMZN%2CMETA%2CGOOGL%2CTSLA%2CAMD%2CAVGO%2CNFLX%2CPLTR%2CCOIN%2CMSTR%2CSMCI%2CMU%2CINTC%2CBA%2CDIS%2CJPM%2CBAC%2CXOM%2CCVX%2CUBER%2CSHOP%2CCRM%2CORCL%2CADBE%2CPYPL%2CXYZ%2CSOFI%2CRIVN%2CNIO%2CMARA%2CRIOT%2CHOOD%2CSNOW%2CCRWD%2CPANW%2CARM%2CLLY%2CUNH%2CWMT%2CCOST%2CNKE%2CSBUX%2CF%2CGM%2CAAL%2CCCL%2CT%2CZ%2CZG&timeframe=1Min&start=2026-11-05T14%3A57%3A00Z&limit=10000&feed=iex&adjustment=raw"
+  },
+  {
+   "t": "2026-11-05T14:59:00+00:00",
+   "worker": "momentum",
+   "kind": "shadow",
+   "text": "MOMENTUM (shadow) would short SPY: Below noise area"
+  },
+  {
+   "t": "2026-11-05T14:59:00+00:00",
+   "worker": "trend",
+   "kind": "shadow",
+   "text": "TREND (shadow) would long APPX: Trend pullback long"
+  },
   {
    "t": "2026-11-05T14:55:00+00:00",
    "worker": "trend",
@@ -510,63 +552,21 @@
    "worker": "trend",
    "kind": "shadow",
    "text": "TREND (shadow) would short QQQ: Trend pullback short"
-  },
-  {
-   "t": "2026-11-04T17:41:00+00:00",
-   "worker": "trend",
-   "kind": "shadow",
-   "text": "TREND (shadow) would short AIOK: Trend pullback short"
-  },
-  {
-   "t": "2026-11-04T17:09:00+00:00",
-   "worker": "trend",
-   "kind": "shadow",
-   "text": "TREND (shadow) would long IWM: Trend pullback long"
-  },
-  {
-   "t": "2026-11-04T17:01:00+00:00",
-   "worker": "snapback",
-   "kind": "shadow",
-   "text": "SNAPBACK (shadow) would long IWM: RSI(2) oversold in uptrend"
-  },
-  {
-   "t": "2026-11-04T16:49:00+00:00",
-   "worker": "snapback",
-   "kind": "shadow",
-   "text": "SNAPBACK (shadow) would short FIS: RSI(2) overbought in downtrend"
-  },
-  {
-   "t": "2026-11-04T16:48:00+00:00",
-   "worker": "vwap",
-   "kind": "shadow",
-   "text": "VWAP (shadow) would long IWM: VWAP reclaim"
-  },
-  {
-   "t": "2026-11-04T16:46:00+00:00",
-   "worker": "vwap",
-   "kind": "shadow",
-   "text": "VWAP (shadow) would long QQQ: VWAP reclaim"
-  },
-  {
-   "t": "2026-11-04T15:36:00+00:00",
-   "worker": "vwap",
-   "kind": "shadow",
-   "text": "VWAP (shadow) would long SPY: VWAP reclaim"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
-   "bias": -2,
+   "bias": -3,
    "regime": "trend",
-   "rvol": 1.88,
+   "rvol": 2.04,
    "liquidity": {
     "prior day high": 769.19,
     "prior day low": 762.71,
     "opening range high": 765.96,
     "opening range low": 756.94
    },
-   "fvgs": 8
+   "fvgs": 11
   },
   "crypto": {
    "symbol": "BTC/USD",
@@ -577,7 +577,7 @@
     "prior day high": 81119.62,
     "prior day low": 75576.58
    },
-   "fvgs": 15
+   "fvgs": 18
   }
  },
  "scanner": {

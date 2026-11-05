@@ -1,29 +1,3 @@
-10:51:18 ET  equity $100,177.32  market OPEN  open trades 0
-10:52:22 ET  equity $100,177.32  market OPEN  open trades 0
-10:53:25 ET  equity $100,177.32  market OPEN  open trades 0
-10:54:27 ET  equity $100,177.32  market OPEN  open trades 0
-10:55:29 ET  equity $100,177.32  market OPEN  open trades 0
-10:56:34 ET  equity $100,177.32  market OPEN  open trades 0
-10:57:37 ET  equity $100,177.32  market OPEN  open trades 0
-10:58:39 ET  equity $100,177.32  market OPEN  open trades 0
-10:59:40 ET  equity $100,177.32  market OPEN  open trades 0
-11:00:42 ET  equity $100,177.32  market OPEN  open trades 0
-11:01:49 ET  equity $100,177.32  market OPEN  open trades 0
-11:02:55 ET  equity $100,177.32  market OPEN  open trades 0
-11:03:59 ET  equity $100,177.32  market OPEN  open trades 0
-11:05:03 ET  equity $100,177.32  market OPEN  open trades 0
-11:06:09 ET  equity $100,177.32  market OPEN  open trades 0
-11:07:13 ET  equity $100,177.32  market OPEN  open trades 0
-11:08:17 ET  equity $100,177.32  market OPEN  open trades 0
-11:09:20 ET  equity $100,177.32  market OPEN  open trades 0
-11:10:23 ET  equity $100,177.32  market OPEN  open trades 0
-11:11:27 ET  equity $100,177.32  market OPEN  open trades 0
-11:12:30 ET  equity $100,177.32  market OPEN  open trades 0
-11:13:33 ET  equity $100,177.32  market OPEN  open trades 0
-11:14:35 ET  equity $100,177.32  market OPEN  open trades 0
-11:15:37 ET  equity $100,177.32  market OPEN  open trades 0
-11:16:42 ET  equity $100,177.32  market OPEN  open trades 0
-11:17:45 ET  equity $100,177.32  market OPEN  open trades 0
 11:18:48 ET  equity $100,177.32  market OPEN  open trades 0
 11:19:50 ET  equity $100,177.32  market OPEN  open trades 0
 11:20:52 ET  equity $100,177.32  market OPEN  open trades 0
@@ -298,3 +272,29 @@
 16:04:28 ET  equity $100,177.32  market closed  open trades 0
 No trades yet
 Session done. Exiting until tomorrow.
+Traceback (most recent call last):
+  File "/home/tc/trading-city/run_trader.py", line 222, in live
+    feed(eng, api.bars(old, start, crypto=crypto), old, last, now, start)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tc/trading-city/engine/alpaca.py", line 144, in bars
+    r = self.get(path, params, base=DATA)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tc/trading-city/engine/alpaca.py", line 58, in get
+    return self._req("GET", url)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tc/trading-city/engine/alpaca.py", line 52, in _req
+    raise RuntimeError(f"Alpaca not reachable: {url}")
+RuntimeError: Alpaca not reachable: https://data.alpaca.markets/v2/stocks/bars?symbols=SPY%2CQQQ%2CIWM%2CAEHL%2CAPPX%2CAPP%2CAAPL%2CMSFT%2CNVDA%2CAMZN%2CMETA%2CGOOGL%2CTSLA%2CAMD%2CAVGO%2CNFLX%2CPLTR%2CCOIN%2CMSTR%2CSMCI%2CMU%2CINTC%2CBA%2CDIS%2CJPM%2CBAC%2CXOM%2CCVX%2CUBER%2CSHOP%2CCRM%2CORCL%2CADBE%2CPYPL%2CXYZ%2CSOFI%2CRIVN%2CNIO%2CMARA%2CRIOT%2CHOOD%2CSNOW%2CCRWD%2CPANW%2CARM%2CLLY%2CUNH%2CWMT%2CCOST%2CNKE%2CSBUX%2CF%2CGM%2CAAL%2CCCL%2CT%2CZ%2CZG&timeframe=1Min&start=2026-11-05T14%3A57%3A00Z&limit=10000&feed=iex&adjustment=raw
+Traceback (most recent call last):
+  File "/home/tc/trading-city/run_trader.py", line 222, in live
+    feed(eng, api.bars(old, start, crypto=crypto), old, last, now, start)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tc/trading-city/engine/alpaca.py", line 144, in bars
+    r = self.get(path, params, base=DATA)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tc/trading-city/engine/alpaca.py", line 58, in get
+    return self._req("GET", url)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tc/trading-city/engine/alpaca.py", line 52, in _req
+    raise RuntimeError(f"Alpaca not reachable: {url}")
+RuntimeError: Alpaca not reachable: https://data.alpaca.markets/v2/stocks/bars?symbols=SPY%2CQQQ%2CIWM%2CAEHL%2CAPPX%2CAPP%2CAAPL%2CMSFT%2CNVDA%2CAMZN%2CMETA%2CGOOGL%2CTSLA%2CAMD%2CAVGO%2CNFLX%2CPLTR%2CCOIN%2CMSTR%2CSMCI%2CMU%2CINTC%2CBA%2CDIS%2CJPM%2CBAC%2CXOM%2CCVX%2CUBER%2CSHOP%2CCRM%2CORCL%2CADBE%2CPYPL%2CXYZ%2CSOFI%2CRIVN%2CNIO%2CMARA%2CRIOT%2CHOOD%2CSNOW%2CCRWD%2CPANW%2CARM%2CLLY%2CUNH%2CWMT%2CCOST%2CNKE%2CSBUX%2CF%2CGM%2CAAL%2CCCL%2CT%2CZ%2CZG&timeframe=1Min&start=2026-11-05T14%3A57%3A00Z&limit=10000&feed=iex&adjustment=raw
