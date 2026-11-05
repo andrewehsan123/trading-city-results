@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-05T14:44:00+00:00",
+ "updated": "2026-11-05T14:59:43.895649+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
- "equity": 99828.32,
+ "equity": 100157.62,
  "day_pnl": 0,
  "workers": [
   {
@@ -99,7 +99,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Noise area 764.54 to 767.73. Next check on the half hour.",
+   "thought": "Noise area 764.42 to 767.85. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -132,8 +132,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 37,
-   "thought": "Building the opening range: 756.94 to 765.96.",
+   "charge": 0,
+   "thought": "Done for the day.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -161,13 +161,13 @@
     "APP"
    ],
    "symbol_count": 6,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "APP",
-   "charge": 85,
-   "thought": "VWAP 351.51. Waiting for the 10:00 to 3:00 window.",
+   "charge": 39,
+   "thought": "VWAP 353.93. Waiting for the 10:00 to 3:00 window.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -195,13 +195,13 @@
     "APP"
    ],
    "symbol_count": 6,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 0,
-   "thought": "Letting the averages settle.",
+   "focus": "IWM",
+   "charge": 80,
+   "thought": "Downtrend. Price is testing the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -267,9 +267,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 40,
-   "thought": "Nearest liquidity: opening range low 756.94. Waiting for a sweep.",
+   "focus": "QQQ",
+   "charge": 50,
+   "thought": "Swept the opening range low at 670.91. Waiting for a fair value gap.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -298,8 +298,8 @@
    "pending": [],
    "position": null,
    "focus": "ETH/USD",
-   "charge": 9,
-   "thought": "Channel 2358.22 to 2392.82. Waiting for a break.",
+   "charge": 13,
+   "thought": "Channel 2332.03 to 2388.07. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -313,6 +313,48 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-05T14:55:00+00:00",
+   "worker": "trend",
+   "kind": "shadow",
+   "text": "TREND (shadow) would short IWM: Trend pullback short"
+  },
+  {
+   "t": "2026-11-05T14:53:00+00:00",
+   "worker": "orb",
+   "kind": "shadow",
+   "text": "ORB (shadow) would long APP: Opening range breakout up"
+  },
+  {
+   "t": "2026-11-05T14:52:00+00:00",
+   "worker": "orb",
+   "kind": "shadow",
+   "text": "ORB (shadow) would long APPX: Opening range breakout up"
+  },
+  {
+   "t": "2026-11-05T14:51:00+00:00",
+   "worker": "orb",
+   "kind": "shadow",
+   "text": "ORB (shadow) would short AEHL: Opening range breakout down"
+  },
+  {
+   "t": "2026-11-05T14:47:00+00:00",
+   "worker": "orb",
+   "kind": "shadow",
+   "text": "ORB (shadow) would short QQQ: Opening range breakout down"
+  },
+  {
+   "t": "2026-11-05T14:45:00+00:00",
+   "worker": "orb",
+   "kind": "shadow",
+   "text": "ORB (shadow) would short SPY: Opening range breakout down"
+  },
+  {
+   "t": "2026-11-05T14:45:00+00:00",
+   "worker": "orb",
+   "kind": "shadow",
+   "text": "ORB (shadow) would short IWM: Opening range breakout down"
+  },
   {
    "t": "2026-11-05T14:36:40.445208+00:00",
    "worker": "gapgo",
@@ -510,74 +552,32 @@
    "worker": "vwap",
    "kind": "shadow",
    "text": "VWAP (shadow) would long SPY: VWAP reclaim"
-  },
-  {
-   "t": "2026-11-04T15:19:00+00:00",
-   "worker": "snapback",
-   "kind": "shadow",
-   "text": "SNAPBACK (shadow) would long SPY: RSI(2) oversold in uptrend"
-  },
-  {
-   "t": "2026-11-04T15:19:00+00:00",
-   "worker": "snapback",
-   "kind": "shadow",
-   "text": "SNAPBACK (shadow) would long QQQ: RSI(2) oversold in uptrend"
-  },
-  {
-   "t": "2026-11-04T15:02:00+00:00",
-   "worker": "vwap",
-   "kind": "shadow",
-   "text": "VWAP (shadow) would short AIOK: VWAP rejection"
-  },
-  {
-   "t": "2026-11-04T14:59:00+00:00",
-   "worker": "trend",
-   "kind": "shadow",
-   "text": "TREND (shadow) would long SPY: Trend pullback long"
-  },
-  {
-   "t": "2026-11-04T14:59:00+00:00",
-   "worker": "momentum",
-   "kind": "shadow",
-   "text": "MOMENTUM (shadow) would long SPY: Above noise area"
-  },
-  {
-   "t": "2026-11-04T14:58:00+00:00",
-   "worker": "trend",
-   "kind": "shadow",
-   "text": "TREND (shadow) would long QQQ: Trend pullback long"
-  },
-  {
-   "t": "2026-11-04T14:58:00+00:00",
-   "worker": "trend",
-   "kind": "shadow",
-   "text": "TREND (shadow) would short FIS: Trend pullback short"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
-   "bias": -1,
+   "bias": -2,
    "regime": "trend",
-   "rvol": 1.67,
+   "rvol": 1.88,
    "liquidity": {
     "prior day high": 769.19,
     "prior day low": 762.71,
     "opening range high": 765.96,
     "opening range low": 756.94
    },
-   "fvgs": 6
+   "fvgs": 8
   },
   "crypto": {
    "symbol": "BTC/USD",
    "bias": -3,
-   "regime": "normal",
+   "regime": "trend",
    "rvol": null,
    "liquidity": {
     "prior day high": 81119.62,
     "prior day low": 75576.58
    },
-   "fvgs": 13
+   "fvgs": 15
   }
  },
  "scanner": {
