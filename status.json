@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-05T15:29:45.058068+00:00",
+ "updated": "2026-11-05T15:43:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
- "equity": 100019.68,
- "day_pnl": 0,
+ "equity": 99867.67,
+ "day_pnl": -309.65,
  "workers": [
   {
    "id": "gapgo",
@@ -18,26 +18,20 @@
     "ZG"
    ],
    "symbol_count": 2,
-   "state": "in_trade",
-   "open_count": 1,
+   "state": "charging",
+   "open_count": 0,
    "pending": [],
-   "position": {
-    "symbol": "Z",
-    "side": "long",
-    "entry": 31.37,
-    "stop": 30.376016923076925,
-    "target": 31.668194923076925
-   },
+   "position": null,
    "focus": "Z",
    "charge": 90,
    "thought": "Gapped -9.2% on 23.7x volume. Buy stop at 31.43.",
-   "pnl_today": 0,
-   "trades_today": 0,
+   "pnl_today": -309.65,
+   "trades_today": 1,
    "wins_today": 0,
-   "pnl_total": 0,
-   "trades_total": 0,
-   "win_rate": 0,
-   "profit_factor": 0,
+   "pnl_total": -309.65,
+   "trades_total": 1,
+   "win_rate": 0.0,
+   "profit_factor": 0.0,
    "allowed": true,
    "size_x": 0.75,
    "lab": null
@@ -99,7 +93,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Noise area 763.28 to 768.99. Next check on the half hour.",
+   "thought": "Noise area 763.48 to 768.79. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -161,13 +155,13 @@
     "APP"
    ],
    "symbol_count": 6,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "AEHL",
-   "charge": 82,
-   "thought": "Price below VWAP 11.65. No cross yet.",
+   "focus": "APP",
+   "charge": 68,
+   "thought": "Price above VWAP 355.86. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -201,7 +195,7 @@
    "position": null,
    "focus": "AEHL",
    "charge": 80,
-   "thought": "Uptrend. Price is testing the 9 EMA.",
+   "thought": "Bounced off the 9 EMA in an uptrend. Going long.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -229,13 +223,13 @@
     "APP"
    ],
    "symbol_count": 6,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "IWM",
-   "charge": 40,
-   "thought": "RSI(2) 59. Nothing stretched enough.",
+   "charge": 95,
+   "thought": "RSI(2) 5. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -263,13 +257,13 @@
     "APP"
    ],
    "symbol_count": 6,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "APP",
-   "charge": 50,
-   "thought": "Swept the opening range high at 360.17. Waiting for a fair value gap.",
+   "charge": 85,
+   "thought": "Gap 358.44-358.75 ready. Waiting for price to tap it.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -297,9 +291,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "BTC/USD",
+   "focus": "ETH/USD",
    "charge": 8,
-   "thought": "Channel 76067.49 to 79541.30. Waiting for a break.",
+   "thought": "Channel 2264.73 to 2373.40. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -313,6 +307,30 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-05T15:39:00+00:00",
+   "worker": "trend",
+   "kind": "shadow",
+   "text": "TREND (shadow) would long AEHL: Trend pullback long"
+  },
+  {
+   "t": "2026-11-05T15:37:00+00:00",
+   "worker": "gapgo",
+   "kind": "exit",
+   "text": "GAP&GO closed Z (no profit in 60 min) -$310"
+  },
+  {
+   "t": "2026-11-05T15:31:00+00:00",
+   "worker": "snapback",
+   "kind": "shadow",
+   "text": "SNAPBACK (shadow) would short SPY: RSI(2) overbought in downtrend"
+  },
+  {
+   "t": "2026-11-05T15:31:00+00:00",
+   "worker": "snapback",
+   "kind": "shadow",
+   "text": "SNAPBACK (shadow) would short QQQ: RSI(2) overbought in downtrend"
+  },
   {
    "t": "2026-11-05T15:15:00+00:00",
    "worker": "trend",
@@ -528,30 +546,6 @@
    "worker": "opener",
    "kind": "shadow",
    "text": "OPENER (shadow) would short AMD: Stock in play, 1.5x opening volume"
-  },
-  {
-   "t": "2026-11-05T14:35:21.725729+00:00",
-   "worker": "scanner",
-   "kind": "scan",
-   "text": "Stocks in play: AEHL +86.0%, APPX +61.3%, APP +30.4%"
-  },
-  {
-   "t": "2026-11-05T14:31:26.099341+00:00",
-   "worker": "gapgo",
-   "kind": "scan",
-   "text": "GAP&GO picked 2: Z -9%, ZG -8%"
-  },
-  {
-   "t": "2026-11-05T14:31:06.497039+00:00",
-   "worker": "gapgo",
-   "kind": "order",
-   "text": "GAP&GO sell-stop 637 ZG @ 31.45"
-  },
-  {
-   "t": "2026-11-05T14:31:06.497039+00:00",
-   "worker": "gapgo",
-   "kind": "order",
-   "text": "GAP&GO buy-stop 637 Z @ 31.43"
   }
  ],
  "regime": {
@@ -559,19 +553,19 @@
    "symbol": "SPY",
    "bias": -3,
    "regime": "trend",
-   "rvol": 2.18,
+   "rvol": 2.25,
    "liquidity": {
     "prior day high": 769.19,
     "prior day low": 762.71,
     "opening range high": 765.96,
     "opening range low": 756.94
    },
-   "fvgs": 12
+   "fvgs": 11
   },
   "crypto": {
    "symbol": "BTC/USD",
    "bias": -3,
-   "regime": "trend",
+   "regime": "normal",
    "rvol": null,
    "liquidity": {
     "prior day high": 81119.62,
@@ -615,11 +609,11 @@
  "scorecard": {
   "version": "v2.8-...+shortint",
   "since": "2026-10-27",
-  "trades": 0,
-  "days": 0,
-  "pf": null,
-  "win": null,
-  "net": 0,
+  "trades": 1,
+  "days": 1,
+  "pf": 0.0,
+  "win": 0.0,
+  "net": -309.65,
   "expect": {
    "pf": 1.8,
    "pf_low": 1.3,
@@ -1288,5 +1282,10 @@
    }
   }
  },
- "history": []
+ "history": [
+  {
+   "date": "2026-11-05",
+   "pnl": -309.65
+  }
+ ]
 }
