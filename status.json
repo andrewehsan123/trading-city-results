@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T20:13:00+00:00",
+ "updated": "2026-11-05T20:28:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -93,7 +93,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Noise area 762.22 to 770.05. Next check on the half hour.",
+   "thought": "Noise area 762.21 to 770.07. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -160,8 +160,8 @@
    "pending": [],
    "position": null,
    "focus": "APP",
-   "charge": 83,
-   "thought": "VWAP 353.33. Waiting for the 10:00 to 3:00 window.",
+   "charge": 91,
+   "thought": "VWAP 353.34. Waiting for the 10:00 to 3:00 window.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -262,7 +262,7 @@
    "pending": [],
    "position": null,
    "focus": "APPX",
-   "charge": 14,
+   "charge": 26,
    "thought": "Nearest liquidity: opening range high 14.62. Waiting for a sweep.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -291,9 +291,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "ETH/USD",
-   "charge": 18,
-   "thought": "Channel 2242.72 to 2265.75. Waiting for a break.",
+   "focus": "BTC/USD",
+   "charge": 25,
+   "thought": "Channel 75803.02 to 76438.13. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -552,15 +552,15 @@
   "lead": {
    "symbol": "SPY",
    "bias": -3,
-   "regime": "normal",
-   "rvol": 2.98,
+   "regime": "trend",
+   "rvol": 2.96,
    "liquidity": {
     "prior day high": 769.19,
     "prior day low": 762.71,
     "opening range high": 765.96,
     "opening range low": 756.94
    },
-   "fvgs": 15
+   "fvgs": 14
   },
   "crypto": {
    "symbol": "BTC/USD",
@@ -571,7 +571,7 @@
     "prior day high": 81119.62,
     "prior day low": 75576.58
    },
-   "fvgs": 19
+   "fvgs": 18
   }
  },
  "scanner": {
