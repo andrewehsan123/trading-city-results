@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T18:58:00+00:00",
+ "updated": "2026-11-05T19:13:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -93,7 +93,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Noise area 762.17 to 770.11. Next check on the half hour.",
+   "thought": "Noise area 762.03 to 770.24. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -159,9 +159,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "APPX",
-   "charge": 93,
-   "thought": "Price below VWAP 14.35. No cross yet.",
+   "focus": "APP",
+   "charge": 70,
+   "thought": "Price above VWAP 353.36. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -189,13 +189,13 @@
     "APP"
    ],
    "symbol_count": 6,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "APP",
-   "charge": 80,
-   "thought": "Uptrend. Price is testing the 9 EMA.",
+   "focus": "APPX",
+   "charge": 40,
+   "thought": "Uptrend. Waiting for a dip to the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -223,13 +223,13 @@
     "APP"
    ],
    "symbol_count": 6,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "APP",
-   "charge": 88,
-   "thought": "RSI(2) 12. Nothing stretched enough.",
+   "focus": "AEHL",
+   "charge": 39,
+   "thought": "RSI(2) 61. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -262,7 +262,7 @@
    "pending": [],
    "position": null,
    "focus": "APPX",
-   "charge": 23,
+   "charge": 29,
    "thought": "Nearest liquidity: opening range high 14.62. Waiting for a sweep.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -287,13 +287,13 @@
     "ETH/USD"
    ],
    "symbol_count": 2,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "BTC/USD",
-   "charge": 73,
-   "thought": "Channel 75558.51 to 76151.93. Waiting for a break.",
+   "charge": 69,
+   "thought": "Channel 75741.01 to 76151.93. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -307,6 +307,12 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-05T19:03:00+00:00",
+   "worker": "snapback",
+   "kind": "shadow",
+   "text": "SNAPBACK (shadow) would long APP: RSI(2) oversold in uptrend"
+  },
   {
    "t": "2026-11-05T18:14:00+00:00",
    "worker": "snapback",
@@ -540,27 +546,21 @@
    "worker": "opener",
    "kind": "shadow",
    "text": "OPENER (shadow) would short COST: Stock in play, 2.5x opening volume"
-  },
-  {
-   "t": "2026-11-05T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long BAC: Stock in play, 1.3x opening volume"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
-   "bias": -3,
-   "regime": "chop",
-   "rvol": 3.09,
+   "bias": -2,
+   "regime": "normal",
+   "rvol": 3.11,
    "liquidity": {
     "prior day high": 769.19,
     "prior day low": 762.71,
     "opening range high": 765.96,
     "opening range low": 756.94
    },
-   "fvgs": 11
+   "fvgs": 12
   },
   "crypto": {
    "symbol": "BTC/USD",
@@ -571,7 +571,7 @@
     "prior day high": 81119.62,
     "prior day low": 75576.58
    },
-   "fvgs": 19
+   "fvgs": 18
   }
  },
  "scanner": {
