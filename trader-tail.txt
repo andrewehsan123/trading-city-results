@@ -1,142 +1,3 @@
-    feed(eng, api.bars(old, start, crypto=crypto), old, last, now, start)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/tc/trading-city/engine/alpaca.py", line 144, in bars
-    r = self.get(path, params, base=DATA)
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/tc/trading-city/engine/alpaca.py", line 58, in get
-    return self._req("GET", url)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/tc/trading-city/engine/alpaca.py", line 52, in _req
-    raise RuntimeError(f"Alpaca not reachable: {url}")
-RuntimeError: Alpaca not reachable: https://data.alpaca.markets/v2/stocks/bars?symbols=SPY%2CQQQ%2CIWM%2CAEHL%2CAPPX%2CAPP%2CAAPL%2CMSFT%2CNVDA%2CAMZN%2CMETA%2CGOOGL%2CTSLA%2CAMD%2CAVGO%2CNFLX%2CPLTR%2CCOIN%2CMSTR%2CSMCI%2CMU%2CINTC%2CBA%2CDIS%2CJPM%2CBAC%2CXOM%2CCVX%2CUBER%2CSHOP%2CCRM%2CORCL%2CADBE%2CPYPL%2CXYZ%2CSOFI%2CRIVN%2CNIO%2CMARA%2CRIOT%2CHOOD%2CSNOW%2CCRWD%2CPANW%2CARM%2CLLY%2CUNH%2CWMT%2CCOST%2CNKE%2CSBUX%2CF%2CGM%2CAAL%2CCCL%2CT%2CZ%2CZG&timeframe=1Min&start=2026-11-05T14%3A57%3A00Z&limit=10000&feed=iex&adjustment=raw
-Traceback (most recent call last):
-  File "/home/tc/trading-city/run_trader.py", line 222, in live
-    feed(eng, api.bars(old, start, crypto=crypto), old, last, now, start)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/tc/trading-city/engine/alpaca.py", line 144, in bars
-    r = self.get(path, params, base=DATA)
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/tc/trading-city/engine/alpaca.py", line 58, in get
-    return self._req("GET", url)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/tc/trading-city/engine/alpaca.py", line 52, in _req
-    raise RuntimeError(f"Alpaca not reachable: {url}")
-RuntimeError: Alpaca not reachable: https://data.alpaca.markets/v2/stocks/bars?symbols=SPY%2CQQQ%2CIWM%2CAEHL%2CAPPX%2CAPP%2CAAPL%2CMSFT%2CNVDA%2CAMZN%2CMETA%2CGOOGL%2CTSLA%2CAMD%2CAVGO%2CNFLX%2CPLTR%2CCOIN%2CMSTR%2CSMCI%2CMU%2CINTC%2CBA%2CDIS%2CJPM%2CBAC%2CXOM%2CCVX%2CUBER%2CSHOP%2CCRM%2CORCL%2CADBE%2CPYPL%2CXYZ%2CSOFI%2CRIVN%2CNIO%2CMARA%2CRIOT%2CHOOD%2CSNOW%2CCRWD%2CPANW%2CARM%2CLLY%2CUNH%2CWMT%2CCOST%2CNKE%2CSBUX%2CF%2CGM%2CAAL%2CCCL%2CT%2CZ%2CZG&timeframe=1Min&start=2026-11-05T14%3A57%3A00Z&limit=10000&feed=iex&adjustment=raw
-Trader running on Alpaca PAPER. Ctrl+C to stop. Create a STOP file to halt.
-Gap scanner: 6,443 stocks. Loading daily history...
-Short interest: 22,537 stocks (FINRA settlement 2026-10-15).
-Gap scanner: 1,263 liquid candidates. Learning their normal first-minute volume...
-Gap scanner: volume history for 1,136 stocks (5+ of 14 days).
-Gap scanner: ready.
-09:15:09 ET  equity $100,177.32  market closed  open trades 0
-09:19:10 ET  equity $100,177.32  market closed  open trades 0
-09:20:10 ET  equity $100,177.32  market closed  open trades 0
-09:21:10 ET  equity $100,177.32  market closed  open trades 0
-09:22:10 ET  equity $100,177.32  market closed  open trades 0
-09:23:11 ET  equity $100,177.32  market closed  open trades 0
-09:24:11 ET  equity $100,177.32  market closed  open trades 0
-09:25:11 ET  equity $100,177.32  market closed  open trades 0
-09:26:11 ET  equity $100,177.32  market closed  open trades 0
-09:27:11 ET  equity $100,177.32  market closed  open trades 0
-09:28:11 ET  equity $100,177.32  market closed  open trades 0
-09:29:12 ET  equity $100,177.32  market closed  open trades 0
-09:30:12 ET  equity $100,177.32  market OPEN  open trades 0
-09:31:06 ET  equity $100,177.32  market OPEN  open trades 0
-09:31:49 ET  equity $100,177.32  market OPEN  open trades 0
-09:32:13 ET  equity $100,177.32  market OPEN  open trades 0
-09:32:38 ET  equity $100,177.32  market OPEN  open trades 0
-09:33:02 ET  equity $100,177.32  market OPEN  open trades 0
-09:33:27 ET  equity $100,177.32  market OPEN  open trades 0
-09:33:51 ET  equity $100,177.32  market OPEN  open trades 0
-09:34:13 ET  equity $100,177.32  market OPEN  open trades 0
-09:34:36 ET  equity $100,177.32  market OPEN  open trades 0
-09:34:58 ET  equity $100,177.32  market OPEN  open trades 0
-09:35:21 ET  equity $100,177.32  market OPEN  open trades 0
-09:35:48 ET  equity $100,177.32  market OPEN  open trades 0
-09:36:14 ET  equity $100,177.32  market OPEN  open trades 0
-09:36:40 ET  equity $100,180.14  market OPEN  open trades 1
-09:37:00 ET  equity $100,166.06  market OPEN  open trades 1
-09:37:24 ET  equity $100,160.43  market OPEN  open trades 1
-09:37:46 ET  equity $100,143.54  market OPEN  open trades 1
-09:38:07 ET  equity $100,197.03  market OPEN  open trades 1
-09:38:29 ET  equity $100,109.76  market OPEN  open trades 1
-09:38:51 ET  equity $100,104.13  market OPEN  open trades 1
-09:39:11 ET  equity $100,205.47  market OPEN  open trades 1
-09:39:32 ET  equity $99,980.27  market OPEN  open trades 1
-09:39:52 ET  equity $100,019.68  market OPEN  open trades 1
-09:40:11 ET  equity $100,106.95  market OPEN  open trades 1
-09:40:35 ET  equity $99,980.27  market OPEN  open trades 1
-09:40:58 ET  equity $100,025.31  market OPEN  open trades 1
-09:41:20 ET  equity $99,921.16  market OPEN  open trades 1
-09:41:42 ET  equity $99,929.60  market OPEN  open trades 1
-09:42:03 ET  equity $99,946.49  market OPEN  open trades 1
-09:42:24 ET  equity $99,988.72  market OPEN  open trades 1
-09:42:44 ET  equity $99,907.08  market OPEN  open trades 1
-09:43:03 ET  equity $99,923.97  market OPEN  open trades 1
-09:43:23 ET  equity $99,828.26  market OPEN  open trades 1
-09:43:42 ET  equity $99,833.89  market OPEN  open trades 1
-09:44:02 ET  equity $99,817.00  market OPEN  open trades 1
-09:44:22 ET  equity $99,845.15  market OPEN  open trades 1
-09:44:41 ET  equity $99,839.52  market OPEN  open trades 1
-09:45:00 ET  equity $99,828.32  market OPEN  open trades 1
-09:45:21 ET  equity $99,771.96  market OPEN  open trades 1
-09:45:46 ET  equity $99,805.74  market OPEN  open trades 1
-09:46:09 ET  equity $99,850.78  market OPEN  open trades 1
-09:46:33 ET  equity $99,859.23  market OPEN  open trades 1
-09:46:56 ET  equity $99,907.08  market OPEN  open trades 1
-09:47:19 ET  equity $99,904.27  market OPEN  open trades 1
-09:47:41 ET  equity $99,949.31  market OPEN  open trades 1
-09:48:03 ET  equity $99,850.78  market OPEN  open trades 1
-09:48:25 ET  equity $99,884.56  market OPEN  open trades 1
-09:48:48 ET  equity $99,857.87  market OPEN  open trades 1
-09:49:11 ET  equity $99,850.78  market OPEN  open trades 1
-09:49:34 ET  equity $99,901.45  market OPEN  open trades 1
-09:49:56 ET  equity $99,881.75  market OPEN  open trades 1
-09:50:18 ET  equity $99,971.83  market OPEN  open trades 1
-09:50:44 ET  equity $99,954.94  market OPEN  open trades 1
-09:51:07 ET  equity $99,963.38  market OPEN  open trades 1
-09:51:30 ET  equity $99,901.45  market OPEN  open trades 1
-09:51:52 ET  equity $99,940.86  market OPEN  open trades 1
-09:52:13 ET  equity $99,952.12  market OPEN  open trades 1
-09:52:36 ET  equity $100,002.79  market OPEN  open trades 1
-09:52:57 ET  equity $100,056.28  market OPEN  open trades 1
-09:53:17 ET  equity $100,132.28  market OPEN  open trades 1
-09:53:37 ET  equity $100,166.06  market OPEN  open trades 1
-09:53:58 ET  equity $100,177.32  market OPEN  open trades 1
-09:54:20 ET  equity $100,126.65  market OPEN  open trades 1
-09:54:42 ET  equity $100,064.72  market OPEN  open trades 1
-09:55:03 ET  equity $100,053.46  market OPEN  open trades 1
-09:55:28 ET  equity $100,036.57  market OPEN  open trades 1
-09:55:53 ET  equity $100,053.46  market OPEN  open trades 1
-09:56:15 ET  equity $100,008.42  market OPEN  open trades 1
-09:56:38 ET  equity $100,000.54  market OPEN  open trades 1
-09:56:58 ET  equity $100,070.35  market OPEN  open trades 1
-09:57:19 ET  equity $100,056.28  market OPEN  open trades 1
-09:57:40 ET  equity $100,022.50  market OPEN  open trades 1
-09:58:00 ET  equity $100,068.94  market OPEN  open trades 1
-09:58:20 ET  equity $100,143.54  market OPEN  open trades 1
-09:58:41 ET  equity $100,203.22  market OPEN  open trades 1
-09:59:01 ET  equity $100,157.62  market OPEN  open trades 1
-09:59:23 ET  equity $100,137.91  market OPEN  open trades 1
-09:59:43 ET  equity $100,157.62  market OPEN  open trades 1
-10:00:04 ET  equity $100,171.69  market OPEN  open trades 1
-10:00:31 ET  equity $100,199.84  market OPEN  open trades 1
-10:06:59 ET  equity $100,090.06  market OPEN  open trades 1
-10:07:24 ET  equity $100,087.24  market OPEN  open trades 1
-10:07:47 ET  equity $100,075.98  market OPEN  open trades 1
-10:08:08 ET  equity $100,081.61  market OPEN  open trades 1
-10:08:30 ET  equity $100,098.50  market OPEN  open trades 1
-10:08:52 ET  equity $100,067.54  market OPEN  open trades 1
-10:09:12 ET  equity $100,070.35  market OPEN  open trades 1
-10:09:33 ET  equity $100,073.17  market OPEN  open trades 1
-10:09:53 ET  equity $100,106.95  market OPEN  open trades 1
-10:10:14 ET  equity $100,104.13  market OPEN  open trades 1
-10:10:38 ET  equity $100,129.47  market OPEN  open trades 1
-10:11:01 ET  equity $100,106.95  market OPEN  open trades 1
-10:11:25 ET  equity $100,132.28  market OPEN  open trades 1
-10:11:47 ET  equity $100,126.65  market OPEN  open trades 1
-10:12:08 ET  equity $100,112.58  market OPEN  open trades 1
-10:12:31 ET  equity $100,154.80  market OPEN  open trades 1
 10:12:51 ET  equity $100,168.88  market OPEN  open trades 1
 10:13:12 ET  equity $100,157.62  market OPEN  open trades 1
 10:13:34 ET  equity $100,157.62  market OPEN  open trades 1
@@ -298,3 +159,142 @@ Gap scanner: ready.
 12:06:14 ET  equity $99,867.67  market OPEN  open trades 0
 12:07:18 ET  equity $99,867.67  market OPEN  open trades 0
 12:08:22 ET  equity $99,867.67  market OPEN  open trades 0
+12:09:25 ET  equity $99,867.67  market OPEN  open trades 0
+12:10:28 ET  equity $99,867.67  market OPEN  open trades 0
+12:11:32 ET  equity $99,867.67  market OPEN  open trades 0
+12:12:36 ET  equity $99,867.67  market OPEN  open trades 0
+12:13:38 ET  equity $99,867.67  market OPEN  open trades 0
+12:14:40 ET  equity $99,867.67  market OPEN  open trades 0
+12:15:43 ET  equity $99,867.67  market OPEN  open trades 0
+12:16:47 ET  equity $99,867.67  market OPEN  open trades 0
+12:17:51 ET  equity $99,867.67  market OPEN  open trades 0
+12:18:54 ET  equity $99,867.67  market OPEN  open trades 0
+12:19:57 ET  equity $99,867.67  market OPEN  open trades 0
+12:20:59 ET  equity $99,867.67  market OPEN  open trades 0
+12:22:03 ET  equity $99,867.67  market OPEN  open trades 0
+12:23:06 ET  equity $99,867.67  market OPEN  open trades 0
+12:24:09 ET  equity $99,867.67  market OPEN  open trades 0
+12:25:11 ET  equity $99,867.67  market OPEN  open trades 0
+12:26:15 ET  equity $99,867.67  market OPEN  open trades 0
+12:27:17 ET  equity $99,867.67  market OPEN  open trades 0
+12:28:19 ET  equity $99,867.67  market OPEN  open trades 0
+12:29:21 ET  equity $99,867.67  market OPEN  open trades 0
+12:30:22 ET  equity $99,867.67  market OPEN  open trades 0
+12:31:28 ET  equity $99,867.67  market OPEN  open trades 0
+12:32:33 ET  equity $99,867.67  market OPEN  open trades 0
+12:33:36 ET  equity $99,867.67  market OPEN  open trades 0
+12:34:38 ET  equity $99,867.67  market OPEN  open trades 0
+12:35:41 ET  equity $99,867.67  market OPEN  open trades 0
+12:36:45 ET  equity $99,867.67  market OPEN  open trades 0
+12:37:48 ET  equity $99,867.67  market OPEN  open trades 0
+12:38:50 ET  equity $99,867.67  market OPEN  open trades 0
+12:39:53 ET  equity $99,867.67  market OPEN  open trades 0
+12:40:54 ET  equity $99,867.67  market OPEN  open trades 0
+12:41:58 ET  equity $99,867.67  market OPEN  open trades 0
+12:43:01 ET  equity $99,867.67  market OPEN  open trades 0
+12:44:04 ET  equity $99,867.67  market OPEN  open trades 0
+12:45:07 ET  equity $99,867.67  market OPEN  open trades 0
+12:46:12 ET  equity $99,867.67  market OPEN  open trades 0
+12:47:17 ET  equity $99,867.67  market OPEN  open trades 0
+12:48:20 ET  equity $99,867.67  market OPEN  open trades 0
+12:49:23 ET  equity $99,867.67  market OPEN  open trades 0
+12:50:26 ET  equity $99,867.67  market OPEN  open trades 0
+12:51:29 ET  equity $99,867.67  market OPEN  open trades 0
+12:52:32 ET  equity $99,867.67  market OPEN  open trades 0
+12:53:34 ET  equity $99,867.67  market OPEN  open trades 0
+12:54:36 ET  equity $99,867.67  market OPEN  open trades 0
+12:55:38 ET  equity $99,867.67  market OPEN  open trades 0
+12:56:40 ET  equity $99,867.67  market OPEN  open trades 0
+12:57:42 ET  equity $99,867.67  market OPEN  open trades 0
+12:58:44 ET  equity $99,867.67  market OPEN  open trades 0
+12:59:45 ET  equity $99,867.67  market OPEN  open trades 0
+13:00:47 ET  equity $99,867.67  market OPEN  open trades 0
+13:01:53 ET  equity $99,867.67  market OPEN  open trades 0
+13:02:57 ET  equity $99,867.67  market OPEN  open trades 0
+13:04:00 ET  equity $99,867.67  market OPEN  open trades 0
+13:05:03 ET  equity $99,867.67  market OPEN  open trades 0
+13:06:08 ET  equity $99,867.67  market OPEN  open trades 0
+13:07:12 ET  equity $99,867.67  market OPEN  open trades 0
+13:08:16 ET  equity $99,867.67  market OPEN  open trades 0
+13:09:19 ET  equity $99,867.67  market OPEN  open trades 0
+13:10:23 ET  equity $99,867.67  market OPEN  open trades 0
+13:11:28 ET  equity $99,867.67  market OPEN  open trades 0
+13:12:33 ET  equity $99,867.67  market OPEN  open trades 0
+13:13:36 ET  equity $99,867.67  market OPEN  open trades 0
+13:14:39 ET  equity $99,867.67  market OPEN  open trades 0
+13:15:41 ET  equity $99,867.67  market OPEN  open trades 0
+13:16:49 ET  equity $99,867.67  market OPEN  open trades 0
+13:17:54 ET  equity $99,867.67  market OPEN  open trades 0
+13:18:57 ET  equity $99,867.67  market OPEN  open trades 0
+13:20:00 ET  equity $99,867.67  market OPEN  open trades 0
+13:21:04 ET  equity $99,867.67  market OPEN  open trades 0
+13:22:10 ET  equity $99,867.67  market OPEN  open trades 0
+13:23:14 ET  equity $99,867.67  market OPEN  open trades 0
+13:24:18 ET  equity $99,867.67  market OPEN  open trades 0
+13:25:22 ET  equity $99,867.67  market OPEN  open trades 0
+13:26:26 ET  equity $99,867.67  market OPEN  open trades 0
+13:27:31 ET  equity $99,867.67  market OPEN  open trades 0
+13:28:35 ET  equity $99,867.67  market OPEN  open trades 0
+13:29:38 ET  equity $99,867.67  market OPEN  open trades 0
+13:30:40 ET  equity $99,867.67  market OPEN  open trades 0
+13:31:50 ET  equity $99,867.67  market OPEN  open trades 0
+13:32:58 ET  equity $99,867.67  market OPEN  open trades 0
+13:34:04 ET  equity $99,867.67  market OPEN  open trades 0
+13:35:11 ET  equity $99,867.67  market OPEN  open trades 0
+13:36:20 ET  equity $99,867.67  market OPEN  open trades 0
+13:37:26 ET  equity $99,867.67  market OPEN  open trades 0
+13:38:32 ET  equity $99,867.67  market OPEN  open trades 0
+13:39:36 ET  equity $99,867.67  market OPEN  open trades 0
+13:40:40 ET  equity $99,867.67  market OPEN  open trades 0
+13:41:46 ET  equity $99,867.67  market OPEN  open trades 0
+13:42:51 ET  equity $99,867.67  market OPEN  open trades 0
+13:43:55 ET  equity $99,867.67  market OPEN  open trades 0
+13:44:58 ET  equity $99,867.67  market OPEN  open trades 0
+13:46:01 ET  equity $99,867.67  market OPEN  open trades 0
+13:47:09 ET  equity $99,867.67  market OPEN  open trades 0
+13:48:16 ET  equity $99,867.67  market OPEN  open trades 0
+13:49:21 ET  equity $99,867.67  market OPEN  open trades 0
+13:50:25 ET  equity $99,867.67  market OPEN  open trades 0
+13:51:32 ET  equity $99,867.67  market OPEN  open trades 0
+13:52:38 ET  equity $99,867.67  market OPEN  open trades 0
+13:53:42 ET  equity $99,867.67  market OPEN  open trades 0
+13:54:47 ET  equity $99,867.67  market OPEN  open trades 0
+13:55:51 ET  equity $99,867.67  market OPEN  open trades 0
+13:56:56 ET  equity $99,867.67  market OPEN  open trades 0
+13:58:00 ET  equity $99,867.67  market OPEN  open trades 0
+13:59:04 ET  equity $99,867.67  market OPEN  open trades 0
+14:00:09 ET  equity $99,867.67  market OPEN  open trades 0
+14:01:20 ET  equity $99,867.67  market OPEN  open trades 0
+14:02:32 ET  equity $99,867.67  market OPEN  open trades 0
+14:03:38 ET  equity $99,867.67  market OPEN  open trades 0
+14:04:43 ET  equity $99,867.67  market OPEN  open trades 0
+14:05:47 ET  equity $99,867.67  market OPEN  open trades 0
+14:06:52 ET  equity $99,867.67  market OPEN  open trades 0
+14:07:55 ET  equity $99,867.67  market OPEN  open trades 0
+14:08:58 ET  equity $99,867.67  market OPEN  open trades 0
+14:10:00 ET  equity $99,867.67  market OPEN  open trades 0
+14:11:04 ET  equity $99,867.67  market OPEN  open trades 0
+14:12:09 ET  equity $99,867.67  market OPEN  open trades 0
+14:13:13 ET  equity $99,867.67  market OPEN  open trades 0
+14:14:16 ET  equity $99,867.67  market OPEN  open trades 0
+14:15:20 ET  equity $99,867.67  market OPEN  open trades 0
+14:16:25 ET  equity $99,867.67  market OPEN  open trades 0
+14:17:31 ET  equity $99,867.67  market OPEN  open trades 0
+14:18:35 ET  equity $99,867.67  market OPEN  open trades 0
+14:19:38 ET  equity $99,867.67  market OPEN  open trades 0
+14:20:41 ET  equity $99,867.67  market OPEN  open trades 0
+14:21:46 ET  equity $99,867.67  market OPEN  open trades 0
+14:22:50 ET  equity $99,867.67  market OPEN  open trades 0
+14:23:52 ET  equity $99,867.67  market OPEN  open trades 0
+14:24:55 ET  equity $99,867.67  market OPEN  open trades 0
+14:25:57 ET  equity $99,867.67  market OPEN  open trades 0
+14:27:01 ET  equity $99,867.67  market OPEN  open trades 0
+14:28:05 ET  equity $99,867.67  market OPEN  open trades 0
+14:29:09 ET  equity $99,867.67  market OPEN  open trades 0
+14:30:12 ET  equity $99,867.67  market OPEN  open trades 0
+14:31:21 ET  equity $99,867.67  market OPEN  open trades 0
+14:32:31 ET  equity $99,867.67  market OPEN  open trades 0
+14:33:38 ET  equity $99,867.67  market OPEN  open trades 0
+14:34:42 ET  equity $99,867.67  market OPEN  open trades 0
+14:35:46 ET  equity $99,867.67  market OPEN  open trades 0
+14:36:52 ET  equity $99,867.67  market OPEN  open trades 0
