@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T16:28:00+00:00",
+ "updated": "2026-11-05T16:43:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -93,7 +93,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Noise area 763.24 to 769.03. Next check on the half hour.",
+   "thought": "Noise area 762.97 to 769.30. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -159,9 +159,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "QQQ",
-   "charge": 84,
-   "thought": "Price below VWAP 661.63. No cross yet.",
+   "focus": "APPX",
+   "charge": 91,
+   "thought": "Reclaimed VWAP 14.42 with the trend up. Going long.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -189,13 +189,13 @@
     "APP"
    ],
    "symbol_count": 6,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "AEHL",
-   "charge": 40,
-   "thought": "Uptrend. Waiting for a dip to the 9 EMA.",
+   "charge": 80,
+   "thought": "Uptrend. Price is testing the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -227,9 +227,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "APPX",
-   "charge": 76,
-   "thought": "Strong move against the hourly trend. Not fading it.",
+   "focus": "IWM",
+   "charge": 96,
+   "thought": "RSI(2) 3. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -261,9 +261,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "APPX",
-   "charge": 60,
-   "thought": "Swept the opening range high at 14.62. Fair value gap formed. Waiting for the retrace.",
+   "focus": "AEHL",
+   "charge": 33,
+   "thought": "Nearest liquidity: opening range high 12.44. Waiting for a sweep.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -287,12 +287,12 @@
     "ETH/USD"
    ],
    "symbol_count": 2,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "ETH/USD",
-   "charge": 87,
+   "charge": 63,
    "thought": "Channel 2234.47 to 2283.57. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -307,6 +307,12 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-05T16:38:00+00:00",
+   "worker": "vwap",
+   "kind": "shadow",
+   "text": "VWAP (shadow) would short QQQ: VWAP rejection"
+  },
   {
    "t": "2026-11-05T16:13:00+00:00",
    "worker": "snapback",
@@ -540,38 +546,32 @@
    "worker": "opener",
    "kind": "shadow",
    "text": "OPENER (shadow) would short AVGO: Stock in play, 2.0x opening volume"
-  },
-  {
-   "t": "2026-11-05T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long ARM: Stock in play, 5.6x opening volume"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
    "bias": -3,
-   "regime": "normal",
-   "rvol": 2.97,
+   "regime": "chop",
+   "rvol": 3.08,
    "liquidity": {
     "prior day high": 769.19,
     "prior day low": 762.71,
     "opening range high": 765.96,
     "opening range low": 756.94
    },
-   "fvgs": 15
+   "fvgs": 14
   },
   "crypto": {
    "symbol": "BTC/USD",
    "bias": -3,
-   "regime": "trend",
+   "regime": "chop",
    "rvol": null,
    "liquidity": {
     "prior day high": 81119.62,
     "prior day low": 75576.58
    },
-   "fvgs": 20
+   "fvgs": 19
   }
  },
  "scanner": {
