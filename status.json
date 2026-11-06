@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T20:13:00+00:00",
+ "updated": "2026-11-06T20:28:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -94,8 +94,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 89,
-   "thought": "Noise area 728.93 to 739.36. Next check on the half hour.",
+   "charge": 73,
+   "thought": "Noise area 728.87 to 739.42. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -153,13 +153,13 @@
     "DKNG"
    ],
    "symbol_count": 4,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 69,
-   "thought": "VWAP 738.55. Waiting for the 10:00 to 3:00 window.",
+   "focus": "QQQ",
+   "charge": 79,
+   "thought": "VWAP 659.08. Waiting for the 10:00 to 3:00 window.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -249,13 +249,13 @@
     "DKNG"
    ],
    "symbol_count": 4,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 50,
-   "thought": "Swept the opening range high at 738.97. Waiting for a fair value gap.",
+   "charge": 85,
+   "thought": "Setup is ready but outside the trading windows.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -283,9 +283,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "ETH/USD",
-   "charge": 62,
-   "thought": "Channel 2223.10 to 2234.55. Waiting for a break.",
+   "focus": "BTC/USD",
+   "charge": 44,
+   "thought": "Channel 75551.50 to 75897.72. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -543,27 +543,27 @@
  "regime": {
   "lead": {
    "symbol": "SPY",
-   "bias": 0,
-   "regime": "normal",
-   "rvol": 1.44,
+   "bias": -2,
+   "regime": "chop",
+   "rvol": 1.42,
    "liquidity": {
     "prior day high": 765.96,
     "prior day low": 732.75,
     "opening range high": 738.97,
     "opening range low": 734.61
    },
-   "fvgs": 7
+   "fvgs": 6
   },
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": 1,
+   "bias": -1,
    "regime": "chop",
    "rvol": null,
    "liquidity": {
     "prior day high": 80848.85,
     "prior day low": 75080.44
    },
-   "fvgs": 4
+   "fvgs": 3
   }
  },
  "scanner": {
