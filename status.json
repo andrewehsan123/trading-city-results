@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T16:43:00+00:00",
+ "updated": "2026-11-06T16:58:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -95,7 +95,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Noise area 729.72 to 738.57. Next check on the half hour.",
+   "thought": "Noise area 729.61 to 738.68. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -158,7 +158,7 @@
    "pending": [],
    "position": null,
    "focus": "QQQ",
-   "charge": 86,
+   "charge": 71,
    "thought": "Price above VWAP 660.01. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -185,13 +185,13 @@
     "DKNG"
    ],
    "symbol_count": 4,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "DKNG",
-   "charge": 40,
-   "thought": "Uptrend. Waiting for a dip to the 9 EMA.",
+   "charge": 80,
+   "thought": "Uptrend. Price is testing the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -222,8 +222,8 @@
    "pending": [],
    "position": null,
    "focus": "QQQ",
-   "charge": 92,
-   "thought": "RSI(2) 7. Nothing stretched enough.",
+   "charge": 89,
+   "thought": "RSI(2) 11. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -279,13 +279,13 @@
     "ETH/USD"
    ],
    "symbol_count": 2,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "ETH/USD",
-   "charge": 53,
-   "thought": "Channel 2214.03 to 2233.30. Waiting for a break.",
+   "charge": 89,
+   "thought": "Channel 2214.03 to 2234.91. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -299,6 +299,12 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-06T16:57:00+00:00",
+   "worker": "trend",
+   "kind": "shadow",
+   "text": "TREND (shadow) would long DKNG: Trend pullback long"
+  },
   {
    "t": "2026-11-06T15:54:00+00:00",
    "worker": "snapback",
@@ -532,20 +538,14 @@
    "worker": "gapgo",
    "kind": "order",
    "text": "GAP&GO buy-stop 1987 BLMN @ 10.05"
-  },
-  {
-   "t": "2026-11-06T14:32:39.433086+00:00",
-   "worker": "gapgo",
-   "kind": "order",
-   "text": "GAP&GO buy-stop 1123 DKNG @ 17.78"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
    "bias": 1,
-   "regime": "normal",
-   "rvol": 1.52,
+   "regime": "chop",
+   "rvol": 1.51,
    "liquidity": {
     "prior day high": 765.96,
     "prior day low": 732.75,
@@ -556,8 +556,8 @@
   },
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": -2,
-   "regime": "chop",
+   "bias": 0,
+   "regime": "normal",
    "rvol": null,
    "liquidity": {
     "prior day high": 80848.85,
