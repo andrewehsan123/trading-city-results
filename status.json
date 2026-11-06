@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T15:28:00+00:00",
+ "updated": "2026-11-06T15:43:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -95,7 +95,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Noise area 730.13 to 738.15. Next check on the half hour.",
+   "thought": "Noise area 730.12 to 738.16. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -157,9 +157,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "DKNG",
+   "focus": "SPY",
    "charge": 97,
-   "thought": "Price above VWAP 17.02. No cross yet.",
+   "thought": "Price below VWAP 738.63. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -185,13 +185,13 @@
     "DKNG"
    ],
    "symbol_count": 4,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 10,
-   "thought": "Higher timeframes not lined up (bias +0, chop). Sitting out.",
+   "charge": 80,
+   "thought": "Downtrend. Price is testing the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -221,9 +221,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "QQQ",
-   "charge": 94,
-   "thought": "RSI(2) 6. Nothing stretched enough.",
+   "focus": "DKNG",
+   "charge": 98,
+   "thought": "RSI(2) 1. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -253,9 +253,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "DKNG",
+   "focus": "QQQ",
    "charge": 85,
-   "thought": "Gap 17.18-17.25 ready. Waiting for price to tap it.",
+   "thought": "Gap 659.14-660.19 ready. Waiting for price to tap it.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -284,7 +284,7 @@
    "pending": [],
    "position": null,
    "focus": "BTC/USD",
-   "charge": 59,
+   "charge": 63,
    "thought": "Channel 74767.67 to 76035.57. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -299,6 +299,36 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-06T15:40:00+00:00",
+   "worker": "snapback",
+   "kind": "shadow",
+   "text": "SNAPBACK (shadow) would short SPY: RSI(2) overbought in downtrend"
+  },
+  {
+   "t": "2026-11-06T15:40:00+00:00",
+   "worker": "snapback",
+   "kind": "shadow",
+   "text": "SNAPBACK (shadow) would short IWM: RSI(2) overbought in downtrend"
+  },
+  {
+   "t": "2026-11-06T15:33:00+00:00",
+   "worker": "sweep",
+   "kind": "shadow",
+   "text": "SWEEP (shadow) would short SPY: Sweep of opening range high + FVG"
+  },
+  {
+   "t": "2026-11-06T15:33:00+00:00",
+   "worker": "vwap",
+   "kind": "shadow",
+   "text": "VWAP (shadow) would short IWM: VWAP rejection"
+  },
+  {
+   "t": "2026-11-06T15:30:00+00:00",
+   "worker": "vwap",
+   "kind": "shadow",
+   "text": "VWAP (shadow) would short SPY: VWAP rejection"
+  },
   {
    "t": "2026-11-06T15:18:00+00:00",
    "worker": "sweep",
@@ -508,62 +538,32 @@
    "worker": "gapgo",
    "kind": "order",
    "text": "GAP&GO buy-stop 205 FROG @ 97.37"
-  },
-  {
-   "t": "2026-11-05T19:27:00+00:00",
-   "worker": "snapback",
-   "kind": "shadow",
-   "text": "SNAPBACK (shadow) would long APPX: RSI(2) oversold in uptrend"
-  },
-  {
-   "t": "2026-11-05T19:03:00+00:00",
-   "worker": "snapback",
-   "kind": "shadow",
-   "text": "SNAPBACK (shadow) would long APP: RSI(2) oversold in uptrend"
-  },
-  {
-   "t": "2026-11-05T18:14:00+00:00",
-   "worker": "snapback",
-   "kind": "shadow",
-   "text": "SNAPBACK (shadow) would long AEHL: RSI(2) oversold in uptrend"
-  },
-  {
-   "t": "2026-11-05T16:38:00+00:00",
-   "worker": "vwap",
-   "kind": "shadow",
-   "text": "VWAP (shadow) would short QQQ: VWAP rejection"
-  },
-  {
-   "t": "2026-11-05T16:13:00+00:00",
-   "worker": "snapback",
-   "kind": "shadow",
-   "text": "SNAPBACK (shadow) would short IWM: RSI(2) overbought in downtrend"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
-   "bias": 0,
-   "regime": "chop",
-   "rvol": 1.66,
+   "bias": -2,
+   "regime": "normal",
+   "rvol": 1.64,
    "liquidity": {
     "prior day high": 765.96,
     "prior day low": 732.75,
     "opening range high": 738.97,
     "opening range low": 734.61
    },
-   "fvgs": 5
+   "fvgs": 6
   },
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": -3,
+   "bias": -2,
    "regime": "chop",
    "rvol": null,
    "liquidity": {
     "prior day high": 80848.85,
     "prior day low": 75080.44
    },
-   "fvgs": 4
+   "fvgs": 2
   }
  },
  "scanner": {
