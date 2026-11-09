@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-09T18:29:53.590291+00:00",
+ "updated": "2026-11-09T18:44:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
- "equity": 100860.38,
+ "equity": 100770.18,
  "day_pnl": 43.88,
  "workers": [
   {
@@ -100,7 +100,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Noise area 731.07 to 746.31. Next check on the half hour.",
+   "thought": "Noise area 730.85 to 746.53. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -162,13 +162,13 @@
     "NVDX"
    ],
    "symbol_count": 6,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "CKX",
-   "charge": 2,
-   "thought": "Price above VWAP 20.01. No cross yet.",
+   "focus": "NVDX",
+   "charge": 88,
+   "thought": "Price below VWAP 11.93. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -230,13 +230,13 @@
     "NVDX"
    ],
    "symbol_count": 6,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "CKX",
-   "charge": 89,
-   "thought": "RSI(2) 11. Nothing stretched enough.",
+   "focus": "NVDL",
+   "charge": 62,
+   "thought": "RSI(2) 38. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -268,9 +268,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "NVDX",
-   "charge": 60,
-   "thought": "Swept the opening range high at 11.82. Fair value gap formed. Waiting for the retrace.",
+   "focus": "NVDL",
+   "charge": 37,
+   "thought": "Nearest liquidity: opening range high 21.08. Waiting for a sweep.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -299,7 +299,7 @@
    "pending": [],
    "position": null,
    "focus": "ETH/USD",
-   "charge": 21,
+   "charge": 56,
    "thought": "Channel 2113.86 to 2127.11. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -314,6 +314,12 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-09T18:30:00+00:00",
+   "worker": "sweep",
+   "kind": "shadow",
+   "text": "SWEEP (shadow) would short NVDX: Sweep of opening range high + FVG"
+  },
   {
    "t": "2026-11-09T17:39:00+00:00",
    "worker": "snapback",
@@ -547,12 +553,6 @@
    "worker": "opener",
    "kind": "shadow",
    "text": "OPENER (shadow) would long CRM: Stock in play, 1.4x opening volume"
-  },
-  {
-   "t": "2026-11-09T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long CCL: Stock in play, 1.4x opening volume"
   }
  ],
  "regime": {
@@ -560,7 +560,7 @@
    "symbol": "SPY",
    "bias": 3,
    "regime": "chop",
-   "rvol": 0.99,
+   "rvol": 0.97,
    "liquidity": {
     "prior day high": 742.11,
     "prior day low": 734.61,
@@ -572,7 +572,7 @@
   "crypto": {
    "symbol": "BTC/USD",
    "bias": -3,
-   "regime": "trend",
+   "regime": "normal",
    "rvol": null,
    "liquidity": {
     "prior day high": 76096.23,
