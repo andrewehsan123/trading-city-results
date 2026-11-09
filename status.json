@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-09T15:29:00+00:00",
+ "updated": "2026-11-09T15:44:48.562064+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
- "equity": 100686.43,
+ "equity": 100654.22,
  "day_pnl": 43.88,
  "workers": [
   {
@@ -100,7 +100,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Broke above the noise area (745.46). Going long.",
+   "thought": "Noise area 731.82 to 745.55. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -167,8 +167,8 @@
    "pending": [],
    "position": null,
    "focus": "CKX",
-   "charge": 62,
-   "thought": "Price below VWAP 17.44. No cross yet.",
+   "charge": 1,
+   "thought": "Price below VWAP 17.41. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -202,7 +202,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 80,
-   "thought": "Uptrend. Price is testing the 9 EMA.",
+   "thought": "Bounced off the 9 EMA in an uptrend. Going long.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -230,13 +230,13 @@
     "NVDX"
    ],
    "symbol_count": 6,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "IWM",
-   "charge": 86,
-   "thought": "RSI(2) 14. Nothing stretched enough.",
+   "focus": "NVDX",
+   "charge": 69,
+   "thought": "RSI(2) 30. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -268,9 +268,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "NVDX",
-   "charge": 50,
-   "thought": "Swept the opening range high at 11.82. Waiting for a fair value gap.",
+   "focus": "CKX",
+   "charge": 36,
+   "thought": "Nearest liquidity: opening range low 15.67. Waiting for a sweep.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -299,8 +299,8 @@
    "pending": [],
    "position": null,
    "focus": "BTC/USD",
-   "charge": 79,
-   "thought": "Channel 74240.30 to 75187.80. Waiting for a break.",
+   "charge": 100,
+   "thought": "Channel 74266.80 to 75313.17. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -314,6 +314,18 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-09T15:43:00+00:00",
+   "worker": "turtle",
+   "kind": "shadow",
+   "text": "TURTLE (shadow) would long ETH/USD: 60-bar breakout"
+  },
+  {
+   "t": "2026-11-09T15:41:00+00:00",
+   "worker": "snapback",
+   "kind": "shadow",
+   "text": "SNAPBACK (shadow) would long IWM: RSI(2) oversold in uptrend"
+  },
   {
    "t": "2026-11-09T15:24:00+00:00",
    "worker": "snapback",
@@ -541,44 +553,32 @@
    "worker": "gapgo",
    "kind": "order",
    "text": "GAP&GO buy-stop 1431 TTD @ 13.95"
-  },
-  {
-   "t": "2026-11-09T14:31:06.463219+00:00",
-   "worker": "gapgo",
-   "kind": "order",
-   "text": "GAP&GO sell-stop 72 NVDA @ 170.24"
-  },
-  {
-   "t": "2026-11-06T18:49:00+00:00",
-   "worker": "snapback",
-   "kind": "shadow",
-   "text": "SNAPBACK (shadow) would long DKNG: RSI(2) oversold in uptrend"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
    "bias": 3,
-   "regime": "normal",
-   "rvol": 1.1,
+   "regime": "trend",
+   "rvol": 1.02,
    "liquidity": {
     "prior day high": 742.11,
     "prior day low": 734.61,
     "opening range high": 746.76,
     "opening range low": 741.18
    },
-   "fvgs": 3
+   "fvgs": 4
   },
   "crypto": {
    "symbol": "BTC/USD",
    "bias": 3,
-   "regime": "chop",
+   "regime": "trend",
    "rvol": null,
    "liquidity": {
     "prior day high": 76096.23,
     "prior day low": 73530.09
    },
-   "fvgs": 7
+   "fvgs": 6
   }
  },
  "scanner": {
