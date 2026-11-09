@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-09T17:14:00+00:00",
+ "updated": "2026-11-09T17:29:50.507315+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
- "equity": 100800.25,
+ "equity": 100757.3,
  "day_pnl": 43.88,
  "workers": [
   {
@@ -100,7 +100,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Noise area 731.54 to 745.83. Next check on the half hour.",
+   "thought": "Noise area 731.43 to 745.94. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -162,13 +162,13 @@
     "NVDX"
    ],
    "symbol_count": 6,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "CKX",
-   "charge": 95,
-   "thought": "Price below VWAP 17.11. No cross yet.",
+   "charge": 28,
+   "thought": "Price above VWAP 17.61. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -200,9 +200,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "IWM",
+   "focus": "SPY",
    "charge": 80,
-   "thought": "Bounced off the 9 EMA in an uptrend. Going long.",
+   "thought": "Uptrend. Price is testing the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -234,9 +234,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 60,
-   "thought": "RSI(2) 40. Nothing stretched enough.",
+   "focus": "QQQ",
+   "charge": 23,
+   "thought": "RSI(2) 77. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -299,8 +299,8 @@
    "pending": [],
    "position": null,
    "focus": "BTC/USD",
-   "charge": 32,
-   "thought": "Channel 74678.56 to 75098.48. Waiting for a break.",
+   "charge": 23,
+   "thought": "Channel 74647.62 to 75014.01. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -560,7 +560,7 @@
    "symbol": "SPY",
    "bias": 3,
    "regime": "trend",
-   "rvol": 1.03,
+   "rvol": 1.02,
    "liquidity": {
     "prior day high": 742.11,
     "prior day low": 734.61,
@@ -571,14 +571,14 @@
   },
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": 1,
-   "regime": "chop",
+   "bias": -1,
+   "regime": "normal",
    "rvol": null,
    "liquidity": {
     "prior day high": 76096.23,
     "prior day low": 73530.09
    },
-   "fvgs": 7
+   "fvgs": 8
   }
  },
  "scanner": {
