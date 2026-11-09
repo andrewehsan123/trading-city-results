@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-09T18:44:00+00:00",
+ "updated": "2026-11-09T18:59:52.736428+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
- "equity": 100770.18,
+ "equity": 100911.92,
  "day_pnl": 43.88,
  "workers": [
   {
@@ -100,7 +100,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Noise area 730.85 to 746.53. Next check on the half hour.",
+   "thought": "Noise area 730.54 to 746.84. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -167,7 +167,7 @@
    "pending": [],
    "position": null,
    "focus": "NVDX",
-   "charge": 88,
+   "charge": 86,
    "thought": "Price below VWAP 11.93. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -200,9 +200,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "IWM",
+   "focus": "SPY",
    "charge": 80,
-   "thought": "Bounced off the 9 EMA in an uptrend. Going long.",
+   "thought": "Uptrend. Price is testing the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -230,13 +230,13 @@
     "NVDX"
    ],
    "symbol_count": 6,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "NVDL",
-   "charge": 62,
-   "thought": "RSI(2) 38. Nothing stretched enough.",
+   "focus": "CKX",
+   "charge": 98,
+   "thought": "RSI(2) 1. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -268,9 +268,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "NVDL",
-   "charge": 37,
-   "thought": "Nearest liquidity: opening range high 21.08. Waiting for a sweep.",
+   "focus": "CKX",
+   "charge": 38,
+   "thought": "Nearest liquidity: opening range high 17.79. Waiting for a sweep.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -299,7 +299,7 @@
    "pending": [],
    "position": null,
    "focus": "ETH/USD",
-   "charge": 56,
+   "charge": 67,
    "thought": "Channel 2113.86 to 2127.11. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -559,15 +559,15 @@
   "lead": {
    "symbol": "SPY",
    "bias": 3,
-   "regime": "chop",
-   "rvol": 0.97,
+   "regime": "normal",
+   "rvol": 0.96,
    "liquidity": {
     "prior day high": 742.11,
     "prior day low": 734.61,
     "opening range high": 746.76,
     "opening range low": 741.18
    },
-   "fvgs": 7
+   "fvgs": 8
   },
   "crypto": {
    "symbol": "BTC/USD",
@@ -578,7 +578,7 @@
     "prior day high": 76096.23,
     "prior day low": 73530.09
    },
-   "fvgs": 9
+   "fvgs": 8
   }
  },
  "scanner": {
