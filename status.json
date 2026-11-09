@@ -1,43 +1,11 @@
 {
- "updated": "2026-11-06T21:04:00+00:00",
+ "updated": "2026-11-09T14:28:00+00:00",
  "mode": "paper",
  "market_open": false,
  "halted": null,
  "equity": 99867.3,
  "day_pnl": 0,
  "workers": [
-  {
-   "id": "gapgo",
-   "name": "GAP&GO",
-   "market": "stock",
-   "inspired_by": "Zarattini, Barbon & Aziz (2024) ORB on Stocks in Play, developed: 1-min range, gappers, quick partial",
-   "method": "At 9:31 ET picks stocks that gapped 7%+ whose first minute traded 3x+ normal. Places a buy-stop (or sell-stop) at the first 1-minute candle's high (low). Takes 30% off at a quick +0.25R, the rest rides with no risk. Exits any trade that hasn't paid within 60 minutes.",
-   "tier": "core",
-   "symbols": [
-    "FROG",
-    "TNDM",
-    "DKNG",
-    "BLMN"
-   ],
-   "symbol_count": 4,
-   "state": "charging",
-   "open_count": 0,
-   "pending": [],
-   "position": null,
-   "focus": "FROG",
-   "charge": 90,
-   "thought": "Gapped +26.1% on 11.1x volume. Buy stop at 97.37.",
-   "pnl_today": 0,
-   "trades_today": 0,
-   "wins_today": 0,
-   "pnl_total": -309.65,
-   "trades_total": 1,
-   "win_rate": 0.0,
-   "profit_factor": 0.0,
-   "allowed": true,
-   "size_x": 0.75,
-   "lab": null
-  },
   {
    "id": "opener",
    "name": "OPENER",
@@ -59,14 +27,14 @@
     "PLTR",
     "COIN"
    ],
-   "symbol_count": 51,
-   "state": "charging",
+   "symbol_count": 50,
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "MSFT",
-   "charge": 90,
-   "thought": "In play (1.3x volume). Buy stop at 532.28, stop-loss 524.67.",
+   "focus": "AAPL",
+   "charge": 0,
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -94,8 +62,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 31,
-   "thought": "Noise area 728.92 to 739.36. Next check on the half hour.",
+   "charge": 0,
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -117,17 +85,16 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM",
-    "DKNG"
+    "IWM"
    ],
-   "symbol_count": 4,
+   "symbol_count": 3,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Done for the day.",
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -149,17 +116,16 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM",
-    "DKNG"
+    "IWM"
    ],
-   "symbol_count": 4,
+   "symbol_count": 3,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "VWAP 738.23. Waiting for the 10:00 to 3:00 window.",
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -181,17 +147,16 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM",
-    "DKNG"
+    "IWM"
    ],
-   "symbol_count": 4,
+   "symbol_count": 3,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Too late in the day.",
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -213,17 +178,16 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM",
-    "DKNG"
+    "IWM"
    ],
-   "symbol_count": 4,
+   "symbol_count": 3,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Too late in the day.",
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -245,17 +209,16 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM",
-    "DKNG"
+    "IWM"
    ],
-   "symbol_count": 4,
+   "symbol_count": 3,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 28,
-   "thought": "Nearest liquidity: opening range low 734.61. Waiting for a sweep.",
+   "charge": 0,
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -283,9 +246,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "BTC/USD",
-   "charge": 50,
-   "thought": "Channel 75622.16 to 75897.72. Waiting for a break.",
+   "focus": "ETH/USD",
+   "charge": 58,
+   "thought": "Channel 2113.60 to 2125.16. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -541,36 +504,22 @@
   }
  ],
  "regime": {
-  "lead": {
-   "symbol": "SPY",
-   "bias": -3,
-   "regime": "trend",
-   "rvol": 1.0,
-   "liquidity": {
-    "prior day high": 765.96,
-    "prior day low": 732.75,
-    "opening range high": 738.97,
-    "opening range low": 734.61
-   },
-   "fvgs": 7
-  },
+  "lead": null,
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": 1,
+   "bias": 0,
    "regime": "chop",
    "rvol": null,
    "liquidity": {
-    "prior day high": 80848.85,
-    "prior day low": 75080.44
+    "prior day high": 76096.23,
+    "prior day low": 73530.09
    },
-   "fvgs": 3
+   "fvgs": 11
   }
  },
  "scanner": {
-  "picks": [
-   "DKNG"
-  ],
-  "note": "DKNG -27.0%"
+  "picks": [],
+  "note": "Scanner runs at 9:35 ET on market days."
  },
  "fills": {
   "n": 1,
@@ -612,795 +561,7 @@
   },
   "verdict": "not enough trades yet (need ~40)"
  },
- "gates": {
-  "day": "2026-11-06",
-  "counts": {
-   "liquid": 833,
-   "gap": 75,
-   "gap_atr": 32,
-   "volume": 18,
-   "short_rule": 14,
-   "calm": 10,
-   "gap_band": 8,
-   "thin_history": 2,
-   "odds": 4,
-   "news": 4
-  },
-  "picked": 4,
-  "stocks": [
-   {
-    "sym": "FIVN",
-    "gap": -21.7,
-    "gap_atr": 3.53,
-    "rvol": 27.3,
-    "side": "short",
-    "level": 26.08,
-    "fail": "short_rule",
-    "aplus": {
-     "strong_close": false,
-     "big_body": false,
-     "under_25": false,
-     "jumpy": true,
-     "short": true,
-     "fades_gap": false
-    }
-   },
-   {
-    "sym": "TEAM",
-    "gap": -15.5,
-    "gap_atr": 2.85,
-    "rvol": 13.3,
-    "side": "short",
-    "level": 152.27,
-    "fail": "short_rule",
-    "aplus": {
-     "strong_close": false,
-     "big_body": false,
-     "under_25": false,
-     "jumpy": false,
-     "short": true,
-     "fades_gap": false
-    }
-   },
-   {
-    "sym": "ABNB",
-    "gap": 12.6,
-    "gap_atr": 3.94,
-    "rvol": 11.1,
-    "side": "short",
-    "level": 188.22,
-    "fail": "calm",
-    "aplus": {
-     "strong_close": false,
-     "big_body": true,
-     "under_25": false,
-     "jumpy": false,
-     "short": true,
-     "fades_gap": true
-    },
-    "rng_atr": 0.72,
-    "sure": false
-   },
-   {
-    "sym": "FROG",
-    "gap": 26.1,
-    "gap_atr": 2.91,
-    "rvol": 11.1,
-    "side": "long",
-    "level": 97.37,
-    "fail": null,
-    "aplus": {
-     "strong_close": false,
-     "big_body": false,
-     "under_25": false,
-     "jumpy": true,
-     "short": false,
-     "fades_gap": false,
-     "few_stories": false,
-     "no_analyst_news": false
-    },
-    "rng_atr": 0.49,
-    "sure": true,
-    "size_x": 1.423,
-    "short_ratio": 3.81,
-    "odds": 0.88,
-    "news": 10,
-    "score": 1,
-    "tone": true
-   },
-   {
-    "sym": "FSLY",
-    "gap": 8.1,
-    "gap_atr": 0.55,
-    "rvol": 9.5,
-    "side": "short",
-    "level": 16.54,
-    "fail": "gap_atr",
-    "aplus": {
-     "strong_close": true,
-     "big_body": false,
-     "under_25": true,
-     "jumpy": true,
-     "short": true,
-     "fades_gap": true
-    }
-   },
-   {
-    "sym": "NTRA",
-    "gap": -13.6,
-    "gap_atr": 2.23,
-    "rvol": 9.2,
-    "side": "short",
-    "level": 314,
-    "fail": "short_rule",
-    "aplus": {
-     "strong_close": true,
-     "big_body": false,
-     "under_25": false,
-     "jumpy": true,
-     "short": true,
-     "fades_gap": false
-    }
-   },
-   {
-    "sym": "TNDM",
-    "gap": -9.9,
-    "gap_atr": 1.61,
-    "rvol": 8.7,
-    "side": "long",
-    "level": 16.77,
-    "fail": null,
-    "aplus": {
-     "strong_close": false,
-     "big_body": false,
-     "under_25": true,
-     "jumpy": true,
-     "short": false,
-     "fades_gap": true,
-     "few_stories": false,
-     "no_analyst_news": true
-    },
-    "rng_atr": 0.58,
-    "sure": true,
-    "size_x": 2.846,
-    "short_ratio": 6.18,
-    "odds": 0.76,
-    "news": 6,
-    "score": 4,
-    "tone": true
-   },
-   {
-    "sym": "DKNG",
-    "gap": -26.3,
-    "gap_atr": 6.5,
-    "rvol": 8.6,
-    "side": "long",
-    "level": 17.78,
-    "fail": null,
-    "aplus": {
-     "strong_close": false,
-     "big_body": false,
-     "under_25": true,
-     "jumpy": false,
-     "short": false,
-     "fades_gap": true,
-     "few_stories": false,
-     "no_analyst_news": true
-    },
-    "rng_atr": 0.56,
-    "sure": true,
-    "size_x": 0.949,
-    "short_ratio": 3.21,
-    "odds": 0.88,
-    "news": 11,
-    "score": 3,
-    "tone": true
-   },
-   {
-    "sym": "CHTR",
-    "gap": -9.4,
-    "gap_atr": 2.19,
-    "rvol": 6.8,
-    "side": "long",
-    "level": 115.98,
-    "fail": "calm",
-    "aplus": {
-     "strong_close": true,
-     "big_body": false,
-     "under_25": false,
-     "jumpy": false,
-     "short": false,
-     "fades_gap": true
-    },
-    "rng_atr": 0.92,
-    "sure": false
-   },
-   {
-    "sym": "GLXY",
-    "gap": 9.9,
-    "gap_atr": 0.69,
-    "rvol": 6.6,
-    "side": "short",
-    "level": 14.12,
-    "fail": "gap_atr",
-    "aplus": {
-     "strong_close": true,
-     "big_body": false,
-     "under_25": true,
-     "jumpy": true,
-     "short": true,
-     "fades_gap": true
-    }
-   },
-   {
-    "sym": "EXTR",
-    "gap": 14.2,
-    "gap_atr": 2.18,
-    "rvol": 6.0,
-    "side": "short",
-    "level": 23.57,
-    "fail": "gap_band",
-    "aplus": {
-     "strong_close": false,
-     "big_body": false,
-     "under_25": true,
-     "jumpy": true,
-     "short": true,
-     "fades_gap": true
-    },
-    "rng_atr": 0.34,
-    "sure": true
-   },
-   {
-    "sym": "P",
-    "gap": 9.4,
-    "gap_atr": 0.89,
-    "rvol": 5.8,
-    "side": "short",
-    "level": 102.04,
-    "fail": "gap_atr",
-    "aplus": {
-     "strong_close": false,
-     "big_body": false,
-     "under_25": false,
-     "jumpy": true,
-     "short": true,
-     "fades_gap": true
-    }
-   },
-   {
-    "sym": "ASX",
-    "gap": 9.2,
-    "gap_atr": 0.91,
-    "rvol": 5.7,
-    "side": "short",
-    "level": 32.26,
-    "fail": "gap_atr",
-    "aplus": {
-     "strong_close": true,
-     "big_body": true,
-     "under_25": false,
-     "jumpy": true,
-     "short": true,
-     "fades_gap": true
-    }
-   },
-   {
-    "sym": "AXON",
-    "gap": -12.0,
-    "gap_atr": 2.32,
-    "rvol": 5.4,
-    "side": "short",
-    "level": 318.82,
-    "fail": "short_rule",
-    "aplus": {
-     "strong_close": false,
-     "big_body": false,
-     "under_25": false,
-     "jumpy": false,
-     "short": true,
-     "fades_gap": false
-    }
-   },
-   {
-    "sym": "MNST",
-    "gap": -7.9,
-    "gap_atr": 3.38,
-    "rvol": 5.4,
-    "side": "long",
-    "level": 45.64,
-    "fail": "calm",
-    "aplus": {
-     "strong_close": false,
-     "big_body": true,
-     "under_25": false,
-     "jumpy": false,
-     "short": false,
-     "fades_gap": true
-    },
-    "rng_atr": 1.46,
-    "sure": false
-   },
-   {
-    "sym": "NET",
-    "gap": 17.2,
-    "gap_atr": 2.0,
-    "rvol": 5.4,
-    "side": "short",
-    "level": 271,
-    "fail": "calm",
-    "aplus": {
-     "strong_close": true,
-     "big_body": true,
-     "under_25": false,
-     "jumpy": true,
-     "short": true,
-     "fades_gap": true
-    },
-    "rng_atr": 0.74,
-    "sure": false
-   },
-   {
-    "sym": "AXTI",
-    "gap": 8.8,
-    "gap_atr": 0.46,
-    "rvol": 4.7,
-    "side": "short",
-    "level": 39.12,
-    "fail": "gap_atr",
-    "aplus": {
-     "strong_close": true,
-     "big_body": true,
-     "under_25": false,
-     "jumpy": true,
-     "short": true,
-     "fades_gap": true
-    }
-   },
-   {
-    "sym": "KRMN",
-    "gap": 12.8,
-    "gap_atr": 1.42,
-    "rvol": 4.7,
-    "side": "short",
-    "level": 36.12,
-    "fail": "gap_band",
-    "aplus": {
-     "strong_close": true,
-     "big_body": false,
-     "under_25": false,
-     "jumpy": true,
-     "short": true,
-     "fades_gap": true
-    },
-    "rng_atr": 0.07,
-    "sure": false
-   },
-   {
-    "sym": "TSEM",
-    "gap": 8.7,
-    "gap_atr": 0.72,
-    "rvol": 4.6,
-    "side": "long",
-    "level": 142.99,
-    "fail": "gap_atr",
-    "aplus": {
-     "strong_close": false,
-     "big_body": false,
-     "under_25": false,
-     "jumpy": true,
-     "short": false,
-     "fades_gap": false
-    }
-   },
-   {
-    "sym": "HUT",
-    "gap": 9.5,
-    "gap_atr": 0.59,
-    "rvol": 4.5,
-    "side": "long",
-    "level": 51.38,
-    "fail": "gap_atr",
-    "aplus": {
-     "strong_close": false,
-     "big_body": false,
-     "under_25": false,
-     "jumpy": true,
-     "short": false,
-     "fades_gap": false
-    }
-   },
-   {
-    "sym": "AMAT",
-    "gap": 8.4,
-    "gap_atr": 1.19,
-    "rvol": 4.2,
-    "side": "short",
-    "level": 343.73,
-    "fail": "odds",
-    "aplus": {
-     "strong_close": true,
-     "big_body": false,
-     "under_25": false,
-     "jumpy": true,
-     "short": true,
-     "fades_gap": true
-    },
-    "rng_atr": 0.17,
-    "sure": false,
-    "size_x": 0.474,
-    "short_ratio": 1.73,
-    "odds": 0.56
-   },
-   {
-    "sym": "CRSR",
-    "gap": -12.0,
-    "gap_atr": 2.09,
-    "rvol": 3.8,
-    "side": "long",
-    "level": 11.28,
-    "fail": "odds",
-    "aplus": {
-     "strong_close": true,
-     "big_body": true,
-     "under_25": true,
-     "jumpy": false,
-     "short": false,
-     "fades_gap": true
-    },
-    "rng_atr": 0.01,
-    "sure": false,
-    "size_x": 2.846,
-    "short_ratio": 7.31,
-    "odds": 0.6
-   },
-   {
-    "sym": "SIMO",
-    "gap": 7.8,
-    "gap_atr": 0.6,
-    "rvol": 3.7,
-    "side": "short",
-    "level": 167.86,
-    "fail": "gap_atr",
-    "aplus": {
-     "strong_close": false,
-     "big_body": false,
-     "under_25": false,
-     "jumpy": true,
-     "short": true,
-     "fades_gap": true
-    }
-   },
-   {
-    "sym": "ALAB",
-    "gap": 8.8,
-    "gap_atr": 0.62,
-    "rvol": 3.5,
-    "side": "short",
-    "level": 192.01,
-    "fail": "gap_atr",
-    "aplus": {
-     "strong_close": false,
-     "big_body": false,
-     "under_25": false,
-     "jumpy": true,
-     "short": true,
-     "fades_gap": true
-    }
-   },
-   {
-    "sym": "BLMN",
-    "gap": -7.6,
-    "gap_atr": 1.07,
-    "rvol": 3.5,
-    "side": "long",
-    "level": 10.05,
-    "fail": null,
-    "aplus": {
-     "strong_close": false,
-     "big_body": false,
-     "under_25": true,
-     "jumpy": true,
-     "short": false,
-     "fades_gap": true,
-     "few_stories": false,
-     "no_analyst_news": true
-    },
-    "rng_atr": 0.51,
-    "sure": true,
-    "size_x": 2.846,
-    "short_ratio": 4.41,
-    "odds": 0.8,
-    "news": 8,
-    "score": 4,
-    "tone": true
-   },
-   {
-    "sym": "AMD",
-    "gap": 9.7,
-    "gap_atr": 1.07,
-    "rvol": 3.3,
-    "side": "short",
-    "level": 437.71,
-    "fail": "odds",
-    "aplus": {
-     "strong_close": true,
-     "big_body": true,
-     "under_25": false,
-     "jumpy": true,
-     "short": true,
-     "fades_gap": true
-    },
-    "rng_atr": 0.17,
-    "sure": false,
-    "size_x": 0.474,
-    "short_ratio": 1.34,
-    "odds": 0.64
-   },
-   {
-    "sym": "KLAC",
-    "gap": 8.6,
-    "gap_atr": 1.21,
-    "rvol": 3.2,
-    "side": "short",
-    "level": 139.59,
-    "fail": "odds",
-    "aplus": {
-     "strong_close": false,
-     "big_body": true,
-     "under_25": false,
-     "jumpy": true,
-     "short": true,
-     "fades_gap": true
-    },
-    "rng_atr": 0.15,
-    "sure": false,
-    "size_x": 0.474,
-    "short_ratio": 1.64,
-    "odds": 0.6
-   },
-   {
-    "sym": "WDC",
-    "gap": 7.1,
-    "gap_atr": 0.69,
-    "rvol": 3.2,
-    "side": "short",
-    "level": 277.37,
-    "fail": "gap_atr",
-    "aplus": {
-     "strong_close": false,
-     "big_body": true,
-     "under_25": false,
-     "jumpy": true,
-     "short": true,
-     "fades_gap": true
-    }
-   },
-   {
-    "sym": "LRCX",
-    "gap": 12.8,
-    "gap_atr": 1.46,
-    "rvol": 2.9,
-    "side": "short",
-    "level": 205.75,
-    "fail": "volume",
-    "aplus": {
-     "strong_close": false,
-     "big_body": true,
-     "under_25": false,
-     "jumpy": true,
-     "short": true,
-     "fades_gap": true
-    }
-   },
-   {
-    "sym": "FN",
-    "gap": 7.4,
-    "gap_atr": 0.72,
-    "rvol": 2.3,
-    "side": "short",
-    "level": 312.01,
-    "fail": "gap_atr",
-    "aplus": {
-     "strong_close": false,
-     "big_body": true,
-     "under_25": false,
-     "jumpy": true,
-     "short": true,
-     "fades_gap": true
-    }
-   },
-   {
-    "sym": "DOCN",
-    "gap": 9.4,
-    "gap_atr": 0.76,
-    "rvol": 2.2,
-    "side": "short",
-    "level": 76.71,
-    "fail": "gap_atr",
-    "aplus": {
-     "strong_close": true,
-     "big_body": true,
-     "under_25": false,
-     "jumpy": true,
-     "short": true,
-     "fades_gap": true
-    }
-   },
-   {
-    "sym": "NBIS",
-    "gap": 8.4,
-    "gap_atr": 0.65,
-    "rvol": 2.2,
-    "side": "long",
-    "level": 131.84,
-    "fail": "gap_atr",
-    "aplus": {
-     "strong_close": true,
-     "big_body": false,
-     "under_25": false,
-     "jumpy": true,
-     "short": false,
-     "fades_gap": false
-    }
-   },
-   {
-    "sym": "MTSI",
-    "gap": 8.8,
-    "gap_atr": 0.77,
-    "rvol": 2.1,
-    "side": "long",
-    "level": 207.78,
-    "fail": "gap_atr",
-    "aplus": {
-     "strong_close": true,
-     "big_body": true,
-     "under_25": false,
-     "jumpy": true,
-     "short": false,
-     "fades_gap": false
-    }
-   },
-   {
-    "sym": "FLY",
-    "gap": 12.4,
-    "gap_atr": 1.28,
-    "rvol": 2.1,
-    "side": "short",
-    "level": 16.51,
-    "fail": "volume",
-    "aplus": {
-     "strong_close": true,
-     "big_body": true,
-     "under_25": true,
-     "jumpy": true,
-     "short": true,
-     "fades_gap": true
-    }
-   },
-   {
-    "sym": "CIEN",
-    "gap": 9.8,
-    "gap_atr": 0.82,
-    "rvol": 2.0,
-    "side": "short",
-    "level": 252.03,
-    "fail": "gap_atr",
-    "aplus": {
-     "strong_close": false,
-     "big_body": false,
-     "under_25": false,
-     "jumpy": true,
-     "short": true,
-     "fades_gap": true
-    }
-   },
-   {
-    "sym": "CYRX",
-    "gap": 9.6,
-    "gap_atr": 1.73,
-    "rvol": 2.0,
-    "side": "long",
-    "level": 17.86,
-    "fail": "volume",
-    "aplus": {
-     "strong_close": true,
-     "big_body": false,
-     "under_25": true,
-     "jumpy": false,
-     "short": false,
-     "fades_gap": false
-    }
-   },
-   {
-    "sym": "STX",
-    "gap": 8.6,
-    "gap_atr": 0.74,
-    "rvol": 2.0,
-    "side": "short",
-    "level": 494.72,
-    "fail": "gap_atr",
-    "aplus": {
-     "strong_close": true,
-     "big_body": true,
-     "under_25": false,
-     "jumpy": true,
-     "short": true,
-     "fades_gap": true
-    }
-   },
-   {
-    "sym": "MU",
-    "gap": 7.9,
-    "gap_atr": 0.89,
-    "rvol": 1.9,
-    "side": "short",
-    "level": 695.7,
-    "fail": "gap_atr",
-    "aplus": {
-     "strong_close": false,
-     "big_body": true,
-     "under_25": false,
-     "jumpy": true,
-     "short": true,
-     "fades_gap": true
-    }
-   },
-   {
-    "sym": "IREN",
-    "gap": 17.3,
-    "gap_atr": 1.15,
-    "rvol": 1.8,
-    "side": "long",
-    "level": 21.66,
-    "fail": "volume",
-    "aplus": {
-     "strong_close": true,
-     "big_body": false,
-     "under_25": true,
-     "jumpy": true,
-     "short": false,
-     "fades_gap": false
-    }
-   },
-   {
-    "sym": "OKLO",
-    "gap": 10.8,
-    "gap_atr": 1.15,
-    "rvol": 1.8,
-    "side": "long",
-    "level": 21.6,
-    "fail": "volume",
-    "aplus": {
-     "strong_close": false,
-     "big_body": false,
-     "under_25": true,
-     "jumpy": true,
-     "short": false,
-     "fades_gap": false
-    }
-   }
-  ],
-  "news_ok": true,
-  "rules": {
-   "min_price": 10,
-   "min_gap": 0.07,
-   "min_gap_atr": 1.0,
-   "min_rvol": 3.0,
-   "top_n": 10
-  },
-  "entries": {
-   "placed": 4,
-   "filled": 0,
-   "cancelled": 4,
-   "syms": {
-    "FROG": "no break",
-    "TNDM": "no break",
-    "DKNG": "no break",
-    "BLMN": "no break"
-   }
-  }
- },
+ "gates": null,
  "history": [
   {
    "date": "2026-11-05",
