@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-09T15:59:46.890316+00:00",
+ "updated": "2026-11-09T16:14:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
- "equity": 100775.68,
+ "equity": 100637.04,
  "day_pnl": 43.88,
  "workers": [
   {
@@ -100,7 +100,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Noise area 731.34 to 746.03. Next check on the half hour.",
+   "thought": "Noise area 731.74 to 745.63. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -166,9 +166,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "CKX",
-   "charge": 1,
-   "thought": "Price below VWAP 17.41. No cross yet.",
+   "focus": "SPY",
+   "charge": 0,
+   "thought": "Price above VWAP 747.85. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -196,13 +196,13 @@
     "NVDX"
    ],
    "symbol_count": 6,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 40,
-   "thought": "Uptrend. Waiting for a dip to the 9 EMA.",
+   "focus": "IWM",
+   "charge": 80,
+   "thought": "Uptrend. Price is testing the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -230,13 +230,13 @@
     "NVDX"
    ],
    "symbol_count": 6,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "IWM",
-   "charge": 22,
-   "thought": "RSI(2) 77. Nothing stretched enough.",
+   "focus": "NVDL",
+   "charge": 98,
+   "thought": "RSI(2) 1. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -264,13 +264,13 @@
     "NVDX"
    ],
    "symbol_count": 6,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "CKX",
-   "charge": 36,
-   "thought": "Nearest liquidity: opening range low 15.67. Waiting for a sweep.",
+   "focus": "NVDL",
+   "charge": 85,
+   "thought": "Gap 21.08-21.13 ready. Waiting for price to tap it.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -294,13 +294,13 @@
     "ETH/USD"
    ],
    "symbol_count": 2,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "BTC/USD",
-   "charge": 97,
-   "thought": "Channel 74536.13 to 75474.43. Waiting for a break.",
+   "charge": 39,
+   "thought": "Channel 74721.28 to 75474.43. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -314,6 +314,18 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-09T16:04:00+00:00",
+   "worker": "vwap",
+   "kind": "shadow",
+   "text": "VWAP (shadow) would short NVDX: VWAP rejection"
+  },
+  {
+   "t": "2026-11-09T16:04:00+00:00",
+   "worker": "vwap",
+   "kind": "shadow",
+   "text": "VWAP (shadow) would short NVDL: VWAP rejection"
+  },
   {
    "t": "2026-11-09T15:43:00+00:00",
    "worker": "turtle",
@@ -541,26 +553,14 @@
    "worker": "gapgo",
    "kind": "scan",
    "text": "GAP&GO picked 3: NVDA -7%, TTD +7%, SGRY +11%"
-  },
-  {
-   "t": "2026-11-09T14:31:06.463219+00:00",
-   "worker": "gapgo",
-   "kind": "order",
-   "text": "GAP&GO sell-stop 774 SGRY @ 25.79"
-  },
-  {
-   "t": "2026-11-09T14:31:06.463219+00:00",
-   "worker": "gapgo",
-   "kind": "order",
-   "text": "GAP&GO buy-stop 1431 TTD @ 13.95"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
    "bias": 3,
-   "regime": "trend",
-   "rvol": 1.03,
+   "regime": "chop",
+   "rvol": 1.07,
    "liquidity": {
     "prior day high": 742.11,
     "prior day low": 734.61,
@@ -571,14 +571,14 @@
   },
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": 3,
-   "regime": "trend",
+   "bias": 2,
+   "regime": "normal",
    "rvol": null,
    "liquidity": {
     "prior day high": 76096.23,
     "prior day low": 73530.09
    },
-   "fvgs": 6
+   "fvgs": 7
   }
  },
  "scanner": {
