@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-09T20:14:53.212756+00:00",
+ "updated": "2026-11-09T20:29:43.727494+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
- "equity": 100911.92,
+ "equity": 100907.62,
  "day_pnl": 43.88,
  "workers": [
   {
@@ -100,7 +100,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Noise area 730.64 to 746.74. Next check on the half hour.",
+   "thought": "Noise area 730.66 to 746.71. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -166,9 +166,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "NVDL",
-   "charge": 45,
-   "thought": "VWAP 21.34. Waiting for the 10:00 to 3:00 window.",
+   "focus": "SPY",
+   "charge": 0,
+   "thought": "VWAP 750.35. Waiting for the 10:00 to 3:00 window.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -269,7 +269,7 @@
    "pending": [],
    "position": null,
    "focus": "CKX",
-   "charge": 32,
+   "charge": 33,
    "thought": "Nearest liquidity: opening range high 17.79. Waiting for a sweep.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -298,9 +298,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "BTC/USD",
-   "charge": 63,
-   "thought": "Channel 74478.49 to 75150.55. Waiting for a break.",
+   "focus": "ETH/USD",
+   "charge": 46,
+   "thought": "Channel 2117.25 to 2140.42. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -559,8 +559,8 @@
   "lead": {
    "symbol": "SPY",
    "bias": 3,
-   "regime": "chop",
-   "rvol": 0.93,
+   "regime": "trend",
+   "rvol": 0.95,
    "liquidity": {
     "prior day high": 742.11,
     "prior day low": 734.61,
@@ -571,14 +571,14 @@
   },
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": 3,
+   "bias": 1,
    "regime": "chop",
    "rvol": null,
    "liquidity": {
     "prior day high": 76096.23,
     "prior day low": 73530.09
    },
-   "fvgs": 7
+   "fvgs": 9
   }
  },
  "scanner": {
