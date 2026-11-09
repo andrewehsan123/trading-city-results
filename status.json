@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-09T14:59:00+00:00",
+ "updated": "2026-11-09T15:14:44.056833+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
- "equity": 100125.93,
+ "equity": 100559.73,
  "day_pnl": 43.88,
  "workers": [
   {
@@ -100,7 +100,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Broke above the noise area (744.07). Going long.",
+   "thought": "Noise area 732.42 to 744.94. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -128,13 +128,13 @@
     "NVDX"
    ],
    "symbol_count": 6,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "CKX",
-   "charge": 74,
-   "thought": "Inside the range. Watching 15.67 and 17.79.",
+   "focus": "SPY",
+   "charge": 0,
+   "thought": "Done for the day.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -167,8 +167,8 @@
    "pending": [],
    "position": null,
    "focus": "CKX",
-   "charge": 65,
-   "thought": "VWAP 16.87. Waiting for the 10:00 to 3:00 window.",
+   "charge": 66,
+   "thought": "Price above VWAP 17.65. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -200,7 +200,7 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
+   "focus": "IWM",
    "charge": 80,
    "thought": "Bounced off the 9 EMA in an uptrend. Going long.",
    "pnl_today": 0,
@@ -299,7 +299,7 @@
    "pending": [],
    "position": null,
    "focus": "BTC/USD",
-   "charge": 75,
+   "charge": 87,
    "thought": "Channel 74240.30 to 74970.01. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -314,6 +314,18 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-09T15:03:00+00:00",
+   "worker": "orb",
+   "kind": "shadow",
+   "text": "ORB (shadow) would long CKX: Opening range breakout up"
+  },
+  {
+   "t": "2026-11-09T15:02:00+00:00",
+   "worker": "trend",
+   "kind": "shadow",
+   "text": "TREND (shadow) would long IWM: Trend pullback long"
+  },
   {
    "t": "2026-11-09T14:59:00+00:00",
    "worker": "momentum",
@@ -541,44 +553,32 @@
    "worker": "trend",
    "kind": "shadow",
    "text": "TREND (shadow) would short IWM: Trend pullback short"
-  },
-  {
-   "t": "2026-11-06T17:37:00+00:00",
-   "worker": "trend",
-   "kind": "shadow",
-   "text": "TREND (shadow) would short SPY: Trend pullback short"
-  },
-  {
-   "t": "2026-11-06T17:37:00+00:00",
-   "worker": "trend",
-   "kind": "shadow",
-   "text": "TREND (shadow) would short QQQ: Trend pullback short"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
-   "bias": 2,
+   "bias": 3,
    "regime": "trend",
-   "rvol": 1.27,
+   "rvol": 1.18,
    "liquidity": {
     "prior day high": 742.11,
     "prior day low": 734.61,
     "opening range high": 746.76,
     "opening range low": 741.18
    },
-   "fvgs": 2
+   "fvgs": 3
   },
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": 2,
-   "regime": "chop",
+   "bias": 3,
+   "regime": "normal",
    "rvol": null,
    "liquidity": {
     "prior day high": 76096.23,
     "prior day low": 73530.09
    },
-   "fvgs": 8
+   "fvgs": 9
   }
  },
  "scanner": {
