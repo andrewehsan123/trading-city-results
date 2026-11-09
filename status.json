@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-09T16:29:46.840220+00:00",
+ "updated": "2026-11-09T16:44:45.374141+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
- "equity": 100688.58,
+ "equity": 100791.66,
  "day_pnl": 43.88,
  "workers": [
   {
@@ -100,7 +100,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Noise area 731.98 to 745.39. Next check on the half hour.",
+   "thought": "Noise area 731.50 to 745.87. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -168,7 +168,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Price above VWAP 748.05. No cross yet.",
+   "thought": "Price above VWAP 748.15. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -196,13 +196,13 @@
     "NVDX"
    ],
    "symbol_count": 6,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "CKX",
-   "charge": 40,
-   "thought": "Downtrend. Waiting for a pop to the 9 EMA.",
+   "focus": "NVDL",
+   "charge": 80,
+   "thought": "Downtrend. Price is testing the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -230,13 +230,13 @@
     "NVDX"
    ],
    "symbol_count": 6,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "QQQ",
-   "charge": 97,
-   "thought": "Strong move against the hourly trend. Not fading it.",
+   "focus": "NVDL",
+   "charge": 20,
+   "thought": "RSI(2) 80. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -298,9 +298,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "BTC/USD",
-   "charge": 4,
-   "thought": "Channel 74678.56 to 75474.43. Waiting for a break.",
+   "focus": "ETH/USD",
+   "charge": 24,
+   "thought": "Channel 2121.48 to 2149.11. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -559,8 +559,8 @@
   "lead": {
    "symbol": "SPY",
    "bias": 3,
-   "regime": "trend",
-   "rvol": 1.07,
+   "regime": "chop",
+   "rvol": 1.06,
    "liquidity": {
     "prior day high": 742.11,
     "prior day low": 734.61,
@@ -571,14 +571,14 @@
   },
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": -1,
-   "regime": "trend",
+   "bias": 0,
+   "regime": "normal",
    "rvol": null,
    "liquidity": {
     "prior day high": 76096.23,
     "prior day low": 73530.09
    },
-   "fvgs": 8
+   "fvgs": 7
   }
  },
  "scanner": {
