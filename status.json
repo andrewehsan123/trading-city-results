@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T21:03:00+00:00",
+ "updated": "2026-11-09T21:04:00+00:00",
  "mode": "paper",
  "market_open": false,
  "halted": null,
@@ -293,7 +293,7 @@
    "pending": [],
    "position": null,
    "focus": "BTC/USD",
-   "charge": 84,
+   "charge": 82,
    "thought": "Channel 74573.90 to 74943.69. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -572,7 +572,7 @@
     "prior day high": 76096.23,
     "prior day low": 73530.09
    },
-   "fvgs": 7
+   "fvgs": 8
   }
  },
  "scanner": {
