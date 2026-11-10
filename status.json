@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-10T18:44:45.124470+00:00",
+ "updated": "2026-11-10T18:59:52.282323+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
- "equity": 101199.19,
+ "equity": 101255.43,
  "day_pnl": 58.53,
  "workers": [
   {
@@ -97,8 +97,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 44,
-   "thought": "Noise area 743.16 to 757.90. Next check on the half hour.",
+   "charge": 34,
+   "thought": "Noise area 742.85 to 758.21. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -156,13 +156,13 @@
     "SMX"
    ],
    "symbol_count": 4,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SMX",
-   "charge": 13,
-   "thought": "Price below VWAP 16.61. No cross yet.",
+   "focus": "SPY",
+   "charge": 98,
+   "thought": "Price above VWAP 747.84. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -192,9 +192,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 10,
-   "thought": "Higher timeframes not lined up (bias -1, normal). Sitting out.",
+   "focus": "IWM",
+   "charge": 40,
+   "thought": "Uptrend. Waiting for a dip to the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -220,13 +220,13 @@
     "SMX"
    ],
    "symbol_count": 4,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SMX",
-   "charge": 96,
-   "thought": "Strong move against the hourly trend. Not fading it.",
+   "charge": 64,
+   "thought": "RSI(2) 36. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -252,13 +252,13 @@
     "SMX"
    ],
    "symbol_count": 4,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 50,
-   "thought": "Swept the opening range low at 747.06. Waiting for a fair value gap.",
+   "charge": 85,
+   "thought": "Gap 747.28-747.52 ready. Waiting for price to tap it.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -288,7 +288,7 @@
    "position": null,
    "focus": "ETH/USD",
    "charge": 81,
-   "thought": "Channel 2015.47 to 2046.81. Waiting for a break.",
+   "thought": "Channel 2022.53 to 2046.81. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -302,6 +302,18 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-10T18:53:00+00:00",
+   "worker": "trend",
+   "kind": "shadow",
+   "text": "TREND (shadow) would long IWM: Trend pullback long"
+  },
+  {
+   "t": "2026-11-10T18:47:00+00:00",
+   "worker": "snapback",
+   "kind": "shadow",
+   "text": "SNAPBACK (shadow) would long IWM: RSI(2) oversold in uptrend"
+  },
   {
    "t": "2026-11-10T17:30:00+00:00",
    "worker": "vwap",
@@ -529,25 +541,13 @@
    "worker": "snapback",
    "kind": "shadow",
    "text": "SNAPBACK (shadow) would short NVDL: RSI(2) overbought in downtrend"
-  },
-  {
-   "t": "2026-11-09T16:18:00+00:00",
-   "worker": "trend",
-   "kind": "shadow",
-   "text": "TREND (shadow) would short NVDL: Trend pullback short"
-  },
-  {
-   "t": "2026-11-09T16:04:00+00:00",
-   "worker": "vwap",
-   "kind": "shadow",
-   "text": "VWAP (shadow) would short NVDX: VWAP rejection"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
    "bias": -1,
-   "regime": "normal",
+   "regime": "trend",
    "rvol": 0.83,
    "liquidity": {
     "prior day high": 755.38,
@@ -555,18 +555,18 @@
     "opening range high": 749.6,
     "opening range low": 747.06
    },
-   "fvgs": 5
+   "fvgs": 6
   },
   "crypto": {
    "symbol": "BTC/USD",
    "bias": 0,
-   "regime": "normal",
+   "regime": "chop",
    "rvol": null,
    "liquidity": {
     "prior day high": 75505.79,
     "prior day low": 73629.55
    },
-   "fvgs": 6
+   "fvgs": 7
   }
  },
  "scanner": {
