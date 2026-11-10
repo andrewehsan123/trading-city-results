@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-10T16:29:58.976517+00:00",
+ "updated": "2026-11-10T16:44:54.306124+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
- "equity": 101171.96,
+ "equity": 101098.55,
  "day_pnl": 58.53,
  "workers": [
   {
@@ -97,8 +97,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 48,
-   "thought": "Noise area 744.51 to 756.55. Next check on the half hour.",
+   "charge": 56,
+   "thought": "Noise area 744.01 to 757.05. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -161,8 +161,8 @@
    "pending": [],
    "position": null,
    "focus": "SMX",
-   "charge": 29,
-   "thought": "Price above VWAP 16.91. No cross yet.",
+   "charge": 61,
+   "thought": "Price below VWAP 17.02. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -188,13 +188,13 @@
     "SMX"
    ],
    "symbol_count": 4,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SMX",
-   "charge": 80,
-   "thought": "Uptrend. Price is testing the 9 EMA.",
+   "focus": "QQQ",
+   "charge": 40,
+   "thought": "Downtrend. Waiting for a pop to the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -220,13 +220,13 @@
     "SMX"
    ],
    "symbol_count": 4,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SMX",
-   "charge": 69,
-   "thought": "RSI(2) 30. Nothing stretched enough.",
+   "charge": 97,
+   "thought": "RSI(2) 2. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -287,8 +287,8 @@
    "pending": [],
    "position": null,
    "focus": "ETH/USD",
-   "charge": 30,
-   "thought": "Channel 2004.15 to 2065.44. Waiting for a break.",
+   "charge": 46,
+   "thought": "Channel 2004.15 to 2035.96. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -548,7 +548,7 @@
    "symbol": "SPY",
    "bias": -3,
    "regime": "chop",
-   "rvol": 0.85,
+   "rvol": 0.84,
    "liquidity": {
     "prior day high": 755.38,
     "prior day low": 741.18,
@@ -566,7 +566,7 @@
     "prior day high": 75505.79,
     "prior day low": 73629.55
    },
-   "fvgs": 7
+   "fvgs": 8
   }
  },
  "scanner": {
