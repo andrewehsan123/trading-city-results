@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-10T19:59:45.416377+00:00",
+ "updated": "2026-11-10T20:14:55.737979+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
- "equity": 101258.39,
+ "equity": 101242.11,
  "day_pnl": 58.53,
  "workers": [
   {
@@ -97,8 +97,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 19,
-   "thought": "Noise area 743.18 to 757.88. Next check on the half hour.",
+   "charge": 22,
+   "thought": "Noise area 742.74 to 758.33. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -160,9 +160,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SMX",
-   "charge": 5,
-   "thought": "Price above VWAP 16.56. No cross yet.",
+   "focus": "QQQ",
+   "charge": 25,
+   "thought": "VWAP 673.50. Waiting for the 10:00 to 3:00 window.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -188,13 +188,13 @@
     "SMX"
    ],
    "symbol_count": 4,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 80,
-   "thought": "Bounced off the 9 EMA in an uptrend. Going long.",
+   "charge": 0,
+   "thought": "Too late in the day.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -224,9 +224,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "IWM",
-   "charge": 43,
-   "thought": "RSI(2) 57. Nothing stretched enough.",
+   "focus": "SPY",
+   "charge": 0,
+   "thought": "Too late in the day.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -258,7 +258,7 @@
    "position": null,
    "focus": "IWM",
    "charge": 85,
-   "thought": "Gap 280.15-280.26 ready. Waiting for price to tap it.",
+   "thought": "Setup is ready but outside the trading windows.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -287,7 +287,7 @@
    "pending": [],
    "position": null,
    "focus": "ETH/USD",
-   "charge": 73,
+   "charge": 84,
    "thought": "Channel 2036.25 to 2046.09. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -546,16 +546,16 @@
  "regime": {
   "lead": {
    "symbol": "SPY",
-   "bias": 2,
-   "regime": "normal",
-   "rvol": 0.79,
+   "bias": 3,
+   "regime": "chop",
+   "rvol": 0.8,
    "liquidity": {
     "prior day high": 755.38,
     "prior day low": 741.18,
     "opening range high": 749.6,
     "opening range low": 747.06
    },
-   "fvgs": 8
+   "fvgs": 9
   },
   "crypto": {
    "symbol": "BTC/USD",
@@ -566,7 +566,7 @@
     "prior day high": 75505.79,
     "prior day low": 73629.55
    },
-   "fvgs": 6
+   "fvgs": 7
   }
  },
  "scanner": {
