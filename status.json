@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-10T15:59:56.486306+00:00",
+ "updated": "2026-11-10T16:14:45.737326+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
- "equity": 101165.15,
+ "equity": 101194.75,
  "day_pnl": 58.53,
  "workers": [
   {
@@ -97,8 +97,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 47,
-   "thought": "Noise area 743.92 to 757.14. Next check on the half hour.",
+   "charge": 42,
+   "thought": "Noise area 744.26 to 756.80. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -161,8 +161,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 13,
-   "thought": "Price below VWAP 748.68. No cross yet.",
+   "charge": 45,
+   "thought": "Price below VWAP 748.56. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -192,9 +192,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
+   "focus": "SMX",
    "charge": 80,
-   "thought": "Downtrend. Price is testing the 9 EMA.",
+   "thought": "Uptrend. Price is testing the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -225,8 +225,8 @@
    "pending": [],
    "position": null,
    "focus": "IWM",
-   "charge": 55,
-   "thought": "RSI(2) 45. Nothing stretched enough.",
+   "charge": 59,
+   "thought": "RSI(2) 40. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -256,9 +256,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "QQQ",
+   "focus": "SPY",
    "charge": 85,
-   "thought": "Gap 675.25-675.42 ready. Waiting for price to tap it.",
+   "thought": "Gap 747.09-747.75 ready. Waiting for price to tap it.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -286,9 +286,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "BTC/USD",
-   "charge": 22,
-   "thought": "Channel 72792.49 to 74752.40. Waiting for a break.",
+   "focus": "ETH/USD",
+   "charge": 32,
+   "thought": "Channel 2004.15 to 2078.12. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -302,6 +302,12 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-10T15:59:00+00:00",
+   "worker": "trend",
+   "kind": "shadow",
+   "text": "TREND (shadow) would short IWM: Trend pullback short"
+  },
   {
    "t": "2026-11-10T15:51:00+00:00",
    "worker": "trend",
@@ -535,19 +541,13 @@
    "worker": "snapback",
    "kind": "shadow",
    "text": "SNAPBACK (shadow) would long QQQ: RSI(2) oversold in uptrend"
-  },
-  {
-   "t": "2026-11-09T15:18:00+00:00",
-   "worker": "vwap",
-   "kind": "shadow",
-   "text": "VWAP (shadow) would short CKX: VWAP rejection"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
-   "bias": -2,
-   "regime": "normal",
+   "bias": -3,
+   "regime": "chop",
    "rvol": 0.88,
    "liquidity": {
     "prior day high": 755.38,
@@ -555,12 +555,12 @@
     "opening range high": 749.6,
     "opening range low": 747.06
    },
-   "fvgs": 4
+   "fvgs": 3
   },
   "crypto": {
    "symbol": "BTC/USD",
    "bias": -3,
-   "regime": "trend",
+   "regime": "chop",
    "rvol": null,
    "liquidity": {
     "prior day high": 75505.79,
