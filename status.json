@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-10T20:44:54.064823+00:00",
+ "updated": "2026-11-10T20:58:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
- "equity": 101253.95,
- "day_pnl": 58.53,
+ "equity": 101317.59,
+ "day_pnl": 487.73,
  "workers": [
   {
    "id": "gapgo",
@@ -17,26 +17,20 @@
     "GFL"
    ],
    "symbol_count": 1,
-   "state": "in_trade",
-   "open_count": 1,
+   "state": "charging",
+   "open_count": 0,
    "pending": [],
-   "position": {
-    "symbol": "GFL",
-    "side": "long",
-    "entry": 40.98,
-    "stop": 40.98,
-    "target": 409.79999999999995
-   },
+   "position": null,
    "focus": "GFL",
    "charge": 90,
    "thought": "Gapped -11.1% on 24.8x volume. Buy stop at 40.98.",
-   "pnl_today": 58.53,
-   "trades_today": 1,
-   "wins_today": 1,
-   "pnl_total": 711.89,
-   "trades_total": 4,
-   "win_rate": 75.0,
-   "profit_factor": 3.3,
+   "pnl_today": 487.73,
+   "trades_today": 2,
+   "wins_today": 2,
+   "pnl_total": 1141.09,
+   "trades_total": 5,
+   "win_rate": 80.0,
+   "profit_factor": 4.69,
    "allowed": true,
    "size_x": 0.75,
    "lab": null
@@ -97,8 +91,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 14,
-   "thought": "Noise area 742.69 to 758.38. Next check on the half hour.",
+   "charge": 9,
+   "thought": "Noise area 743.09 to 757.97. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -156,13 +150,13 @@
     "SMX"
    ],
    "symbol_count": 4,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "QQQ",
-   "charge": 86,
-   "thought": "VWAP 673.53. Waiting for the 10:00 to 3:00 window.",
+   "focus": "SPY",
+   "charge": 0,
+   "thought": "VWAP 748.45. Waiting for the 10:00 to 3:00 window.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -256,9 +250,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
+   "focus": "QQQ",
    "charge": 50,
-   "thought": "Swept the opening range high at 749.60. Waiting for a fair value gap.",
+   "thought": "Swept the opening range high at 675.43. Waiting for a fair value gap.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -287,8 +281,8 @@
    "pending": [],
    "position": null,
    "focus": "BTC/USD",
-   "charge": 85,
-   "thought": "Channel 73224.68 to 73678.03. Waiting for a break.",
+   "charge": 78,
+   "thought": "Channel 73224.68 to 73781.70. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -302,6 +296,12 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-10T20:55:00+00:00",
+   "worker": "gapgo",
+   "kind": "exit",
+   "text": "GAP&GO closed GFL (end of day) +$429"
+  },
   {
    "t": "2026-11-10T19:55:00+00:00",
    "worker": "snapback",
@@ -535,38 +535,32 @@
    "worker": "snapback",
    "kind": "shadow",
    "text": "SNAPBACK (shadow) would short NVDX: RSI(2) overbought in downtrend"
-  },
-  {
-   "t": "2026-11-09T16:50:00+00:00",
-   "worker": "vwap",
-   "kind": "shadow",
-   "text": "VWAP (shadow) would long CKX: VWAP reclaim"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
    "bias": 3,
-   "regime": "normal",
-   "rvol": 0.78,
+   "regime": "chop",
+   "rvol": 0.79,
    "liquidity": {
     "prior day high": 755.38,
     "prior day low": 741.18,
     "opening range high": 749.6,
     "opening range low": 747.06
    },
-   "fvgs": 7
+   "fvgs": 8
   },
   "crypto": {
    "symbol": "BTC/USD",
    "bias": 1,
-   "regime": "normal",
+   "regime": "chop",
    "rvol": null,
    "liquidity": {
     "prior day high": 75505.79,
     "prior day low": 73629.55
    },
-   "fvgs": 8
+   "fvgs": 9
   }
  },
  "scanner": {
@@ -650,11 +644,11 @@
  "scorecard": {
   "version": "v2.8-...+shortint",
   "since": "2026-10-27",
-  "trades": 4,
+  "trades": 5,
   "days": 3,
-  "pf": 3.3,
-  "win": 75.0,
-  "net": 711.89,
+  "pf": 4.69,
+  "win": 80.0,
+  "net": 1141.09,
   "expect": {
    "pf": 1.8,
    "pf_low": 1.3,
@@ -931,7 +925,7 @@
   },
   {
    "date": "2026-11-10",
-   "pnl": 58.53
+   "pnl": 487.73
   }
  ]
 }
