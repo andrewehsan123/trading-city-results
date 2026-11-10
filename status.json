@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-10T16:44:54.306124+00:00",
+ "updated": "2026-11-10T16:59:51.879980+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
- "equity": 101098.55,
+ "equity": 101074.87,
  "day_pnl": 58.53,
  "workers": [
   {
@@ -97,8 +97,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 56,
-   "thought": "Noise area 744.01 to 757.05. Next check on the half hour.",
+   "charge": 62,
+   "thought": "Noise area 743.82 to 757.24. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -160,9 +160,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SMX",
-   "charge": 61,
-   "thought": "Price below VWAP 17.02. No cross yet.",
+   "focus": "SPY",
+   "charge": 0,
+   "thought": "Price below VWAP 748.29. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -192,7 +192,7 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "QQQ",
+   "focus": "SPY",
    "charge": 40,
    "thought": "Downtrend. Waiting for a pop to the 9 EMA.",
    "pnl_today": 0,
@@ -287,8 +287,8 @@
    "pending": [],
    "position": null,
    "focus": "ETH/USD",
-   "charge": 46,
-   "thought": "Channel 2004.15 to 2035.96. Waiting for a break.",
+   "charge": 29,
+   "thought": "Channel 2008.51 to 2035.96. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -302,6 +302,18 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-10T16:55:00+00:00",
+   "worker": "trend",
+   "kind": "shadow",
+   "text": "TREND (shadow) would short SPY: Trend pullback short"
+  },
+  {
+   "t": "2026-11-10T16:45:00+00:00",
+   "worker": "trend",
+   "kind": "shadow",
+   "text": "TREND (shadow) would short QQQ: Trend pullback short"
+  },
   {
    "t": "2026-11-10T15:59:00+00:00",
    "worker": "trend",
@@ -529,25 +541,13 @@
    "worker": "turtle",
    "kind": "shadow",
    "text": "TURTLE (shadow) would long ETH/USD: 60-bar breakout"
-  },
-  {
-   "t": "2026-11-09T15:41:00+00:00",
-   "worker": "snapback",
-   "kind": "shadow",
-   "text": "SNAPBACK (shadow) would long IWM: RSI(2) oversold in uptrend"
-  },
-  {
-   "t": "2026-11-09T15:24:00+00:00",
-   "worker": "snapback",
-   "kind": "shadow",
-   "text": "SNAPBACK (shadow) would long QQQ: RSI(2) oversold in uptrend"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
    "bias": -3,
-   "regime": "chop",
+   "regime": "normal",
    "rvol": 0.84,
    "liquidity": {
     "prior day high": 755.38,
@@ -555,18 +555,18 @@
     "opening range high": 749.6,
     "opening range low": 747.06
    },
-   "fvgs": 2
+   "fvgs": 3
   },
   "crypto": {
    "symbol": "BTC/USD",
    "bias": -3,
-   "regime": "chop",
+   "regime": "normal",
    "rvol": null,
    "liquidity": {
     "prior day high": 75505.79,
     "prior day low": 73629.55
    },
-   "fvgs": 8
+   "fvgs": 9
   }
  },
  "scanner": {
