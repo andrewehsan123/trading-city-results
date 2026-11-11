@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T20:13:00+00:00",
+ "updated": "2026-11-11T20:28:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -62,8 +62,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 78,
-   "thought": "Noise area 744.34 to 762.36. Next check on the half hour.",
+   "charge": 76,
+   "thought": "Noise area 744.34 to 762.37. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -123,12 +123,12 @@
     "SOXS"
    ],
    "symbol_count": 5,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "QQQ",
-   "charge": 15,
+   "charge": 81,
    "thought": "VWAP 691.25. Waiting for the 10:00 to 3:00 window.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -257,8 +257,8 @@
    "pending": [],
    "position": null,
    "focus": "BTC/USD",
-   "charge": 100,
-   "thought": "New 60-minute high above 74455.60. Riding the breakout.",
+   "charge": 71,
+   "thought": "Channel 74230.65 to 74545.88. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -518,25 +518,25 @@
    "symbol": "SPY",
    "bias": 1,
    "regime": "chop",
-   "rvol": 0.59,
+   "rvol": 0.58,
    "liquidity": {
     "prior day high": 752.08,
     "prior day low": 744.93,
     "opening range high": 757.9,
     "opening range low": 755.71
    },
-   "fvgs": 11
+   "fvgs": 12
   },
   "crypto": {
    "symbol": "BTC/USD",
    "bias": 3,
-   "regime": "normal",
+   "regime": "chop",
    "rvol": null,
    "liquidity": {
     "prior day high": 75336.14,
     "prior day low": 72661.55
    },
-   "fvgs": 5
+   "fvgs": 4
   }
  },
  "scanner": {
