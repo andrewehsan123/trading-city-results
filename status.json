@@ -1,40 +1,11 @@
 {
- "updated": "2026-11-10T21:04:00+00:00",
+ "updated": "2026-11-11T14:28:00+00:00",
  "mode": "paper",
  "market_open": false,
  "halted": null,
- "equity": 101317.59,
- "day_pnl": 487.73,
+ "equity": 101317.15,
+ "day_pnl": 0,
  "workers": [
-  {
-   "id": "gapgo",
-   "name": "GAP&GO",
-   "market": "stock",
-   "inspired_by": "Zarattini, Barbon & Aziz (2024) ORB on Stocks in Play, developed: 1-min range, gappers, quick partial",
-   "method": "At 9:31 ET picks stocks that gapped 7%+ whose first minute traded 3x+ normal. Places a buy-stop (or sell-stop) at the first 1-minute candle's high (low). Takes 30% off at a quick +0.25R, the rest rides with no risk. Exits any trade that hasn't paid within 60 minutes.",
-   "tier": "core",
-   "symbols": [
-    "GFL"
-   ],
-   "symbol_count": 1,
-   "state": "charging",
-   "open_count": 0,
-   "pending": [],
-   "position": null,
-   "focus": "GFL",
-   "charge": 90,
-   "thought": "Gapped -11.1% on 24.8x volume. Buy stop at 40.98.",
-   "pnl_today": 487.73,
-   "trades_today": 2,
-   "wins_today": 2,
-   "pnl_total": 1141.09,
-   "trades_total": 5,
-   "win_rate": 80.0,
-   "profit_factor": 4.69,
-   "allowed": true,
-   "size_x": 0.75,
-   "lab": null
-  },
   {
    "id": "opener",
    "name": "OPENER",
@@ -56,14 +27,14 @@
     "PLTR",
     "COIN"
    ],
-   "symbol_count": 51,
-   "state": "charging",
+   "symbol_count": 50,
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "NVDA",
-   "charge": 90,
-   "thought": "In play (1.3x volume). Short stop at 170.95, stop-loss 175.28.",
+   "focus": "AAPL",
+   "charge": 0,
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -91,8 +62,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 9,
-   "thought": "Noise area 743.09 to 757.97. Next check on the half hour.",
+   "charge": 0,
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -114,17 +85,16 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM",
-    "SMX"
+    "IWM"
    ],
-   "symbol_count": 4,
+   "symbol_count": 3,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Done for the day.",
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -146,17 +116,16 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM",
-    "SMX"
+    "IWM"
    ],
-   "symbol_count": 4,
+   "symbol_count": 3,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "VWAP 748.45. Waiting for the 10:00 to 3:00 window.",
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -178,17 +147,16 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM",
-    "SMX"
+    "IWM"
    ],
-   "symbol_count": 4,
+   "symbol_count": 3,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Too late in the day.",
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -210,17 +178,16 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM",
-    "SMX"
+    "IWM"
    ],
-   "symbol_count": 4,
+   "symbol_count": 3,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Too late in the day.",
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -242,17 +209,16 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM",
-    "SMX"
+    "IWM"
    ],
-   "symbol_count": 4,
+   "symbol_count": 3,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "QQQ",
-   "charge": 50,
-   "thought": "Swept the opening range high at 675.43. Waiting for a fair value gap.",
+   "focus": "SPY",
+   "charge": 0,
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -276,13 +242,13 @@
     "ETH/USD"
    ],
    "symbol_count": 2,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "BTC/USD",
-   "charge": 93,
-   "thought": "Channel 73224.68 to 73879.25. Waiting for a break.",
+   "focus": "ETH/USD",
+   "charge": 12,
+   "thought": "Channel 2045.52 to 2058.49. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -538,36 +504,22 @@
   }
  ],
  "regime": {
-  "lead": {
-   "symbol": "SPY",
-   "bias": 3,
-   "regime": "chop",
-   "rvol": 1.0,
-   "liquidity": {
-    "prior day high": 755.38,
-    "prior day low": 741.18,
-    "opening range high": 749.6,
-    "opening range low": 747.06
-   },
-   "fvgs": 8
-  },
+  "lead": null,
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": 1,
+   "bias": -3,
    "regime": "trend",
    "rvol": null,
    "liquidity": {
-    "prior day high": 75505.79,
-    "prior day low": 73629.55
+    "prior day high": 75336.14,
+    "prior day low": 72661.55
    },
-   "fvgs": 11
+   "fvgs": 5
   }
  },
  "scanner": {
-  "picks": [
-   "SMX"
-  ],
-  "note": "SMX +74.9%"
+  "picks": [],
+  "note": "Scanner runs at 9:35 ET on market days."
  },
  "fills": {
   "n": 5,
@@ -657,263 +609,7 @@
   },
   "verdict": "not enough trades yet (need ~40)"
  },
- "gates": {
-  "day": "2026-11-10",
-  "counts": {
-   "liquid": 868,
-   "gap": 12,
-   "gap_atr": 10,
-   "volume": 7,
-   "short_rule": 4,
-   "calm": 4,
-   "thin_history": 2,
-   "gap_band": 2,
-   "odds": 1,
-   "news": 1
-  },
-  "picked": 1,
-  "stocks": [
-   {
-    "sym": "GFL",
-    "gap": -11.1,
-    "gap_atr": 3.69,
-    "rvol": 24.8,
-    "side": "long",
-    "level": 40.98,
-    "fail": null,
-    "aplus": {
-     "strong_close": false,
-     "big_body": false,
-     "under_25": false,
-     "jumpy": false,
-     "short": false,
-     "fades_gap": true,
-     "few_stories": false,
-     "no_analyst_news": true
-    },
-    "rng_atr": 0.16,
-    "sure": true,
-    "size_x": 1.423,
-    "short_ratio": 4.41,
-    "odds": 0.8,
-    "news": 4,
-    "score": 2,
-    "tone": true
-   },
-   {
-    "sym": "ONON",
-    "gap": -7.5,
-    "gap_atr": 1.78,
-    "rvol": 10.3,
-    "side": "short",
-    "level": 33.93,
-    "fail": "short_rule",
-    "aplus": {
-     "strong_close": true,
-     "big_body": false,
-     "under_25": false,
-     "jumpy": false,
-     "short": true,
-     "fades_gap": false
-    }
-   },
-   {
-    "sym": "GEV",
-    "gap": -9.3,
-    "gap_atr": 1.2,
-    "rvol": 6.5,
-    "side": "long",
-    "level": 761.79,
-    "fail": "odds",
-    "aplus": {
-     "strong_close": true,
-     "big_body": true,
-     "under_25": false,
-     "jumpy": true,
-     "short": false,
-     "fades_gap": true
-    },
-    "rng_atr": 0.21,
-    "sure": false,
-    "size_x": 0.474,
-    "short_ratio": 1.58,
-    "odds": 0.68
-   },
-   {
-    "sym": "LEGN",
-    "gap": -12.3,
-    "gap_atr": 2.24,
-    "rvol": 6.0,
-    "side": "short",
-    "level": 20.76,
-    "fail": "short_rule",
-    "aplus": {
-     "strong_close": false,
-     "big_body": true,
-     "under_25": true,
-     "jumpy": false,
-     "short": true,
-     "fades_gap": false
-    }
-   },
-   {
-    "sym": "AAON",
-    "gap": 13.7,
-    "gap_atr": 1.54,
-    "rvol": 4.8,
-    "side": "short",
-    "level": 68.42,
-    "fail": "gap_band",
-    "aplus": {
-     "strong_close": false,
-     "big_body": false,
-     "under_25": false,
-     "jumpy": true,
-     "short": true,
-     "fades_gap": true
-    },
-    "rng_atr": 0.55,
-    "sure": true
-   },
-   {
-    "sym": "WGS",
-    "gap": -14.4,
-    "gap_atr": 1.48,
-    "rvol": 3.9,
-    "side": "short",
-    "level": 53.66,
-    "fail": "short_rule",
-    "aplus": {
-     "strong_close": true,
-     "big_body": true,
-     "under_25": false,
-     "jumpy": true,
-     "short": true,
-     "fades_gap": false
-    }
-   },
-   {
-    "sym": "ASTS",
-    "gap": -7.1,
-    "gap_atr": 0.64,
-    "rvol": 3.5,
-    "side": "long",
-    "level": 34.92,
-    "fail": "gap_atr",
-    "aplus": {
-     "strong_close": false,
-     "big_body": false,
-     "under_25": false,
-     "jumpy": true,
-     "short": false,
-     "fades_gap": true
-    }
-   },
-   {
-    "sym": "QMCO",
-    "gap": 14.3,
-    "gap_atr": 1.24,
-    "rvol": 3.0,
-    "side": "short",
-    "level": 18.99,
-    "fail": "gap_band",
-    "aplus": {
-     "strong_close": true,
-     "big_body": true,
-     "under_25": true,
-     "jumpy": true,
-     "short": true,
-     "fades_gap": true
-    },
-    "rng_atr": 0.22,
-    "sure": false
-   },
-   {
-    "sym": "APPS",
-    "gap": -31.1,
-    "gap_atr": 3.88,
-    "rvol": 2.7,
-    "side": "short",
-    "level": 7.59,
-    "fail": "volume",
-    "aplus": {
-     "strong_close": true,
-     "big_body": true,
-     "under_25": true,
-     "jumpy": true,
-     "short": true,
-     "fades_gap": false
-    }
-   },
-   {
-    "sym": "LINE",
-    "gap": -7.6,
-    "gap_atr": 2.97,
-    "rvol": 1.7,
-    "side": "long",
-    "level": 36.77,
-    "fail": "volume",
-    "aplus": {
-     "strong_close": true,
-     "big_body": true,
-     "under_25": false,
-     "jumpy": false,
-     "short": false,
-     "fades_gap": true
-    }
-   },
-   {
-    "sym": "CSQR",
-    "gap": 12.6,
-    "gap_atr": 1.47,
-    "rvol": 1.2,
-    "side": "long",
-    "level": 17.25,
-    "fail": "volume",
-    "aplus": {
-     "strong_close": true,
-     "big_body": true,
-     "under_25": true,
-     "jumpy": true,
-     "short": false,
-     "fades_gap": false
-    }
-   },
-   {
-    "sym": "EQPT",
-    "gap": -7.5,
-    "gap_atr": 0.93,
-    "rvol": 0.7,
-    "side": "short",
-    "level": 14.76,
-    "fail": "gap_atr",
-    "aplus": {
-     "strong_close": false,
-     "big_body": true,
-     "under_25": true,
-     "jumpy": true,
-     "short": true,
-     "fades_gap": false
-    }
-   }
-  ],
-  "news_ok": true,
-  "rules": {
-   "min_price": 10,
-   "min_gap": 0.07,
-   "min_gap_atr": 1.0,
-   "min_rvol": 3.0,
-   "top_n": 10
-  },
-  "entries": {
-   "placed": 1,
-   "filled": 1,
-   "cancelled": 0,
-   "syms": {
-    "GFL": "filled"
-   }
-  }
- },
+ "gates": null,
  "history": [
   {
    "date": "2026-11-05",
