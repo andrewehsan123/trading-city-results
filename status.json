@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T15:43:00+00:00",
+ "updated": "2026-11-11T15:57:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -62,8 +62,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 59,
-   "thought": "Noise area 746.16 to 760.53. Next check on the half hour.",
+   "charge": 63,
+   "thought": "Noise area 745.53 to 761.16. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -95,7 +95,7 @@
    "pending": [],
    "position": null,
    "focus": "IWM",
-   "charge": 58,
+   "charge": 61,
    "thought": "Inside the range. Watching 281.54 and 283.04.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -123,13 +123,13 @@
     "SOXS"
    ],
    "symbol_count": 5,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "IWM",
-   "charge": 75,
-   "thought": "Price below VWAP 282.24. No cross yet.",
+   "charge": 12,
+   "thought": "Price above VWAP 282.24. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -193,9 +193,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SOXS",
-   "charge": 94,
-   "thought": "RSI(2) 5. Nothing stretched enough.",
+   "focus": "SNDQ",
+   "charge": 86,
+   "thought": "RSI(2) 13. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -252,12 +252,12 @@
     "ETH/USD"
    ],
    "symbol_count": 2,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "ETH/USD",
-   "charge": 70,
+   "charge": 60,
    "thought": "Channel 2047.75 to 2087.54. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -272,6 +272,12 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-11T15:47:00+00:00",
+   "worker": "trend",
+   "kind": "shadow",
+   "text": "TREND (shadow) would long SPY: Trend pullback long"
+  },
   {
    "t": "2026-11-11T15:41:00+00:00",
    "worker": "trend",
@@ -505,12 +511,6 @@
    "worker": "trend",
    "kind": "shadow",
    "text": "TREND (shadow) would short IWM: Trend pullback short"
-  },
-  {
-   "t": "2026-11-10T15:51:00+00:00",
-   "worker": "trend",
-   "kind": "shadow",
-   "text": "TREND (shadow) would long SMX: Trend pullback long"
   }
  ],
  "regime": {
@@ -525,18 +525,18 @@
     "opening range high": 757.9,
     "opening range low": 755.71
    },
-   "fvgs": 4
+   "fvgs": 5
   },
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": 1,
+   "bias": 2,
    "regime": "normal",
    "rvol": null,
    "liquidity": {
     "prior day high": 75336.14,
     "prior day low": 72661.55
    },
-   "fvgs": 3
+   "fvgs": 2
   }
  },
  "scanner": {
