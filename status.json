@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T19:13:00+00:00",
+ "updated": "2026-11-11T19:28:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -62,8 +62,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 81,
-   "thought": "Noise area 744.67 to 762.03. Next check on the half hour.",
+   "charge": 76,
+   "thought": "Noise area 744.50 to 762.20. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -129,7 +129,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Price above VWAP 758.95. No cross yet.",
+   "thought": "Price above VWAP 759.02. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -193,8 +193,8 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SOXS",
-   "charge": 89,
+   "focus": "SNDQ",
+   "charge": 87,
    "thought": "Strong move against the hourly trend. Not fading it.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -227,8 +227,8 @@
    "pending": [],
    "position": null,
    "focus": "IWM",
-   "charge": 39,
-   "thought": "Nearest liquidity: opening range high 283.04. Waiting for a sweep.",
+   "charge": 50,
+   "thought": "Swept the opening range high at 283.04. Waiting for a fair value gap.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -256,9 +256,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "ETH/USD",
-   "charge": 8,
-   "thought": "Channel 2071.38 to 2090.89. Waiting for a break.",
+   "focus": "BTC/USD",
+   "charge": 50,
+   "thought": "Channel 74109.80 to 74566.53. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -518,7 +518,7 @@
    "symbol": "SPY",
    "bias": 1,
    "regime": "trend",
-   "rvol": 0.62,
+   "rvol": 0.63,
    "liquidity": {
     "prior day high": 752.08,
     "prior day low": 744.93,
@@ -529,14 +529,14 @@
   },
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": 1,
-   "regime": "trend",
+   "bias": 2,
+   "regime": "chop",
    "rvol": null,
    "liquidity": {
     "prior day high": 75336.14,
     "prior day low": 72661.55
    },
-   "fvgs": 8
+   "fvgs": 6
   }
  },
  "scanner": {
