@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T19:58:00+00:00",
+ "updated": "2026-11-11T20:13:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -62,8 +62,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 83,
-   "thought": "Noise area 744.82 to 761.87. Next check on the half hour.",
+   "charge": 78,
+   "thought": "Noise area 744.34 to 762.36. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -127,9 +127,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 0,
-   "thought": "Price above VWAP 759.11. No cross yet.",
+   "focus": "QQQ",
+   "charge": 15,
+   "thought": "VWAP 691.25. Waiting for the 10:00 to 3:00 window.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -161,8 +161,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 10,
-   "thought": "Higher timeframes not lined up (bias +2, chop). Sitting out.",
+   "charge": 0,
+   "thought": "Too late in the day.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -189,13 +189,13 @@
     "SOXS"
    ],
    "symbol_count": 5,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "QQQ",
-   "charge": 87,
-   "thought": "RSI(2) 13. Nothing stretched enough.",
+   "focus": "SPY",
+   "charge": 0,
+   "thought": "Too late in the day.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -222,13 +222,13 @@
     "SOXS"
    ],
    "symbol_count": 5,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "IWM",
-   "charge": 50,
-   "thought": "Swept the opening range high at 283.04. Waiting for a fair value gap.",
+   "charge": 85,
+   "thought": "Setup is ready but outside the trading windows.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -252,13 +252,13 @@
     "ETH/USD"
    ],
    "symbol_count": 2,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "BTC/USD",
-   "charge": 63,
-   "thought": "Channel 74109.80 to 74454.75. Waiting for a break.",
+   "charge": 100,
+   "thought": "New 60-minute high above 74455.60. Riding the breakout.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -516,27 +516,27 @@
  "regime": {
   "lead": {
    "symbol": "SPY",
-   "bias": 2,
+   "bias": 1,
    "regime": "chop",
-   "rvol": 0.6,
+   "rvol": 0.59,
    "liquidity": {
     "prior day high": 752.08,
     "prior day low": 744.93,
     "opening range high": 757.9,
     "opening range low": 755.71
    },
-   "fvgs": 10
+   "fvgs": 11
   },
   "crypto": {
    "symbol": "BTC/USD",
    "bias": 3,
-   "regime": "chop",
+   "regime": "normal",
    "rvol": null,
    "liquidity": {
     "prior day high": 75336.14,
     "prior day low": 72661.55
    },
-   "fvgs": 4
+   "fvgs": 5
   }
  },
  "scanner": {
