@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T15:13:00+00:00",
+ "updated": "2026-11-12T15:28:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -91,8 +91,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 1,
-   "thought": "Noise area 750.48 to 763.28. Next check on the half hour.",
+   "charge": 4,
+   "thought": "Noise area 750.45 to 763.31. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -120,12 +120,12 @@
     "NBIS"
    ],
    "symbol_count": 6,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "QQQ",
-   "charge": 68,
+   "charge": 73,
    "thought": "Inside the range. Watching 680.00 and 688.07.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -158,9 +158,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "QQQ",
-   "charge": 98,
-   "thought": "Price below VWAP 685.53. No cross yet.",
+   "focus": "NBIS",
+   "charge": 91,
+   "thought": "Price below VWAP 126.42. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -194,7 +194,7 @@
    "position": null,
    "focus": "IWM",
    "charge": 80,
-   "thought": "Rejected at the 9 EMA in a downtrend. Going short.",
+   "thought": "Downtrend. Price is testing the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -222,13 +222,13 @@
     "NBIS"
    ],
    "symbol_count": 6,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 0,
-   "thought": "Waiting for enough data.",
+   "focus": "NVDL",
+   "charge": 82,
+   "thought": "RSI(2) 17. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -256,13 +256,13 @@
     "NBIS"
    ],
    "symbol_count": 6,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 85,
-   "thought": "Gap 757.11-757.47 ready. Waiting for price to tap it.",
+   "charge": 34,
+   "thought": "Nearest liquidity: opening range high 757.81. Waiting for a sweep.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -291,7 +291,7 @@
    "pending": [],
    "position": null,
    "focus": "ETH/USD",
-   "charge": 51,
+   "charge": 63,
    "thought": "Channel 1981.71 to 2014.16. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -306,6 +306,18 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-12T15:16:00+00:00",
+   "worker": "sweep",
+   "kind": "shadow",
+   "text": "SWEEP (shadow) would short SPY: Sweep of opening range high + FVG"
+  },
+  {
+   "t": "2026-11-12T15:16:00+00:00",
+   "worker": "sweep",
+   "kind": "shadow",
+   "text": "SWEEP (shadow) would short QQQ: Sweep of opening range high + FVG"
+  },
   {
    "t": "2026-11-12T15:03:00+00:00",
    "worker": "sweep",
@@ -533,18 +545,6 @@
    "worker": "trend",
    "kind": "shadow",
    "text": "TREND (shadow) would long QQQ: Trend pullback long"
-  },
-  {
-   "t": "2026-11-11T15:40:00+00:00",
-   "worker": "vwap",
-   "kind": "shadow",
-   "text": "VWAP (shadow) would long IWM: VWAP reclaim"
-  },
-  {
-   "t": "2026-11-11T15:33:00+00:00",
-   "worker": "turtle",
-   "kind": "shadow",
-   "text": "TURTLE (shadow) would long BTC/USD: 60-bar breakout"
   }
  ],
  "regime": {
@@ -552,19 +552,19 @@
    "symbol": "SPY",
    "bias": -1,
    "regime": "chop",
-   "rvol": 0.6,
+   "rvol": 0.56,
    "liquidity": {
     "prior day high": 762.51,
     "prior day low": 754.92,
     "opening range high": 757.81,
     "opening range low": 753.74
    },
-   "fvgs": 4
+   "fvgs": 3
   },
   "crypto": {
    "symbol": "BTC/USD",
    "bias": -3,
-   "regime": "normal",
+   "regime": "chop",
    "rvol": null,
    "liquidity": {
     "prior day high": 74718.29,
