@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T16:28:00+00:00",
+ "updated": "2026-11-12T16:43:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -86,13 +86,13 @@
     "SPY"
    ],
    "symbol_count": 1,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 76,
-   "thought": "Noise area 750.10 to 763.66. Next check on the half hour.",
+   "charge": 47,
+   "thought": "Noise area 749.59 to 764.17. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -154,13 +154,13 @@
     "NBIS"
    ],
    "symbol_count": 6,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 0,
-   "thought": "Price above VWAP 758.73. No cross yet.",
+   "focus": "NBIS",
+   "charge": 97,
+   "thought": "Price below VWAP 127.15. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -188,13 +188,13 @@
     "NBIS"
    ],
    "symbol_count": 6,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 80,
-   "thought": "Uptrend. Price is testing the 9 EMA.",
+   "focus": "NVDL",
+   "charge": 40,
+   "thought": "Downtrend. Waiting for a pop to the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -222,13 +222,13 @@
     "NBIS"
    ],
    "symbol_count": 6,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "NBIS",
-   "charge": 64,
-   "thought": "RSI(2) 35. Nothing stretched enough.",
+   "focus": "NVDL",
+   "charge": 95,
+   "thought": "RSI(2) 4. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -262,7 +262,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 85,
-   "thought": "Gap 762.44-762.57 ready. Waiting for price to tap it.",
+   "thought": "Setup is ready but outside the trading windows.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -286,13 +286,13 @@
     "ETH/USD"
    ],
    "symbol_count": 2,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "BTC/USD",
-   "charge": 70,
-   "thought": "Channel 71210.65 to 72130.96. Waiting for a break.",
+   "charge": 21,
+   "thought": "Channel 71256.53 to 72130.96. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -306,6 +306,12 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-12T16:29:00+00:00",
+   "worker": "sweep",
+   "kind": "shadow",
+   "text": "SWEEP (shadow) would short NBIS: Sweep of opening range high + FVG"
+  },
   {
    "t": "2026-11-12T16:13:00+00:00",
    "worker": "sweep",
@@ -539,12 +545,6 @@
    "worker": "snapback",
    "kind": "shadow",
    "text": "SNAPBACK (shadow) would short SOXS: RSI(2) overbought in downtrend"
-  },
-  {
-   "t": "2026-11-11T16:10:00+00:00",
-   "worker": "trend",
-   "kind": "shadow",
-   "text": "TREND (shadow) would long IWM: Trend pullback long"
   }
  ],
  "regime": {
@@ -552,25 +552,25 @@
    "symbol": "SPY",
    "bias": 3,
    "regime": "normal",
-   "rvol": 0.72,
+   "rvol": 0.74,
    "liquidity": {
     "prior day high": 762.51,
     "prior day low": 754.92,
     "opening range high": 757.81,
     "opening range low": 753.74
    },
-   "fvgs": 7
+   "fvgs": 6
   },
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": -1,
-   "regime": "normal",
+   "bias": -3,
+   "regime": "trend",
    "rvol": null,
    "liquidity": {
     "prior day high": 74718.29,
     "prior day low": 73114.5
    },
-   "fvgs": 19
+   "fvgs": 20
   }
  },
  "scanner": {
