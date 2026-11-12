@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T19:13:00+00:00",
+ "updated": "2026-11-12T19:28:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -91,8 +91,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 27,
-   "thought": "Noise area 748.62 to 765.15. Next check on the half hour.",
+   "charge": 22,
+   "thought": "Noise area 748.51 to 765.27. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -158,9 +158,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "NBIS",
-   "charge": 74,
-   "thought": "Price above VWAP 127.49. No cross yet.",
+   "focus": "QQQ",
+   "charge": 87,
+   "thought": "Lost VWAP 688.94 with the trend down. Going short.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -188,13 +188,13 @@
     "NBIS"
    ],
    "symbol_count": 6,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "IWM",
-   "charge": 80,
-   "thought": "Downtrend. Price is testing the 9 EMA.",
+   "focus": "NVDQ",
+   "charge": 40,
+   "thought": "Uptrend. Waiting for a dip to the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -226,9 +226,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "NVDQ",
-   "charge": 74,
-   "thought": "Strong move against the hourly trend. Not fading it.",
+   "focus": "SPY",
+   "charge": 94,
+   "thought": "RSI(2) 6. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -291,7 +291,7 @@
    "pending": [],
    "position": null,
    "focus": "ETH/USD",
-   "charge": 25,
+   "charge": 27,
    "thought": "Channel 2006.98 to 2024.67. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -306,6 +306,12 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-12T19:27:00+00:00",
+   "worker": "trend",
+   "kind": "shadow",
+   "text": "TREND (shadow) would long NVDQ: Trend pullback long"
+  },
   {
    "t": "2026-11-12T19:02:00+00:00",
    "worker": "trend",
@@ -539,20 +545,14 @@
    "worker": "opener",
    "kind": "shadow",
    "text": "OPENER (shadow) would short AMD: Stock in play, 3.0x opening volume"
-  },
-  {
-   "t": "2026-11-12T14:35:06.963985+00:00",
-   "worker": "scanner",
-   "kind": "scan",
-   "text": "Stocks in play: NVDQ +20.6%, NVDL -20.3%, NBIS -18.7%"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
    "bias": -1,
-   "regime": "normal",
-   "rvol": 0.7,
+   "regime": "chop",
+   "rvol": 0.69,
    "liquidity": {
     "prior day high": 762.51,
     "prior day low": 754.92,
