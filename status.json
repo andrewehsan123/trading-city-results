@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T15:28:00+00:00",
+ "updated": "2026-11-13T15:43:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -92,7 +92,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Noise area 753.49 to 763.67. Next check on the half hour.",
+   "thought": "Noise area 753.29 to 763.87. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -156,7 +156,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Price below VWAP 753.34. No cross yet.",
+   "thought": "Price below VWAP 752.74. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -186,7 +186,7 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
+   "focus": "CBRS",
    "charge": 80,
    "thought": "Downtrend. Price is testing the 9 EMA.",
    "pnl_today": 0,
@@ -218,9 +218,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "CBRS",
-   "charge": 55,
-   "thought": "RSI(2) 45. Nothing stretched enough.",
+   "focus": "IWM",
+   "charge": 33,
+   "thought": "RSI(2) 67. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -250,9 +250,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 50,
-   "thought": "Swept the prior day low at 753.74. Waiting for a fair value gap.",
+   "focus": "CBRS",
+   "charge": 27,
+   "thought": "Nearest liquidity: opening range low 106.01. Waiting for a sweep.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -281,8 +281,8 @@
    "pending": [],
    "position": null,
    "focus": "BTC/USD",
-   "charge": 16,
-   "thought": "Channel 68455.11 to 69405.94. Waiting for a break.",
+   "charge": 10,
+   "thought": "Channel 68032.05 to 69336.07. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -296,6 +296,18 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-13T15:32:00+00:00",
+   "worker": "snapback",
+   "kind": "shadow",
+   "text": "SNAPBACK (shadow) would short IWM: RSI(2) overbought in downtrend"
+  },
+  {
+   "t": "2026-11-13T15:29:00+00:00",
+   "worker": "momentum",
+   "kind": "shadow",
+   "text": "MOMENTUM (shadow) would short SPY: Below noise area"
+  },
   {
    "t": "2026-11-13T15:28:00+00:00",
    "worker": "snapback",
@@ -523,44 +535,32 @@
    "worker": "sweep",
    "kind": "shadow",
    "text": "SWEEP (shadow) would short SPY: Sweep of opening range high + FVG"
-  },
-  {
-   "t": "2026-11-12T15:16:00+00:00",
-   "worker": "sweep",
-   "kind": "shadow",
-   "text": "SWEEP (shadow) would short QQQ: Sweep of opening range high + FVG"
-  },
-  {
-   "t": "2026-11-12T15:03:00+00:00",
-   "worker": "sweep",
-   "kind": "shadow",
-   "text": "SWEEP (shadow) would short NVDL: Sweep of opening range high + FVG"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
    "bias": -3,
-   "regime": "trend",
-   "rvol": 0.67,
+   "regime": "chop",
+   "rvol": 0.71,
    "liquidity": {
     "prior day high": 763.01,
     "prior day low": 753.74,
     "opening range high": 760.07,
     "opening range low": 755.9
    },
-   "fvgs": 7
+   "fvgs": 8
   },
   "crypto": {
    "symbol": "BTC/USD",
    "bias": -3,
-   "regime": "chop",
+   "regime": "trend",
    "rvol": null,
    "liquidity": {
     "prior day high": 74117.7,
     "prior day low": 71041.53
    },
-   "fvgs": 9
+   "fvgs": 11
   }
  },
  "scanner": {
