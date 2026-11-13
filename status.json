@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T15:13:00+00:00",
+ "updated": "2026-11-13T15:28:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -118,13 +118,13 @@
     "CBRS"
    ],
    "symbol_count": 4,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "CBRS",
-   "charge": 78,
-   "thought": "Inside the range. Watching 106.01 and 115.40.",
+   "focus": "SPY",
+   "charge": 0,
+   "thought": "Done for the day.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -154,9 +154,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "CBRS",
-   "charge": 20,
-   "thought": "Price below VWAP 110.05. No cross yet.",
+   "focus": "SPY",
+   "charge": 0,
+   "thought": "Price below VWAP 753.34. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -182,13 +182,13 @@
     "CBRS"
    ],
    "symbol_count": 4,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 40,
-   "thought": "Downtrend. Waiting for a pop to the 9 EMA.",
+   "charge": 80,
+   "thought": "Downtrend. Price is testing the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -218,9 +218,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 0,
-   "thought": "Waiting for enough data.",
+   "focus": "CBRS",
+   "charge": 55,
+   "thought": "RSI(2) 45. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -246,13 +246,13 @@
     "CBRS"
    ],
    "symbol_count": 4,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "QQQ",
-   "charge": 85,
-   "thought": "Gap 684.72-684.86 ready. Waiting for price to tap it.",
+   "focus": "SPY",
+   "charge": 50,
+   "thought": "Swept the prior day low at 753.74. Waiting for a fair value gap.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -280,9 +280,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "ETH/USD",
-   "charge": 12,
-   "thought": "Channel 1933.20 to 1970.75. Waiting for a break.",
+   "focus": "BTC/USD",
+   "charge": 16,
+   "thought": "Channel 68455.11 to 69405.94. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -296,6 +296,18 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-13T15:28:00+00:00",
+   "worker": "snapback",
+   "kind": "shadow",
+   "text": "SNAPBACK (shadow) would short SPY: RSI(2) overbought in downtrend"
+  },
+  {
+   "t": "2026-11-13T15:19:00+00:00",
+   "worker": "orb",
+   "kind": "shadow",
+   "text": "ORB (shadow) would short CBRS: Opening range breakout down"
+  },
   {
    "t": "2026-11-13T14:59:00+00:00",
    "worker": "trend",
@@ -523,18 +535,6 @@
    "worker": "sweep",
    "kind": "shadow",
    "text": "SWEEP (shadow) would short NVDL: Sweep of opening range high + FVG"
-  },
-  {
-   "t": "2026-11-12T15:01:00+00:00",
-   "worker": "vwap",
-   "kind": "shadow",
-   "text": "VWAP (shadow) would short QQQ: VWAP rejection"
-  },
-  {
-   "t": "2026-11-12T15:01:00+00:00",
-   "worker": "vwap",
-   "kind": "shadow",
-   "text": "VWAP (shadow) would short NBIS: VWAP rejection"
   }
  ],
  "regime": {
@@ -542,7 +542,7 @@
    "symbol": "SPY",
    "bias": -3,
    "regime": "trend",
-   "rvol": 0.61,
+   "rvol": 0.67,
    "liquidity": {
     "prior day high": 763.01,
     "prior day low": 753.74,
@@ -554,7 +554,7 @@
   "crypto": {
    "symbol": "BTC/USD",
    "bias": -3,
-   "regime": "normal",
+   "regime": "chop",
    "rvol": null,
    "liquidity": {
     "prior day high": 74117.7,
