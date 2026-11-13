@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T19:58:00+00:00",
+ "updated": "2026-11-13T20:13:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -86,13 +86,13 @@
     "SPY"
    ],
    "symbol_count": 1,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 71,
-   "thought": "Noise area 751.82 to 765.35. Next check on the half hour.",
+   "charge": 67,
+   "thought": "Noise area 751.34 to 765.83. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -156,7 +156,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Price above VWAP 752.05. No cross yet.",
+   "thought": "VWAP 752.13. Waiting for the 10:00 to 3:00 window.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -187,8 +187,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 10,
-   "thought": "Higher timeframes not lined up (bias +0, chop). Sitting out.",
+   "charge": 0,
+   "thought": "Too late in the day.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -218,9 +218,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "CBRS",
-   "charge": 1,
-   "thought": "RSI(2) 98. Nothing stretched enough.",
+   "focus": "SPY",
+   "charge": 0,
+   "thought": "Too late in the day.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -280,9 +280,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "BTC/USD",
-   "charge": 100,
-   "thought": "Breakout, but the hourly trend is down. Passing.",
+   "focus": "ETH/USD",
+   "charge": 72,
+   "thought": "Channel 1945.63 to 1954.48. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -540,9 +540,9 @@
  "regime": {
   "lead": {
    "symbol": "SPY",
-   "bias": 0,
-   "regime": "chop",
-   "rvol": 0.55,
+   "bias": 1,
+   "regime": "normal",
+   "rvol": 0.56,
    "liquidity": {
     "prior day high": 763.01,
     "prior day low": 753.74,
@@ -560,7 +560,7 @@
     "prior day high": 74117.7,
     "prior day low": 71041.53
    },
-   "fvgs": 10
+   "fvgs": 11
   }
  },
  "scanner": {
