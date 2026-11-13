@@ -1,11 +1,40 @@
 {
- "updated": "2026-11-13T14:28:00+00:00",
+ "updated": "2026-11-13T14:43:00+00:00",
  "mode": "paper",
- "market_open": false,
+ "market_open": true,
  "halted": null,
- "equity": 101317.15,
- "day_pnl": 0,
+ "equity": 101291.65,
+ "day_pnl": -25.5,
  "workers": [
+  {
+   "id": "gapgo",
+   "name": "GAP&GO",
+   "market": "stock",
+   "inspired_by": "Zarattini, Barbon & Aziz (2024) ORB on Stocks in Play, developed: 1-min range, gappers, quick partial",
+   "method": "At 9:31 ET picks stocks that gapped 7%+ whose first minute traded 3x+ normal. Places a buy-stop (or sell-stop) at the first 1-minute candle's high (low). Takes 30% off at a quick +0.25R, the rest rides with no risk. Exits any trade that hasn't paid within 60 minutes.",
+   "tier": "core",
+   "symbols": [
+    "CBRS"
+   ],
+   "symbol_count": 1,
+   "state": "charging",
+   "open_count": 0,
+   "pending": [],
+   "position": null,
+   "focus": "CBRS",
+   "charge": 90,
+   "thought": "Gapped +11.5% on 4.7x volume. Buy stop at 112.36.",
+   "pnl_today": -25.5,
+   "trades_today": 2,
+   "wins_today": 0,
+   "pnl_total": 1115.59,
+   "trades_total": 7,
+   "win_rate": 57.1,
+   "profit_factor": 4.33,
+   "allowed": true,
+   "size_x": 0.75,
+   "lab": null
+  },
   {
    "id": "opener",
    "name": "OPENER",
@@ -27,14 +56,14 @@
     "PLTR",
     "COIN"
    ],
-   "symbol_count": 50,
-   "state": "watching",
+   "symbol_count": 51,
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "AAPL",
-   "charge": 0,
-   "thought": "Waiting for the market.",
+   "focus": "NFLX",
+   "charge": 90,
+   "thought": "In play (1.3x volume). Buy stop at 62.95, stop-loss 62.05.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -62,8 +91,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 0,
-   "thought": "Waiting for the market.",
+   "charge": 57,
+   "thought": "Noise area 755.04 to 762.12. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -85,16 +114,17 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM"
+    "IWM",
+    "CBRS"
    ],
-   "symbol_count": 3,
+   "symbol_count": 4,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 0,
-   "thought": "Waiting for the market.",
+   "charge": 34,
+   "thought": "Building the opening range: 755.90 to 760.07.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -116,16 +146,17 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM"
+    "IWM",
+    "CBRS"
    ],
-   "symbol_count": 3,
+   "symbol_count": 4,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 0,
-   "thought": "Waiting for the market.",
+   "focus": "QQQ",
+   "charge": 52,
+   "thought": "VWAP 686.12. Waiting for the 10:00 to 3:00 window.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -147,16 +178,17 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM"
+    "IWM",
+    "CBRS"
    ],
-   "symbol_count": 3,
+   "symbol_count": 4,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Waiting for the market.",
+   "thought": "Letting the averages settle.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -178,16 +210,17 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM"
+    "IWM",
+    "CBRS"
    ],
-   "symbol_count": 3,
+   "symbol_count": 4,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Waiting for the market.",
+   "thought": "Waiting for enough data.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -209,16 +242,17 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM"
+    "IWM",
+    "CBRS"
    ],
-   "symbol_count": 3,
-   "state": "watching",
+   "symbol_count": 4,
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 0,
-   "thought": "Waiting for the market.",
+   "focus": "IWM",
+   "charge": 85,
+   "thought": "Setup is ready but outside the trading windows.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -247,8 +281,8 @@
    "pending": [],
    "position": null,
    "focus": "ETH/USD",
-   "charge": 26,
-   "thought": "Channel 1950.46 to 1986.45. Waiting for a break.",
+   "charge": 33,
+   "thought": "Channel 1953.15 to 1979.36. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -262,6 +296,114 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-13T14:38:00+00:00",
+   "worker": "gapgo",
+   "kind": "exit",
+   "text": "GAP&GO closed CBRS (breakeven stop) -$15"
+  },
+  {
+   "t": "2026-11-13T14:38:10.561675+00:00",
+   "worker": "risk",
+   "kind": "alert",
+   "text": "Audit: CBRS had no live stop at Alpaca. Placed a new one."
+  },
+  {
+   "t": "2026-11-13T14:37:48.237811+00:00",
+   "worker": "risk",
+   "kind": "alert",
+   "text": "Audit: CBRS had no live stop at Alpaca. Placed a new one."
+  },
+  {
+   "t": "2026-11-13T14:37:48.237811+00:00",
+   "worker": "system",
+   "kind": "alert",
+   "text": "Could not place a stop order for CBRS (Alpaca 422: {\"code\":42210000,\"market_price\":\"111.88\",\"message\":\"stop price must be less than current price\",\"stop_price\":\"112.19\"}). The bot is watching the stop itself."
+  },
+  {
+   "t": "2026-11-13T14:37:25.838178+00:00",
+   "worker": "risk",
+   "kind": "alert",
+   "text": "Audit: CBRS had no live stop at Alpaca. Placed a new one."
+  },
+  {
+   "t": "2026-11-13T14:37:25.838178+00:00",
+   "worker": "system",
+   "kind": "alert",
+   "text": "Could not place a stop order for CBRS (Alpaca 422: {\"code\":42210000,\"market_price\":\"111.71\",\"message\":\"stop price must be less than current price\",\"stop_price\":\"112.19\"}). The bot is watching the stop itself."
+  },
+  {
+   "t": "2026-11-13T14:36:00+00:00",
+   "worker": "gapgo",
+   "kind": "exit",
+   "text": "GAP&GO took 20 CBRS at target (-$11); 30 riding with no risk"
+  },
+  {
+   "t": "2026-11-13T14:36:00+00:00",
+   "worker": "system",
+   "kind": "alert",
+   "text": "Could not place a stop order for CBRS (Alpaca 422: {\"code\":42210000,\"market_price\":\"111.49\",\"message\":\"stop price must be less than current price\",\"stop_price\":\"112.19\"}). The bot is watching the stop itself."
+  },
+  {
+   "t": "2026-11-13T14:36:00+00:00",
+   "worker": "system",
+   "kind": "alert",
+   "text": "Bad fill on CBRS target: +245.6c (+0.39R) worse than planned."
+  },
+  {
+   "t": "2026-11-13T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would long NFLX: Stock in play, 1.3x opening volume"
+  },
+  {
+   "t": "2026-11-13T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would short MSTR: Stock in play, 1.2x opening volume"
+  },
+  {
+   "t": "2026-11-13T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would long COIN: Stock in play, 1.0x opening volume"
+  },
+  {
+   "t": "2026-11-13T14:35:34.246644+00:00",
+   "worker": "risk",
+   "kind": "alert",
+   "text": "Audit: CBRS had no live stop at Alpaca. Placed a new one."
+  },
+  {
+   "t": "2026-11-13T14:34:00+00:00",
+   "worker": "system",
+   "kind": "alert",
+   "text": "Could not place a stop order for CBRS (Alpaca 403: {\"available\":\"0\",\"code\":40310000,\"existing_qty\":\"50\",\"held_for_orders\":\"50\",\"message\":\"insufficient qty available for order (requested: 50, available: 0)\",\"related_orders\":[\"9be01d78-e0d3-). The bot is watching the stop itself."
+  },
+  {
+   "t": "2026-11-13T14:35:04.725715+00:00",
+   "worker": "scanner",
+   "kind": "scan",
+   "text": "Stocks in play: CBRS +15.4%"
+  },
+  {
+   "t": "2026-11-13T14:34:47.627202+00:00",
+   "worker": "gapgo",
+   "kind": "entry",
+   "text": "GAP&GO LONG 50 CBRS @ 112.18 (Gap +11.5%, 4.7x volume)"
+  },
+  {
+   "t": "2026-11-13T14:31:15.134461+00:00",
+   "worker": "gapgo",
+   "kind": "scan",
+   "text": "GAP&GO picked 1: CBRS +11%"
+  },
+  {
+   "t": "2026-11-13T14:31:05.856700+00:00",
+   "worker": "gapgo",
+   "kind": "order",
+   "text": "GAP&GO buy-stop 56 CBRS @ 112.36"
+  },
   {
    "t": "2026-11-12T19:43:00+00:00",
    "worker": "snapback",
@@ -393,144 +535,86 @@
    "worker": "orb",
    "kind": "shadow",
    "text": "ORB (shadow) would short NVDQ: Opening range breakout down"
-  },
-  {
-   "t": "2026-11-12T14:53:00+00:00",
-   "worker": "orb",
-   "kind": "shadow",
-   "text": "ORB (shadow) would long NBIS: Opening range breakout up"
-  },
-  {
-   "t": "2026-11-12T14:51:00+00:00",
-   "worker": "orb",
-   "kind": "shadow",
-   "text": "ORB (shadow) would long NVDL: Opening range breakout up"
-  },
-  {
-   "t": "2026-11-12T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long WMT: Stock in play, 1.1x opening volume"
-  },
-  {
-   "t": "2026-11-12T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long SMCI: Stock in play, 2.6x opening volume"
-  },
-  {
-   "t": "2026-11-12T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long ORCL: Stock in play, 1.4x opening volume"
-  },
-  {
-   "t": "2026-11-12T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short NVDQ: Stock in play, 2.4x opening volume"
-  },
-  {
-   "t": "2026-11-12T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long NVDL: Stock in play, 9.2x opening volume"
-  },
-  {
-   "t": "2026-11-12T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long NVDA: Stock in play, 6.1x opening volume"
-  },
-  {
-   "t": "2026-11-12T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long NBIS: Stock in play, 2.0x opening volume"
-  },
-  {
-   "t": "2026-11-12T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long MSTR: Stock in play, 1.1x opening volume"
-  },
-  {
-   "t": "2026-11-12T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long MARA: Stock in play, 1.8x opening volume"
-  },
-  {
-   "t": "2026-11-12T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long HOOD: Stock in play, 2.1x opening volume"
-  },
-  {
-   "t": "2026-11-12T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long GOOGL: Stock in play, 1.6x opening volume"
-  },
-  {
-   "t": "2026-11-12T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short CRWD: Stock in play, 1.2x opening volume"
-  },
-  {
-   "t": "2026-11-12T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long COST: Stock in play, 1.8x opening volume"
-  },
-  {
-   "t": "2026-11-12T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short CCL: Stock in play, 1.0x opening volume"
-  },
-  {
-   "t": "2026-11-12T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long AVGO: Stock in play, 4.1x opening volume"
-  },
-  {
-   "t": "2026-11-12T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long ARM: Stock in play, 1.6x opening volume"
   }
  ],
  "regime": {
-  "lead": null,
+  "lead": {
+   "symbol": "SPY",
+   "bias": -2,
+   "regime": "chop",
+   "rvol": 0.47,
+   "liquidity": {
+    "prior day high": 763.01,
+    "prior day low": 753.74,
+    "opening range high": 760.07,
+    "opening range low": 755.9
+   },
+   "fvgs": 3
+  },
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": -2,
-   "regime": "trend",
+   "bias": -3,
+   "regime": "chop",
    "rvol": null,
    "liquidity": {
     "prior day high": 74117.7,
     "prior day low": 71041.53
    },
-   "fvgs": 12
+   "fvgs": 11
   }
  },
  "scanner": {
-  "picks": [],
-  "note": "Scanner runs at 9:35 ET on market days."
+  "picks": [
+   "CBRS"
+  ],
+  "note": "CBRS +15.4%"
  },
  "fills": {
-  "n": 5,
-  "avg_slip_c": -1.254,
-  "avg_slip_r": 0.009,
-  "total_usd": 9.56,
-  "entry_r": 0.009,
-  "stop_r": null,
-  "target_r": 0.009,
+  "n": 8,
+  "avg_slip_c": 33.803,
+  "avg_slip_r": 0.06,
+  "total_usd": 64.44,
+  "entry_r": 0.0,
+  "stop_r": 0.077,
+  "target_r": 0.134,
   "budget_r": 0.05,
   "recent": [
+   {
+    "t": "2026-11-13T14:38:00+00:00",
+    "kind": "stop",
+    "sym": "CBRS",
+    "side": "long",
+    "planned": 112.182,
+    "actual": 111.6933,
+    "qty": 30,
+    "slip_c": 48.87,
+    "slip_r": 0.077,
+    "slip_usd": 14.66
+   },
+   {
+    "t": "2026-11-13T14:36:00+00:00",
+    "kind": "target",
+    "sym": "CBRS",
+    "side": "long",
+    "planned": 114.0962,
+    "actual": 111.64,
+    "qty": 20,
+    "slip_c": 245.62,
+    "slip_r": 0.385,
+    "slip_usd": 49.12
+   },
+   {
+    "t": "2026-11-13T14:34:47.627202+00:00",
+    "kind": "entry",
+    "sym": "CBRS",
+    "side": "long",
+    "planned": 112.36,
+    "actual": 112.182,
+    "qty": 50,
+    "slip_c": -17.8,
+    "slip_r": -0.027,
+    "slip_usd": -8.9
+   },
    {
     "t": "2026-11-10T14:38:00+00:00",
     "kind": "target",
@@ -596,11 +680,11 @@
  "scorecard": {
   "version": "v2.8-...+shortint",
   "since": "2026-10-27",
-  "trades": 5,
-  "days": 3,
-  "pf": 4.69,
-  "win": 80.0,
-  "net": 1141.09,
+  "trades": 7,
+  "days": 4,
+  "pf": 4.33,
+  "win": 57.1,
+  "net": 1115.59,
   "expect": {
    "pf": 1.8,
    "pf_low": 1.3,
@@ -609,7 +693,127 @@
   },
   "verdict": "not enough trades yet (need ~40)"
  },
- "gates": null,
+ "gates": {
+  "day": "2026-11-13",
+  "counts": {
+   "liquid": 693,
+   "gap": 4,
+   "gap_atr": 4,
+   "volume": 3,
+   "short_rule": 2,
+   "thin_history": 1,
+   "calm": 2,
+   "gap_band": 2,
+   "odds": 2,
+   "news": 1
+  },
+  "picked": 1,
+  "stocks": [
+   {
+    "sym": "VIR",
+    "gap": -13.6,
+    "gap_atr": 1.87,
+    "rvol": 5.3,
+    "side": "short",
+    "level": 10.39,
+    "fail": "short_rule",
+    "aplus": {
+     "strong_close": true,
+     "big_body": false,
+     "under_25": true,
+     "jumpy": true,
+     "short": true,
+     "fades_gap": false
+    }
+   },
+   {
+    "sym": "MOD",
+    "gap": 33.7,
+    "gap_atr": 3.33,
+    "rvol": 4.9,
+    "side": "short",
+    "level": 138.16,
+    "fail": "fda",
+    "aplus": {
+     "strong_close": false,
+     "big_body": false,
+     "under_25": false,
+     "jumpy": true,
+     "short": true,
+     "fades_gap": true,
+     "few_stories": true,
+     "no_analyst_news": true
+    },
+    "rng_atr": 0.35,
+    "sure": true,
+    "size_x": 0.949,
+    "short_ratio": 0.96,
+    "odds": 0.8,
+    "news": 3,
+    "score": 5
+   },
+   {
+    "sym": "CBRS",
+    "gap": 11.5,
+    "gap_atr": 1.06,
+    "rvol": 4.7,
+    "side": "long",
+    "level": 112.36,
+    "fail": null,
+    "aplus": {
+     "strong_close": true,
+     "big_body": true,
+     "under_25": false,
+     "jumpy": true,
+     "short": false,
+     "fades_gap": false,
+     "few_stories": false,
+     "no_analyst_news": false
+    },
+    "rng_atr": 0.35,
+    "sure": false,
+    "size_x": 0.474,
+    "short_ratio": 1.69,
+    "odds": 0.76,
+    "news": 12,
+    "score": 3,
+    "tone": true
+   },
+   {
+    "sym": "HAWK",
+    "gap": 13.8,
+    "gap_atr": 1.91,
+    "rvol": 0.3,
+    "side": "short",
+    "level": 16.65,
+    "fail": "volume",
+    "aplus": {
+     "strong_close": true,
+     "big_body": true,
+     "under_25": true,
+     "jumpy": true,
+     "short": true,
+     "fades_gap": true
+    }
+   }
+  ],
+  "news_ok": true,
+  "rules": {
+   "min_price": 10,
+   "min_gap": 0.07,
+   "min_gap_atr": 1.0,
+   "min_rvol": 3.0,
+   "top_n": 10
+  },
+  "entries": {
+   "placed": 1,
+   "filled": 1,
+   "cancelled": 0,
+   "syms": {
+    "CBRS": "filled"
+   }
+  }
+ },
  "history": [
   {
    "date": "2026-11-05",
@@ -622,6 +826,10 @@
   {
    "date": "2026-11-10",
    "pnl": 487.73
+  },
+  {
+   "date": "2026-11-13",
+   "pnl": -25.5
   }
  ]
 }
