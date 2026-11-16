@@ -1,8 +1,3 @@
-11:01:34 ET  equity $101,291.52  market OPEN  open trades 0
-11:02:34 ET  equity $101,291.52  market OPEN  open trades 0
-11:03:35 ET  equity $101,291.52  market OPEN  open trades 0
-11:04:35 ET  equity $101,291.52  market OPEN  open trades 0
-11:05:35 ET  equity $101,291.52  market OPEN  open trades 0
 11:06:35 ET  equity $101,291.52  market OPEN  open trades 0
 11:07:35 ET  equity $101,291.52  market OPEN  open trades 0
 11:08:36 ET  equity $101,291.52  market OPEN  open trades 0
@@ -298,3 +293,8 @@
 15:59:47 ET  equity $101,291.52  market OPEN  open trades 0
 16:00:47 ET  equity $101,291.52  market closed  open trades 0
 16:01:48 ET  equity $101,291.52  market closed  open trades 0
+16:02:48 ET  equity $101,291.52  market closed  open trades 0
+16:03:48 ET  equity $101,291.52  market closed  open trades 0
+16:04:48 ET  equity $101,291.52  market closed  open trades 0
+2026-11-16: no trades today
+Session done. Exiting until tomorrow.
