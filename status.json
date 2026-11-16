@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T14:43:00+00:00",
+ "updated": "2026-11-16T14:58:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -57,13 +57,13 @@
     "SPY"
    ],
    "symbol_count": 1,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 58,
-   "thought": "Noise area 747.36 to 756.60. Next check on the half hour.",
+   "charge": 87,
+   "thought": "Noise area 746.62 to 757.35. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -90,13 +90,13 @@
     "SOXS"
    ],
    "symbol_count": 5,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 34,
-   "thought": "Building the opening range: 746.68 to 749.79.",
+   "charge": 80,
+   "thought": "Inside the range. Watching 746.68 and 749.79.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -127,9 +127,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "IWM",
-   "charge": 85,
-   "thought": "VWAP 275.91. Waiting for the 10:00 to 3:00 window.",
+   "focus": "QQQ",
+   "charge": 84,
+   "thought": "VWAP 669.35. Waiting for the 10:00 to 3:00 window.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -156,13 +156,13 @@
     "SOXS"
    ],
    "symbol_count": 5,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 0,
-   "thought": "Letting the averages settle.",
+   "charge": 80,
+   "thought": "Downtrend. Price is testing the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -227,8 +227,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 60,
-   "thought": "Swept the prior day low at 747.94. Fair value gap formed. Waiting for the retrace.",
+   "charge": 50,
+   "thought": "Swept the prior day low at 747.94. Waiting for a fair value gap.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -257,8 +257,8 @@
    "pending": [],
    "position": null,
    "focus": "ETH/USD",
-   "charge": 82,
-   "thought": "Channel 1797.78 to 1864.15. Waiting for a break.",
+   "charge": 77,
+   "thought": "Channel 1798.69 to 1864.15. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -272,6 +272,12 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-16T14:45:00+00:00",
+   "worker": "orb",
+   "kind": "shadow",
+   "text": "ORB (shadow) would short SNDQ: Opening range breakout down"
+  },
   {
    "t": "2026-11-16T14:36:00+00:00",
    "worker": "opener",
@@ -505,38 +511,32 @@
    "worker": "gapgo",
    "kind": "exit",
    "text": "GAP&GO closed CBRS (breakeven stop) -$15"
-  },
-  {
-   "t": "2026-11-13T14:38:10.561675+00:00",
-   "worker": "risk",
-   "kind": "alert",
-   "text": "Audit: CBRS had no live stop at Alpaca. Placed a new one."
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
-   "bias": -2,
-   "regime": "normal",
-   "rvol": 1.0,
+   "bias": -3,
+   "regime": "trend",
+   "rvol": 0.83,
    "liquidity": {
     "prior day high": 760.07,
     "prior day low": 747.94,
     "opening range high": 749.79,
     "opening range low": 746.68
    },
-   "fvgs": 3
+   "fvgs": 2
   },
   "crypto": {
    "symbol": "BTC/USD",
    "bias": 2,
-   "regime": "trend",
+   "regime": "normal",
    "rvol": null,
    "liquidity": {
     "prior day high": 66085.42,
     "prior day low": 61991.33
    },
-   "fvgs": 11
+   "fvgs": 10
   }
  },
  "scanner": {
