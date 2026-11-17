@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T18:58:00+00:00",
+ "updated": "2026-11-17T19:14:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -63,7 +63,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Noise area 732.28 to 746.28. Next check on the half hour.",
+   "thought": "Noise area 732.30 to 746.26. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -121,13 +121,13 @@
     "SLS"
    ],
    "symbol_count": 4,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "QQQ",
-   "charge": 86,
-   "thought": "Price below VWAP 654.42. No cross yet.",
+   "focus": "SPY",
+   "charge": 52,
+   "thought": "Price below VWAP 732.70. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -157,7 +157,7 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
+   "focus": "IWM",
    "charge": 80,
    "thought": "Downtrend. Price is testing the 9 EMA.",
    "pnl_today": 0,
@@ -189,9 +189,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SLS",
-   "charge": 50,
-   "thought": "RSI(2) 50. Nothing stretched enough.",
+   "focus": "QQQ",
+   "charge": 12,
+   "thought": "RSI(2) 87. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -222,7 +222,7 @@
    "pending": [],
    "position": null,
    "focus": "SLS",
-   "charge": 12,
+   "charge": 6,
    "thought": "Nearest liquidity: opening range low 20.68. Waiting for a sweep.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -251,9 +251,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "ETH/USD",
-   "charge": 34,
-   "thought": "Channel 1781.02 to 1803.10. Waiting for a break.",
+   "focus": "BTC/USD",
+   "charge": 49,
+   "thought": "Channel 63588.18 to 64028.04. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -511,27 +511,27 @@
  "regime": {
   "lead": {
    "symbol": "SPY",
-   "bias": -3,
-   "regime": "trend",
-   "rvol": 1.48,
+   "bias": -2,
+   "regime": "normal",
+   "rvol": 1.46,
    "liquidity": {
     "prior day high": 749.79,
     "prior day low": 738.1,
     "opening range high": 739.68,
     "opening range low": 737.49
    },
-   "fvgs": 9
+   "fvgs": 8
   },
   "crypto": {
    "symbol": "BTC/USD",
    "bias": -2,
-   "regime": "normal",
+   "regime": "chop",
    "rvol": null,
    "liquidity": {
     "prior day high": 65614.35,
     "prior day low": 63824.9
    },
-   "fvgs": 12
+   "fvgs": 11
   }
  },
  "scanner": {
