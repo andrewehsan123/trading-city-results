@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T16:13:00+00:00",
+ "updated": "2026-11-17T16:28:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -63,7 +63,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Noise area 733.68 to 744.88. Next check on the half hour.",
+   "thought": "Noise area 734.05 to 744.51. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -121,13 +121,13 @@
     "SLS"
    ],
    "symbol_count": 4,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SLS",
-   "charge": 90,
-   "thought": "Reclaimed VWAP 20.52 with the trend up. Going long.",
+   "charge": 59,
+   "thought": "Price below VWAP 20.54. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -153,13 +153,13 @@
     "SLS"
    ],
    "symbol_count": 4,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SLS",
-   "charge": 80,
-   "thought": "Uptrend. Price is testing the 9 EMA.",
+   "focus": "SPY",
+   "charge": 10,
+   "thought": "Higher timeframes not lined up (bias -3, chop). Sitting out.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -185,13 +185,13 @@
     "SLS"
    ],
    "symbol_count": 4,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "QQQ",
-   "charge": 61,
-   "thought": "RSI(2) 38. Nothing stretched enough.",
+   "focus": "SLS",
+   "charge": 97,
+   "thought": "RSI(2) 2. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -222,8 +222,8 @@
    "pending": [],
    "position": null,
    "focus": "SLS",
-   "charge": 50,
-   "thought": "Swept the opening range low at 20.68. Waiting for a fair value gap.",
+   "charge": 33,
+   "thought": "Nearest liquidity: opening range low 20.68. Waiting for a sweep.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -252,8 +252,8 @@
    "pending": [],
    "position": null,
    "focus": "ETH/USD",
-   "charge": 53,
-   "thought": "Channel 1750.32 to 1815.93. Waiting for a break.",
+   "charge": 52,
+   "thought": "Channel 1750.32 to 1811.54. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -267,6 +267,12 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-17T16:17:00+00:00",
+   "worker": "sweep",
+   "kind": "shadow",
+   "text": "SWEEP (shadow) would long SLS: Sweep of opening range low + FVG"
+  },
   {
    "t": "2026-11-17T15:59:00+00:00",
    "worker": "momentum",
@@ -500,20 +506,14 @@
    "worker": "trend",
    "kind": "shadow",
    "text": "TREND (shadow) would short QQQ: Trend pullback short"
-  },
-  {
-   "t": "2026-11-16T15:02:00+00:00",
-   "worker": "sweep",
-   "kind": "shadow",
-   "text": "SWEEP (shadow) would short QQQ: Sweep of opening range high + FVG"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
    "bias": -3,
-   "regime": "normal",
-   "rvol": 1.61,
+   "regime": "chop",
+   "rvol": 1.57,
    "liquidity": {
     "prior day high": 749.79,
     "prior day low": 738.1,
@@ -531,7 +531,7 @@
     "prior day high": 65614.35,
     "prior day low": 63824.9
    },
-   "fvgs": 11
+   "fvgs": 9
   }
  },
  "scanner": {
