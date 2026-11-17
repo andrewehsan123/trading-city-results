@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T15:13:00+00:00",
+ "updated": "2026-11-17T15:28:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -62,8 +62,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 39,
-   "thought": "Noise area 734.19 to 744.37. Next check on the half hour.",
+   "charge": 54,
+   "thought": "Noise area 734.11 to 744.45. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -125,9 +125,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 41,
-   "thought": "Price below VWAP 738.19. No cross yet.",
+   "focus": "SLS",
+   "charge": 4,
+   "thought": "Price below VWAP 20.61. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -153,13 +153,13 @@
     "SLS"
    ],
    "symbol_count": 4,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "IWM",
-   "charge": 40,
-   "thought": "Downtrend. Waiting for a pop to the 9 EMA.",
+   "focus": "SPY",
+   "charge": 80,
+   "thought": "Downtrend. Price is testing the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -185,13 +185,13 @@
     "SLS"
    ],
    "symbol_count": 4,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 0,
-   "thought": "Waiting for enough data.",
+   "focus": "QQQ",
+   "charge": 85,
+   "thought": "RSI(2) 15. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -251,9 +251,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "ETH/USD",
-   "charge": 14,
-   "thought": "Channel 1795.46 to 1831.26. Waiting for a break.",
+   "focus": "BTC/USD",
+   "charge": 47,
+   "thought": "Channel 64466.28 to 65384.84. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -267,6 +267,30 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-17T15:24:00+00:00",
+   "worker": "snapback",
+   "kind": "shadow",
+   "text": "SNAPBACK (shadow) would short IWM: RSI(2) overbought in downtrend"
+  },
+  {
+   "t": "2026-11-17T15:22:00+00:00",
+   "worker": "trend",
+   "kind": "shadow",
+   "text": "TREND (shadow) would short IWM: Trend pullback short"
+  },
+  {
+   "t": "2026-11-17T15:21:00+00:00",
+   "worker": "trend",
+   "kind": "shadow",
+   "text": "TREND (shadow) would short QQQ: Trend pullback short"
+  },
+  {
+   "t": "2026-11-17T15:17:00+00:00",
+   "worker": "trend",
+   "kind": "shadow",
+   "text": "TREND (shadow) would short SPY: Trend pullback short"
+  },
   {
    "t": "2026-11-17T15:05:00+00:00",
    "worker": "vwap",
@@ -482,56 +506,32 @@
    "worker": "trend",
    "kind": "shadow",
    "text": "TREND (shadow) would short IWM: Trend pullback short"
-  },
-  {
-   "t": "2026-11-16T14:45:00+00:00",
-   "worker": "orb",
-   "kind": "shadow",
-   "text": "ORB (shadow) would short SNDQ: Opening range breakout down"
-  },
-  {
-   "t": "2026-11-16T14:36:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long CRM: Stock in play, 1.6x opening volume"
-  },
-  {
-   "t": "2026-11-16T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short TSLA: Stock in play, 1.4x opening volume"
-  },
-  {
-   "t": "2026-11-16T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long SOXS: Stock in play, 1.8x opening volume"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
    "bias": -3,
-   "regime": "chop",
-   "rvol": 0.75,
+   "regime": "trend",
+   "rvol": 0.83,
    "liquidity": {
     "prior day high": 749.79,
     "prior day low": 738.1,
     "opening range high": 739.68,
     "opening range low": 737.49
    },
-   "fvgs": 3
+   "fvgs": 2
   },
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": -1,
-   "regime": "trend",
+   "bias": 2,
+   "regime": "chop",
    "rvol": null,
    "liquidity": {
     "prior day high": 65614.35,
     "prior day low": 63824.9
    },
-   "fvgs": 10
+   "fvgs": 12
   }
  },
  "scanner": {
