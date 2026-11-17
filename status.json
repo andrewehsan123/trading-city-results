@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T16:43:00+00:00",
+ "updated": "2026-11-17T16:58:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -63,7 +63,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Noise area 733.44 to 745.12. Next check on the half hour.",
+   "thought": "Noise area 733.06 to 745.50. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -125,9 +125,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SLS",
-   "charge": 46,
-   "thought": "Price below VWAP 20.53. No cross yet.",
+   "focus": "QQQ",
+   "charge": 3,
+   "thought": "Price below VWAP 654.23. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -153,13 +153,13 @@
     "SLS"
    ],
    "symbol_count": 4,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "IWM",
-   "charge": 80,
-   "thought": "Downtrend. Price is testing the 9 EMA.",
+   "focus": "SPY",
+   "charge": 10,
+   "thought": "Higher timeframes not lined up (bias -3, chop). Sitting out.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -185,13 +185,13 @@
     "SLS"
    ],
    "symbol_count": 4,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SLS",
-   "charge": 91,
-   "thought": "RSI(2) 9. Nothing stretched enough.",
+   "charge": 14,
+   "thought": "RSI(2) 86. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -252,8 +252,8 @@
    "pending": [],
    "position": null,
    "focus": "ETH/USD",
-   "charge": 58,
-   "thought": "Channel 1750.32 to 1795.43. Waiting for a break.",
+   "charge": 36,
+   "thought": "Channel 1765.65 to 1795.43. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -512,8 +512,8 @@
   "lead": {
    "symbol": "SPY",
    "bias": -3,
-   "regime": "trend",
-   "rvol": 1.56,
+   "regime": "chop",
+   "rvol": 1.57,
    "liquidity": {
     "prior day high": 749.79,
     "prior day low": 738.1,
@@ -525,13 +525,13 @@
   "crypto": {
    "symbol": "BTC/USD",
    "bias": -3,
-   "regime": "normal",
+   "regime": "chop",
    "rvol": null,
    "liquidity": {
     "prior day high": 65614.35,
     "prior day low": 63824.9
    },
-   "fvgs": 9
+   "fvgs": 8
   }
  },
  "scanner": {
