@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T14:58:00+00:00",
+ "updated": "2026-11-17T15:13:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -62,8 +62,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 7,
-   "thought": "Noise area 735.42 to 743.14. Next check on the half hour.",
+   "charge": 39,
+   "thought": "Noise area 734.19 to 744.37. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -89,13 +89,13 @@
     "SLS"
    ],
    "symbol_count": 4,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 94,
-   "thought": "Inside the range. Watching 737.49 and 739.68.",
+   "charge": 0,
+   "thought": "Done for the day.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -121,13 +121,13 @@
     "SLS"
    ],
    "symbol_count": 4,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "IWM",
-   "charge": 97,
-   "thought": "VWAP 272.41. Waiting for the 10:00 to 3:00 window.",
+   "focus": "SPY",
+   "charge": 41,
+   "thought": "Price below VWAP 738.19. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -157,9 +157,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 10,
-   "thought": "Higher timeframes not lined up (bias -1, chop). Sitting out.",
+   "focus": "IWM",
+   "charge": 40,
+   "thought": "Downtrend. Waiting for a pop to the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -217,13 +217,13 @@
     "SLS"
    ],
    "symbol_count": 4,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 85,
-   "thought": "Gap 738.68-739.03 ready. Waiting for price to tap it.",
+   "charge": 50,
+   "thought": "Swept the opening range low at 737.49. Waiting for a fair value gap.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -251,9 +251,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "BTC/USD",
-   "charge": 31,
-   "thought": "Channel 64732.58 to 65384.84. Waiting for a break.",
+   "focus": "ETH/USD",
+   "charge": 14,
+   "thought": "Channel 1795.46 to 1831.26. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -267,6 +267,24 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-17T15:05:00+00:00",
+   "worker": "vwap",
+   "kind": "shadow",
+   "text": "VWAP (shadow) would long SLS: VWAP reclaim"
+  },
+  {
+   "t": "2026-11-17T15:01:00+00:00",
+   "worker": "vwap",
+   "kind": "shadow",
+   "text": "VWAP (shadow) would short SPY: VWAP rejection"
+  },
+  {
+   "t": "2026-11-17T15:00:00+00:00",
+   "worker": "vwap",
+   "kind": "shadow",
+   "text": "VWAP (shadow) would short IWM: VWAP rejection"
+  },
   {
    "t": "2026-11-17T14:46:00+00:00",
    "worker": "orb",
@@ -488,44 +506,26 @@
    "worker": "opener",
    "kind": "shadow",
    "text": "OPENER (shadow) would long SOXS: Stock in play, 1.8x opening volume"
-  },
-  {
-   "t": "2026-11-16T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long SNDQ: Stock in play, 7.8x opening volume"
-  },
-  {
-   "t": "2026-11-16T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long RIVN: Stock in play, 1.2x opening volume"
-  },
-  {
-   "t": "2026-11-16T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short NVDA: Stock in play, 1.3x opening volume"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
-   "bias": -1,
+   "bias": -3,
    "regime": "chop",
-   "rvol": 0.73,
+   "rvol": 0.75,
    "liquidity": {
     "prior day high": 749.79,
     "prior day low": 738.1,
     "opening range high": 739.68,
     "opening range low": 737.49
    },
-   "fvgs": 2
+   "fvgs": 3
   },
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": 2,
-   "regime": "chop",
+   "bias": -1,
+   "regime": "trend",
    "rvol": null,
    "liquidity": {
     "prior day high": 65614.35,
