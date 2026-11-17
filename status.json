@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T20:28:00+00:00",
+ "updated": "2026-11-17T20:43:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -63,7 +63,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Noise area 731.97 to 746.59. Next check on the half hour.",
+   "thought": "Noise area 732.05 to 746.51. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -121,13 +121,13 @@
     "SLS"
    ],
    "symbol_count": 4,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 0,
-   "thought": "VWAP 732.38. Waiting for the 10:00 to 3:00 window.",
+   "focus": "QQQ",
+   "charge": 89,
+   "thought": "VWAP 654.33. Waiting for the 10:00 to 3:00 window.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -252,8 +252,8 @@
    "pending": [],
    "position": null,
    "focus": "BTC/USD",
-   "charge": 79,
-   "thought": "Channel 63581.52 to 64025.39. Waiting for a break.",
+   "charge": 74,
+   "thought": "Channel 63612.04 to 64025.39. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -511,9 +511,9 @@
  "regime": {
   "lead": {
    "symbol": "SPY",
-   "bias": -3,
-   "regime": "chop",
-   "rvol": 1.39,
+   "bias": -1,
+   "regime": "normal",
+   "rvol": 1.36,
    "liquidity": {
     "prior day high": 749.79,
     "prior day low": 738.1,
@@ -524,7 +524,7 @@
   },
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": 0,
+   "bias": 1,
    "regime": "normal",
    "rvol": null,
    "liquidity": {
