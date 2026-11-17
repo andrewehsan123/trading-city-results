@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T15:43:00+00:00",
+ "updated": "2026-11-17T15:58:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -63,7 +63,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Noise area 733.94 to 744.61. Next check on the half hour.",
+   "thought": "Noise area 733.58 to 744.98. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -126,7 +126,7 @@
    "pending": [],
    "position": null,
    "focus": "SLS",
-   "charge": 34,
+   "charge": 30,
    "thought": "Price below VWAP 20.52. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -153,13 +153,13 @@
     "SLS"
    ],
    "symbol_count": 4,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 40,
-   "thought": "Downtrend. Waiting for a pop to the 9 EMA.",
+   "charge": 80,
+   "thought": "Downtrend. Price is testing the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -189,9 +189,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "QQQ",
-   "charge": 99,
-   "thought": "RSI(2) 1. Nothing stretched enough.",
+   "focus": "SLS",
+   "charge": 97,
+   "thought": "RSI(2) 3. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -251,9 +251,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "BTC/USD",
-   "charge": 0,
-   "thought": "Channel 64234.18 to 65123.46. Waiting for a break.",
+   "focus": "ETH/USD",
+   "charge": 42,
+   "thought": "Channel 1750.32 to 1815.93. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -267,6 +267,24 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-17T15:57:00+00:00",
+   "worker": "snapback",
+   "kind": "shadow",
+   "text": "SNAPBACK (shadow) would short SPY: RSI(2) overbought in downtrend"
+  },
+  {
+   "t": "2026-11-17T15:56:00+00:00",
+   "worker": "snapback",
+   "kind": "shadow",
+   "text": "SNAPBACK (shadow) would short QQQ: RSI(2) overbought in downtrend"
+  },
+  {
+   "t": "2026-11-17T15:46:00+00:00",
+   "worker": "trend",
+   "kind": "shadow",
+   "text": "TREND (shadow) would long SLS: Trend pullback long"
+  },
   {
    "t": "2026-11-17T15:24:00+00:00",
    "worker": "snapback",
@@ -488,24 +506,6 @@
    "worker": "vwap",
    "kind": "shadow",
    "text": "VWAP (shadow) would long SNDQ: VWAP reclaim"
-  },
-  {
-   "t": "2026-11-16T14:59:00+00:00",
-   "worker": "trend",
-   "kind": "shadow",
-   "text": "TREND (shadow) would short SPY: Trend pullback short"
-  },
-  {
-   "t": "2026-11-16T14:59:00+00:00",
-   "worker": "momentum",
-   "kind": "shadow",
-   "text": "MOMENTUM (shadow) would short SPY: Below noise area"
-  },
-  {
-   "t": "2026-11-16T14:59:00+00:00",
-   "worker": "trend",
-   "kind": "shadow",
-   "text": "TREND (shadow) would short IWM: Trend pullback short"
   }
  ],
  "regime": {
@@ -513,19 +513,19 @@
    "symbol": "SPY",
    "bias": -3,
    "regime": "trend",
-   "rvol": 1.2,
+   "rvol": 1.54,
    "liquidity": {
     "prior day high": 749.79,
     "prior day low": 738.1,
     "opening range high": 739.68,
     "opening range low": 737.49
    },
-   "fvgs": 5
+   "fvgs": 8
   },
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": -1,
-   "regime": "normal",
+   "bias": -2,
+   "regime": "trend",
    "rvol": null,
    "liquidity": {
     "prior day high": 65614.35,
