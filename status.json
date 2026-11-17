@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T17:58:00+00:00",
+ "updated": "2026-11-17T18:14:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -63,7 +63,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Noise area 732.57 to 746.00. Next check on the half hour.",
+   "thought": "Noise area 732.42 to 746.14. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -121,12 +121,12 @@
     "SLS"
    ],
    "symbol_count": 4,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "QQQ",
-   "charge": 75,
+   "charge": 33,
    "thought": "Price below VWAP 654.34. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -189,9 +189,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 73,
-   "thought": "RSI(2) 26. Nothing stretched enough.",
+   "focus": "IWM",
+   "charge": 99,
+   "thought": "RSI(2) 1. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -222,7 +222,7 @@
    "pending": [],
    "position": null,
    "focus": "SLS",
-   "charge": 11,
+   "charge": 2,
    "thought": "Nearest liquidity: opening range low 20.68. Waiting for a sweep.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -247,13 +247,13 @@
     "ETH/USD"
    ],
    "symbol_count": 2,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "ETH/USD",
-   "charge": 72,
-   "thought": "Channel 1769.61 to 1791.18. Waiting for a break.",
+   "charge": 53,
+   "thought": "Channel 1775.01 to 1791.18. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -513,7 +513,7 @@
    "symbol": "SPY",
    "bias": -3,
    "regime": "normal",
-   "rvol": 1.57,
+   "rvol": 1.55,
    "liquidity": {
     "prior day high": 749.79,
     "prior day low": 738.1,
@@ -531,7 +531,7 @@
     "prior day high": 65614.35,
     "prior day low": 63824.9
    },
-   "fvgs": 9
+   "fvgs": 10
   }
  },
  "scanner": {
