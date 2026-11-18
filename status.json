@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T21:04:00+00:00",
+ "updated": "2026-11-18T14:28:00+00:00",
  "mode": "paper",
  "market_open": false,
  "halted": null,
@@ -27,14 +27,14 @@
     "PLTR",
     "COIN"
    ],
-   "symbol_count": 51,
-   "state": "charging",
+   "symbol_count": 50,
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "MSTR",
-   "charge": 90,
-   "thought": "In play (1.0x volume). Short stop at 102.53, stop-loss 106.94.",
+   "focus": "AAPL",
+   "charge": 0,
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -57,13 +57,13 @@
     "SPY"
    ],
    "symbol_count": 1,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 100,
-   "thought": "Noise area 732.36 to 746.20. Next check on the half hour.",
+   "charge": 0,
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -85,17 +85,16 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM",
-    "SLS"
+    "IWM"
    ],
-   "symbol_count": 4,
+   "symbol_count": 3,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Done for the day.",
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -117,17 +116,16 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM",
-    "SLS"
+    "IWM"
    ],
-   "symbol_count": 4,
+   "symbol_count": 3,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 6,
-   "thought": "VWAP 732.16. Waiting for the 10:00 to 3:00 window.",
+   "charge": 0,
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -149,17 +147,16 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM",
-    "SLS"
+    "IWM"
    ],
-   "symbol_count": 4,
+   "symbol_count": 3,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Too late in the day.",
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -181,17 +178,16 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM",
-    "SLS"
+    "IWM"
    ],
-   "symbol_count": 4,
+   "symbol_count": 3,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Too late in the day.",
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -213,17 +209,16 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM",
-    "SLS"
+    "IWM"
    ],
-   "symbol_count": 4,
+   "symbol_count": 3,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "QQQ",
-   "charge": 8,
-   "thought": "Nearest liquidity: opening range low 659.85. Waiting for a sweep.",
+   "focus": "SPY",
+   "charge": 0,
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -247,13 +242,13 @@
     "ETH/USD"
    ],
    "symbol_count": 2,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "BTC/USD",
-   "charge": 94,
-   "thought": "Channel 63640.57 to 64025.39. Waiting for a break.",
+   "focus": "ETH/USD",
+   "charge": 40,
+   "thought": "Channel 1787.40 to 1796.27. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -509,36 +504,22 @@
   }
  ],
  "regime": {
-  "lead": {
-   "symbol": "SPY",
-   "bias": -2,
-   "regime": "chop",
-   "rvol": 1.0,
-   "liquidity": {
-    "prior day high": 749.79,
-    "prior day low": 738.1,
-    "opening range high": 739.68,
-    "opening range low": 737.49
-   },
-   "fvgs": 8
-  },
+  "lead": null,
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": 1,
+   "bias": -3,
    "regime": "chop",
    "rvol": null,
    "liquidity": {
-    "prior day high": 65614.35,
-    "prior day low": 63824.9
+    "prior day high": 65384.84,
+    "prior day low": 63262.49
    },
-   "fvgs": 13
+   "fvgs": 7
   }
  },
  "scanner": {
-  "picks": [
-   "SLS"
-  ],
-  "note": "SLS +187.0%"
+  "picks": [],
+  "note": "Scanner runs at 9:35 ET on market days."
  },
  "fills": {
   "n": 8,
@@ -664,69 +645,7 @@
   },
   "verdict": "not enough trades yet (need ~40)"
  },
- "gates": {
-  "day": "2026-11-17",
-  "counts": {
-   "liquid": 835,
-   "gap": 2,
-   "gap_atr": 2,
-   "volume": 0,
-   "short_rule": 0,
-   "odds": 0,
-   "news": 0
-  },
-  "picked": 0,
-  "stocks": [
-   {
-    "sym": "OMER",
-    "gap": -15.1,
-    "gap_atr": 2.66,
-    "rvol": 2.0,
-    "side": "short",
-    "level": 13.42,
-    "fail": "volume",
-    "aplus": {
-     "strong_close": true,
-     "big_body": true,
-     "under_25": true,
-     "jumpy": false,
-     "short": true,
-     "fades_gap": false
-    }
-   },
-   {
-    "sym": "ENR",
-    "gap": 8.7,
-    "gap_atr": 2.18,
-    "rvol": 1.1,
-    "side": "short",
-    "level": 26.22,
-    "fail": "volume",
-    "aplus": {
-     "strong_close": true,
-     "big_body": true,
-     "under_25": true,
-     "jumpy": false,
-     "short": true,
-     "fades_gap": true
-    }
-   }
-  ],
-  "news_ok": null,
-  "rules": {
-   "min_price": 10,
-   "min_gap": 0.07,
-   "min_gap_atr": 1.0,
-   "min_rvol": 3.0,
-   "top_n": 10
-  },
-  "entries": {
-   "placed": 0,
-   "filled": 0,
-   "cancelled": 0,
-   "syms": {}
-  }
- },
+ "gates": null,
  "history": [
   {
    "date": "2026-11-05",
