@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T20:13:00+00:00",
+ "updated": "2026-11-18T20:28:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -91,8 +91,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 29,
-   "thought": "Noise area 725.42 to 740.41. Next check on the half hour.",
+   "charge": 36,
+   "thought": "Noise area 725.37 to 740.47. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -154,9 +154,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "IWM",
-   "charge": 82,
-   "thought": "VWAP 270.38. Waiting for the 10:00 to 3:00 window.",
+   "focus": "QQQ",
+   "charge": 94,
+   "thought": "VWAP 658.48. Waiting for the 10:00 to 3:00 window.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -246,13 +246,13 @@
     "AAOI"
    ],
    "symbol_count": 4,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 50,
-   "thought": "Swept the opening range low at 730.26. Waiting for a fair value gap.",
+   "charge": 85,
+   "thought": "Setup is ready but outside the trading windows.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -281,8 +281,8 @@
    "pending": [],
    "position": null,
    "focus": "BTC/USD",
-   "charge": 55,
-   "thought": "Channel 62502.80 to 62828.15. Waiting for a break.",
+   "charge": 18,
+   "thought": "Channel 62443.19 to 62828.15. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -542,25 +542,25 @@
    "symbol": "SPY",
    "bias": -3,
    "regime": "chop",
-   "rvol": 0.71,
+   "rvol": 0.7,
    "liquidity": {
     "prior day high": 739.68,
     "prior day low": 727.02,
     "opening range high": 735.01,
     "opening range low": 730.26
    },
-   "fvgs": 7
+   "fvgs": 9
   },
   "crypto": {
    "symbol": "BTC/USD",
    "bias": -3,
-   "regime": "chop",
+   "regime": "normal",
    "rvol": null,
    "liquidity": {
     "prior day high": 65384.84,
     "prior day low": 63262.49
    },
-   "fvgs": 11
+   "fvgs": 14
   }
  },
  "scanner": {
