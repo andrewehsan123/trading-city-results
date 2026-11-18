@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-18T20:58:00+00:00",
+ "updated": "2026-11-18T21:03:00+00:00",
  "mode": "paper",
- "market_open": true,
+ "market_open": false,
  "halted": null,
  "equity": 101291.52,
  "day_pnl": 0,
@@ -281,7 +281,7 @@
    "pending": [],
    "position": null,
    "focus": "ETH/USD",
-   "charge": 36,
+   "charge": 65,
    "thought": "Channel 1745.77 to 1757.00. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -542,7 +542,7 @@
    "symbol": "SPY",
    "bias": -2,
    "regime": "chop",
-   "rvol": 0.78,
+   "rvol": 1.0,
    "liquidity": {
     "prior day high": 739.68,
     "prior day low": 727.02,
