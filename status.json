@@ -1,11 +1,40 @@
 {
- "updated": "2026-11-18T14:28:00+00:00",
+ "updated": "2026-11-18T14:44:00+00:00",
  "mode": "paper",
- "market_open": false,
+ "market_open": true,
  "halted": null,
  "equity": 101291.52,
  "day_pnl": 0,
  "workers": [
+  {
+   "id": "gapgo",
+   "name": "GAP&GO",
+   "market": "stock",
+   "inspired_by": "Zarattini, Barbon & Aziz (2024) ORB on Stocks in Play, developed: 1-min range, gappers, quick partial",
+   "method": "At 9:31 ET picks stocks that gapped 7%+ whose first minute traded 3x+ normal. Places a buy-stop (or sell-stop) at the first 1-minute candle's high (low). Takes 30% off at a quick +0.25R, the rest rides with no risk. Exits any trade that hasn't paid within 60 minutes.",
+   "tier": "core",
+   "symbols": [
+    "GLBE"
+   ],
+   "symbol_count": 1,
+   "state": "charging",
+   "open_count": 0,
+   "pending": [],
+   "position": null,
+   "focus": "GLBE",
+   "charge": 90,
+   "thought": "Gapped -10.1% on 4.8x volume. Buy stop at 36.93.",
+   "pnl_today": 0,
+   "trades_today": 0,
+   "wins_today": 0,
+   "pnl_total": 1115.59,
+   "trades_total": 7,
+   "win_rate": 57.1,
+   "profit_factor": 4.33,
+   "allowed": true,
+   "size_x": 0.75,
+   "lab": null
+  },
   {
    "id": "opener",
    "name": "OPENER",
@@ -27,14 +56,14 @@
     "PLTR",
     "COIN"
    ],
-   "symbol_count": 50,
-   "state": "watching",
+   "symbol_count": 51,
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "AAPL",
-   "charge": 0,
-   "thought": "Waiting for the market.",
+   "focus": "NFLX",
+   "charge": 90,
+   "thought": "In play (1.0x volume). Buy stop at 60.11, stop-loss 59.19.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -57,13 +86,13 @@
     "SPY"
    ],
    "symbol_count": 1,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 0,
-   "thought": "Waiting for the market.",
+   "charge": 78,
+   "thought": "Noise area 729.96 to 735.86. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -85,16 +114,17 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM"
+    "IWM",
+    "AAOI"
    ],
-   "symbol_count": 3,
+   "symbol_count": 4,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 0,
-   "thought": "Waiting for the market.",
+   "charge": 37,
+   "thought": "Building the opening range: 730.26 to 735.01.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -116,16 +146,17 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM"
+    "IWM",
+    "AAOI"
    ],
-   "symbol_count": 3,
+   "symbol_count": 4,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 0,
-   "thought": "Waiting for the market.",
+   "focus": "AAOI",
+   "charge": 42,
+   "thought": "VWAP 39.39. Waiting for the 10:00 to 3:00 window.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -147,16 +178,17 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM"
+    "IWM",
+    "AAOI"
    ],
-   "symbol_count": 3,
+   "symbol_count": 4,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Waiting for the market.",
+   "thought": "Letting the averages settle.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -178,16 +210,17 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM"
+    "IWM",
+    "AAOI"
    ],
-   "symbol_count": 3,
+   "symbol_count": 4,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Waiting for the market.",
+   "thought": "Waiting for enough data.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -209,16 +242,17 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM"
+    "IWM",
+    "AAOI"
    ],
-   "symbol_count": 3,
+   "symbol_count": 4,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 0,
-   "thought": "Waiting for the market.",
+   "focus": "QQQ",
+   "charge": 39,
+   "thought": "Nearest liquidity: opening range low 655.22. Waiting for a sweep.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -246,9 +280,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "ETH/USD",
-   "charge": 40,
-   "thought": "Channel 1787.40 to 1796.27. Waiting for a break.",
+   "focus": "BTC/USD",
+   "charge": 23,
+   "thought": "Channel 63001.85 to 64004.43. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -262,6 +296,84 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-18T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would long WMT: Stock in play, 1.2x opening volume"
+  },
+  {
+   "t": "2026-11-18T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would short UNH: Stock in play, 1.3x opening volume"
+  },
+  {
+   "t": "2026-11-18T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would short RIVN: Stock in play, 1.1x opening volume"
+  },
+  {
+   "t": "2026-11-18T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would long PYPL: Stock in play, 1.2x opening volume"
+  },
+  {
+   "t": "2026-11-18T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would long NKE: Stock in play, 2.7x opening volume"
+  },
+  {
+   "t": "2026-11-18T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would long NFLX: Stock in play, 1.0x opening volume"
+  },
+  {
+   "t": "2026-11-18T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would short MSTR: Stock in play, 1.9x opening volume"
+  },
+  {
+   "t": "2026-11-18T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would long GM: Stock in play, 2.5x opening volume"
+  },
+  {
+   "t": "2026-11-18T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would long DIS: Stock in play, 1.9x opening volume"
+  },
+  {
+   "t": "2026-11-18T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would short CRM: Stock in play, 1.4x opening volume"
+  },
+  {
+   "t": "2026-11-18T14:35:12.418643+00:00",
+   "worker": "scanner",
+   "kind": "scan",
+   "text": "Stocks in play: AAOI -10.8%"
+  },
+  {
+   "t": "2026-11-18T14:31:07.440689+00:00",
+   "worker": "gapgo",
+   "kind": "scan",
+   "text": "GAP&GO picked 1: GLBE -10%"
+  },
+  {
+   "t": "2026-11-18T14:31:06.297577+00:00",
+   "worker": "gapgo",
+   "kind": "order",
+   "text": "GAP&GO buy-stop 548 GLBE @ 36.93"
+  },
   {
    "t": "2026-11-17T17:39:00+00:00",
    "worker": "vwap",
@@ -423,103 +535,39 @@
    "worker": "opener",
    "kind": "shadow",
    "text": "OPENER (shadow) would long CCL: Stock in play, 3.5x opening volume"
-  },
-  {
-   "t": "2026-11-17T14:35:08.366214+00:00",
-   "worker": "scanner",
-   "kind": "scan",
-   "text": "Stocks in play: SLS +187.0%"
-  },
-  {
-   "t": "2026-11-17T14:31:07.007358+00:00",
-   "worker": "gapgo",
-   "kind": "scan",
-   "text": "GAP&GO picked 0: no gappers today"
-  },
-  {
-   "t": "2026-11-16T18:47:00+00:00",
-   "worker": "snapback",
-   "kind": "shadow",
-   "text": "SNAPBACK (shadow) would long SNDQ: RSI(2) oversold in uptrend"
-  },
-  {
-   "t": "2026-11-16T18:42:00+00:00",
-   "worker": "snapback",
-   "kind": "shadow",
-   "text": "SNAPBACK (shadow) would long SOXS: RSI(2) oversold in uptrend"
-  },
-  {
-   "t": "2026-11-16T18:42:00+00:00",
-   "worker": "snapback",
-   "kind": "shadow",
-   "text": "SNAPBACK (shadow) would short QQQ: RSI(2) overbought in downtrend"
-  },
-  {
-   "t": "2026-11-16T17:51:00+00:00",
-   "worker": "snapback",
-   "kind": "shadow",
-   "text": "SNAPBACK (shadow) would short SPY: RSI(2) overbought in downtrend"
-  },
-  {
-   "t": "2026-11-16T17:47:00+00:00",
-   "worker": "trend",
-   "kind": "shadow",
-   "text": "TREND (shadow) would long SNDQ: Trend pullback long"
-  },
-  {
-   "t": "2026-11-16T16:58:00+00:00",
-   "worker": "snapback",
-   "kind": "shadow",
-   "text": "SNAPBACK (shadow) would short IWM: RSI(2) overbought in downtrend"
-  },
-  {
-   "t": "2026-11-16T16:36:00+00:00",
-   "worker": "vwap",
-   "kind": "shadow",
-   "text": "VWAP (shadow) would short SPY: VWAP rejection"
-  },
-  {
-   "t": "2026-11-16T16:22:00+00:00",
-   "worker": "turtle",
-   "kind": "shadow",
-   "text": "TURTLE (shadow) would long ETH/USD: 60-bar breakout"
-  },
-  {
-   "t": "2026-11-16T16:14:00+00:00",
-   "worker": "vwap",
-   "kind": "shadow",
-   "text": "VWAP (shadow) would long SOXS: VWAP reclaim"
-  },
-  {
-   "t": "2026-11-16T16:10:00+00:00",
-   "worker": "vwap",
-   "kind": "shadow",
-   "text": "VWAP (shadow) would short QQQ: VWAP rejection"
-  },
-  {
-   "t": "2026-11-16T15:21:00+00:00",
-   "worker": "trend",
-   "kind": "shadow",
-   "text": "TREND (shadow) would long SOXS: Trend pullback long"
   }
  ],
  "regime": {
-  "lead": null,
+  "lead": {
+   "symbol": "SPY",
+   "bias": -1,
+   "regime": "chop",
+   "rvol": 0.76,
+   "liquidity": {
+    "prior day high": 739.68,
+    "prior day low": 727.02,
+    "opening range high": 735.01,
+    "opening range low": 730.26
+   },
+   "fvgs": 2
+  },
   "crypto": {
    "symbol": "BTC/USD",
    "bias": -3,
-   "regime": "chop",
+   "regime": "trend",
    "rvol": null,
    "liquidity": {
     "prior day high": 65384.84,
     "prior day low": 63262.49
    },
-   "fvgs": 7
+   "fvgs": 9
   }
  },
  "scanner": {
-  "picks": [],
-  "note": "Scanner runs at 9:35 ET on market days."
+  "picks": [
+   "AAOI"
+  ],
+  "note": "AAOI -10.8%"
  },
  "fills": {
   "n": 8,
@@ -645,7 +693,101 @@
   },
   "verdict": "not enough trades yet (need ~40)"
  },
- "gates": null,
+ "gates": {
+  "day": "2026-11-18",
+  "counts": {
+   "liquid": 848,
+   "gap": 3,
+   "gap_atr": 2,
+   "volume": 2,
+   "short_rule": 1,
+   "thin_history": 2,
+   "calm": 1,
+   "gap_band": 1,
+   "odds": 1,
+   "news": 1
+  },
+  "picked": 1,
+  "stocks": [
+   {
+    "sym": "PRMB",
+    "gap": -9.3,
+    "gap_atr": 2.6,
+    "rvol": 37.7,
+    "side": "short",
+    "level": 21.5,
+    "fail": "short_rule",
+    "aplus": {
+     "strong_close": false,
+     "big_body": false,
+     "under_25": true,
+     "jumpy": false,
+     "short": true,
+     "fades_gap": false
+    }
+   },
+   {
+    "sym": "GLBE",
+    "gap": -10.1,
+    "gap_atr": 2.05,
+    "rvol": 4.8,
+    "side": "long",
+    "level": 36.93,
+    "fail": null,
+    "aplus": {
+     "strong_close": false,
+     "big_body": false,
+     "under_25": false,
+     "jumpy": false,
+     "short": false,
+     "fades_gap": true,
+     "few_stories": true,
+     "no_analyst_news": true
+    },
+    "rng_atr": 0.59,
+    "sure": true,
+    "size_x": 2.846,
+    "short_ratio": 3.91,
+    "odds": 0.72,
+    "news": 1,
+    "score": 3,
+    "tone": true
+   },
+   {
+    "sym": "AAOI",
+    "gap": -9.1,
+    "gap_atr": 0.55,
+    "rvol": 0.6,
+    "side": "long",
+    "level": 41.88,
+    "fail": "gap_atr",
+    "aplus": {
+     "strong_close": true,
+     "big_body": true,
+     "under_25": false,
+     "jumpy": true,
+     "short": false,
+     "fades_gap": true
+    }
+   }
+  ],
+  "news_ok": true,
+  "rules": {
+   "min_price": 10,
+   "min_gap": 0.07,
+   "min_gap_atr": 1.0,
+   "min_rvol": 3.0,
+   "top_n": 10
+  },
+  "entries": {
+   "placed": 1,
+   "filled": 0,
+   "cancelled": 1,
+   "syms": {
+    "GLBE": "no break"
+   }
+  }
+ },
  "history": [
   {
    "date": "2026-11-05",
