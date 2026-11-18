@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T15:13:00+00:00",
+ "updated": "2026-11-18T15:28:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -91,8 +91,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 21,
-   "thought": "Noise area 728.07 to 737.76. Next check on the half hour.",
+   "charge": 22,
+   "thought": "Noise area 727.93 to 737.90. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -123,7 +123,7 @@
    "pending": [],
    "position": null,
    "focus": "AAOI",
-   "charge": 52,
+   "charge": 61,
    "thought": "Inside the range. Watching 37.61 and 42.25.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -154,9 +154,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 90,
-   "thought": "Lost VWAP 732.06 with the trend down. Going short.",
+   "focus": "AAOI",
+   "charge": 91,
+   "thought": "Price below VWAP 39.45. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -182,13 +182,13 @@
     "AAOI"
    ],
    "symbol_count": 4,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 10,
-   "thought": "Higher timeframes not lined up (bias +0, chop). Sitting out.",
+   "focus": "AAOI",
+   "charge": 80,
+   "thought": "Downtrend. Price is testing the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -218,9 +218,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 0,
-   "thought": "Waiting for enough data.",
+   "focus": "AAOI",
+   "charge": 31,
+   "thought": "RSI(2) 68. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -246,13 +246,13 @@
     "AAOI"
    ],
    "symbol_count": 4,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "IWM",
-   "charge": 85,
-   "thought": "Gap 269.19-269.56 ready. Waiting for price to tap it.",
+   "focus": "SPY",
+   "charge": 32,
+   "thought": "Nearest liquidity: opening range low 730.26. Waiting for a sweep.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -281,7 +281,7 @@
    "pending": [],
    "position": null,
    "focus": "BTC/USD",
-   "charge": 51,
+   "charge": 50,
    "thought": "Channel 63001.85 to 64004.43. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -296,6 +296,12 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-18T15:25:00+00:00",
+   "worker": "vwap",
+   "kind": "shadow",
+   "text": "VWAP (shadow) would short AAOI: VWAP rejection"
+  },
   {
    "t": "2026-11-18T15:11:00+00:00",
    "worker": "sweep",
@@ -529,32 +535,26 @@
    "worker": "opener",
    "kind": "shadow",
    "text": "OPENER (shadow) would short JPM: Stock in play, 3.1x opening volume"
-  },
-  {
-   "t": "2026-11-17T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short HOOD: Stock in play, 1.1x opening volume"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
-   "bias": 0,
+   "bias": -2,
    "regime": "chop",
-   "rvol": 0.83,
+   "rvol": 0.78,
    "liquidity": {
     "prior day high": 739.68,
     "prior day low": 727.02,
     "opening range high": 735.01,
     "opening range low": 730.26
    },
-   "fvgs": 4
+   "fvgs": 3
   },
   "crypto": {
    "symbol": "BTC/USD",
    "bias": -3,
-   "regime": "normal",
+   "regime": "chop",
    "rvol": null,
    "liquidity": {
     "prior day high": 65384.84,
