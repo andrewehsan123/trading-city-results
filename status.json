@@ -1,40 +1,11 @@
 {
- "updated": "2026-11-18T21:04:00+00:00",
+ "updated": "2026-11-19T14:28:00+00:00",
  "mode": "paper",
  "market_open": false,
  "halted": null,
  "equity": 101291.52,
  "day_pnl": 0,
  "workers": [
-  {
-   "id": "gapgo",
-   "name": "GAP&GO",
-   "market": "stock",
-   "inspired_by": "Zarattini, Barbon & Aziz (2024) ORB on Stocks in Play, developed: 1-min range, gappers, quick partial",
-   "method": "At 9:31 ET picks stocks that gapped 7%+ whose first minute traded 3x+ normal. Places a buy-stop (or sell-stop) at the first 1-minute candle's high (low). Takes 30% off at a quick +0.25R, the rest rides with no risk. Exits any trade that hasn't paid within 60 minutes.",
-   "tier": "core",
-   "symbols": [
-    "GLBE"
-   ],
-   "symbol_count": 1,
-   "state": "charging",
-   "open_count": 0,
-   "pending": [],
-   "position": null,
-   "focus": "GLBE",
-   "charge": 90,
-   "thought": "Gapped -10.1% on 4.8x volume. Buy stop at 36.93.",
-   "pnl_today": 0,
-   "trades_today": 0,
-   "wins_today": 0,
-   "pnl_total": 1115.59,
-   "trades_total": 7,
-   "win_rate": 57.1,
-   "profit_factor": 4.33,
-   "allowed": true,
-   "size_x": 0.75,
-   "lab": null
-  },
   {
    "id": "opener",
    "name": "OPENER",
@@ -56,14 +27,14 @@
     "PLTR",
     "COIN"
    ],
-   "symbol_count": 51,
-   "state": "charging",
+   "symbol_count": 50,
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "NFLX",
-   "charge": 90,
-   "thought": "In play (1.0x volume). Buy stop at 60.11, stop-loss 59.19.",
+   "focus": "AAPL",
+   "charge": 0,
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -91,8 +62,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 36,
-   "thought": "Noise area 725.80 to 740.03. Next check on the half hour.",
+   "charge": 0,
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -114,17 +85,16 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM",
-    "AAOI"
+    "IWM"
    ],
-   "symbol_count": 4,
+   "symbol_count": 3,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Done for the day.",
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -146,17 +116,16 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM",
-    "AAOI"
+    "IWM"
    ],
-   "symbol_count": 4,
+   "symbol_count": 3,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 57,
-   "thought": "VWAP 730.79. Waiting for the 10:00 to 3:00 window.",
+   "charge": 0,
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -178,17 +147,16 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM",
-    "AAOI"
+    "IWM"
    ],
-   "symbol_count": 4,
+   "symbol_count": 3,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Too late in the day.",
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -210,17 +178,16 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM",
-    "AAOI"
+    "IWM"
    ],
-   "symbol_count": 4,
+   "symbol_count": 3,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Too late in the day.",
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -242,17 +209,16 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM",
-    "AAOI"
+    "IWM"
    ],
-   "symbol_count": 4,
+   "symbol_count": 3,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 50,
-   "thought": "Swept the opening range low at 730.26. Waiting for a fair value gap.",
+   "charge": 0,
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -276,13 +242,13 @@
     "ETH/USD"
    ],
    "symbol_count": 2,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "ETH/USD",
-   "charge": 71,
-   "thought": "Channel 1745.77 to 1757.00. Waiting for a break.",
+   "focus": "BTC/USD",
+   "charge": 68,
+   "thought": "Channel 63616.67 to 64024.31. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -538,36 +504,22 @@
   }
  ],
  "regime": {
-  "lead": {
-   "symbol": "SPY",
-   "bias": -2,
-   "regime": "chop",
-   "rvol": 1.0,
-   "liquidity": {
-    "prior day high": 739.68,
-    "prior day low": 727.02,
-    "opening range high": 735.01,
-    "opening range low": 730.26
-   },
-   "fvgs": 7
-  },
+  "lead": null,
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": -3,
+   "bias": 3,
    "regime": "chop",
    "rvol": null,
    "liquidity": {
-    "prior day high": 65384.84,
-    "prior day low": 63262.49
+    "prior day high": 64935.08,
+    "prior day low": 62003.8
    },
-   "fvgs": 12
+   "fvgs": 14
   }
  },
  "scanner": {
-  "picks": [
-   "AAOI"
-  ],
-  "note": "AAOI -10.8%"
+  "picks": [],
+  "note": "Scanner runs at 9:35 ET on market days."
  },
  "fills": {
   "n": 8,
@@ -693,101 +645,7 @@
   },
   "verdict": "not enough trades yet (need ~40)"
  },
- "gates": {
-  "day": "2026-11-18",
-  "counts": {
-   "liquid": 848,
-   "gap": 3,
-   "gap_atr": 2,
-   "volume": 2,
-   "short_rule": 1,
-   "thin_history": 2,
-   "calm": 1,
-   "gap_band": 1,
-   "odds": 1,
-   "news": 1
-  },
-  "picked": 1,
-  "stocks": [
-   {
-    "sym": "PRMB",
-    "gap": -9.3,
-    "gap_atr": 2.6,
-    "rvol": 37.7,
-    "side": "short",
-    "level": 21.5,
-    "fail": "short_rule",
-    "aplus": {
-     "strong_close": false,
-     "big_body": false,
-     "under_25": true,
-     "jumpy": false,
-     "short": true,
-     "fades_gap": false
-    }
-   },
-   {
-    "sym": "GLBE",
-    "gap": -10.1,
-    "gap_atr": 2.05,
-    "rvol": 4.8,
-    "side": "long",
-    "level": 36.93,
-    "fail": null,
-    "aplus": {
-     "strong_close": false,
-     "big_body": false,
-     "under_25": false,
-     "jumpy": false,
-     "short": false,
-     "fades_gap": true,
-     "few_stories": true,
-     "no_analyst_news": true
-    },
-    "rng_atr": 0.59,
-    "sure": true,
-    "size_x": 2.846,
-    "short_ratio": 3.91,
-    "odds": 0.72,
-    "news": 1,
-    "score": 3,
-    "tone": true
-   },
-   {
-    "sym": "AAOI",
-    "gap": -9.1,
-    "gap_atr": 0.55,
-    "rvol": 0.6,
-    "side": "long",
-    "level": 41.88,
-    "fail": "gap_atr",
-    "aplus": {
-     "strong_close": true,
-     "big_body": true,
-     "under_25": false,
-     "jumpy": true,
-     "short": false,
-     "fades_gap": true
-    }
-   }
-  ],
-  "news_ok": true,
-  "rules": {
-   "min_price": 10,
-   "min_gap": 0.07,
-   "min_gap_atr": 1.0,
-   "min_rvol": 3.0,
-   "top_n": 10
-  },
-  "entries": {
-   "placed": 1,
-   "filled": 0,
-   "cancelled": 1,
-   "syms": {
-    "GLBE": "no break"
-   }
-  }
- },
+ "gates": null,
  "history": [
   {
    "date": "2026-11-05",
