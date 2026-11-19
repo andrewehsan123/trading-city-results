@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T21:03:00+00:00",
+ "updated": "2026-11-19T21:04:00+00:00",
  "mode": "paper",
  "market_open": false,
  "halted": null,
@@ -257,7 +257,7 @@
    "pending": [],
    "position": null,
    "focus": "ETH/USD",
-   "charge": 27,
+   "charge": 22,
    "thought": "Channel 1750.00 to 1766.96. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
