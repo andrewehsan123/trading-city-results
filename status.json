@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T19:28:00+00:00",
+ "updated": "2026-11-19T19:43:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -63,7 +63,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Noise area 723.47 to 744.46. Next check on the half hour.",
+   "thought": "Noise area 723.30 to 744.64. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -129,7 +129,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Price below VWAP 726.87. No cross yet.",
+   "thought": "Price below VWAP 726.65. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -162,7 +162,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 10,
-   "thought": "Higher timeframes not lined up (bias -2, chop). Sitting out.",
+   "thought": "Higher timeframes not lined up (bias -3, chop). Sitting out.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -189,13 +189,13 @@
     "SOXS"
    ],
    "symbol_count": 5,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SNDQ",
-   "charge": 73,
-   "thought": "RSI(2) 26. Nothing stretched enough.",
+   "focus": "QQQ",
+   "charge": 60,
+   "thought": "RSI(2) 40. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -222,13 +222,13 @@
     "SOXS"
    ],
    "symbol_count": 5,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SOXS",
-   "charge": 85,
-   "thought": "Gap 60.85-61.38 ready. Waiting for price to tap it.",
+   "focus": "QQQ",
+   "charge": 25,
+   "thought": "Nearest liquidity: prior day low 653.07. Waiting for a sweep.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -257,8 +257,8 @@
    "pending": [],
    "position": null,
    "focus": "ETH/USD",
-   "charge": 48,
-   "thought": "Channel 1769.74 to 1789.16. Waiting for a break.",
+   "charge": 11,
+   "thought": "Channel 1769.74 to 1783.15. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -516,7 +516,7 @@
  "regime": {
   "lead": {
    "symbol": "SPY",
-   "bias": -2,
+   "bias": -3,
    "regime": "chop",
    "rvol": 1.69,
    "liquidity": {
@@ -525,7 +525,7 @@
     "opening range high": 739.77,
     "opening range low": 735.47
    },
-   "fvgs": 11
+   "fvgs": 9
   },
   "crypto": {
    "symbol": "BTC/USD",
