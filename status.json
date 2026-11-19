@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T20:28:00+00:00",
+ "updated": "2026-11-19T20:43:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -63,7 +63,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Noise area 723.12 to 744.82. Next check on the half hour.",
+   "thought": "Noise area 723.27 to 744.67. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -129,7 +129,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "VWAP 725.51. Waiting for the 10:00 to 3:00 window.",
+   "thought": "VWAP 725.09. Waiting for the 10:00 to 3:00 window.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -227,7 +227,7 @@
    "pending": [],
    "position": null,
    "focus": "SOXS",
-   "charge": 33,
+   "charge": 32,
    "thought": "Nearest liquidity: prior day high 61.78. Waiting for a sweep.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -257,8 +257,8 @@
    "pending": [],
    "position": null,
    "focus": "ETH/USD",
-   "charge": 23,
-   "thought": "Channel 1754.59 to 1780.90. Waiting for a break.",
+   "charge": 43,
+   "thought": "Channel 1750.00 to 1775.44. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -518,7 +518,7 @@
    "symbol": "SPY",
    "bias": -3,
    "regime": "chop",
-   "rvol": 1.72,
+   "rvol": 1.7,
    "liquidity": {
     "prior day high": 735.01,
     "prior day low": 726.9,
@@ -536,7 +536,7 @@
     "prior day high": 64935.08,
     "prior day low": 62003.8
    },
-   "fvgs": 10
+   "fvgs": 11
   }
  },
  "scanner": {
