@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T15:43:00+00:00",
+ "updated": "2026-11-20T15:58:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -62,8 +62,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 89,
-   "thought": "Noise area 707.89 to 721.53. Next check on the half hour.",
+   "charge": 100,
+   "thought": "Noise area 707.61 to 721.81. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -129,7 +129,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Price below VWAP 712.56. No cross yet.",
+   "thought": "Price below VWAP 711.90. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -160,9 +160,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
+   "focus": "QQQ",
    "charge": 80,
-   "thought": "Rejected at the 9 EMA in a downtrend. Going short.",
+   "thought": "Downtrend. Price is testing the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -193,9 +193,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "QQQ",
-   "charge": 73,
-   "thought": "RSI(2) 27. Nothing stretched enough.",
+   "focus": "IWM",
+   "charge": 95,
+   "thought": "RSI(2) 5. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -226,9 +226,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
+   "focus": "IWM",
    "charge": 50,
-   "thought": "Swept the opening range low at 711.75. Waiting for a fair value gap.",
+   "thought": "Swept the opening range low at 262.63. Waiting for a fair value gap.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -256,9 +256,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "ETH/USD",
-   "charge": 7,
-   "thought": "Channel 1657.70 to 1746.80. Waiting for a break.",
+   "focus": "BTC/USD",
+   "charge": 2,
+   "thought": "Channel 59331.40 to 61879.97. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -272,6 +272,12 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-20T15:50:00+00:00",
+   "worker": "trend",
+   "kind": "shadow",
+   "text": "TREND (shadow) would long DAMD: Trend pullback long"
+  },
   {
    "t": "2026-11-20T15:33:00+00:00",
    "worker": "trend",
@@ -505,20 +511,14 @@
    "worker": "trend",
    "kind": "shadow",
    "text": "TREND (shadow) would long SNDQ: Trend pullback long"
-  },
-  {
-   "t": "2026-11-19T16:59:00+00:00",
-   "worker": "momentum",
-   "kind": "shadow",
-   "text": "MOMENTUM (shadow) would short SPY: Below noise area"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
    "bias": -3,
-   "regime": "trend",
-   "rvol": 1.58,
+   "regime": "normal",
+   "rvol": 1.51,
    "liquidity": {
     "prior day high": 739.77,
     "prior day low": 715.71,
@@ -536,7 +536,7 @@
     "prior day high": 64024.31,
     "prior day low": 61357.49
    },
-   "fvgs": 11
+   "fvgs": 13
   }
  },
  "scanner": {
