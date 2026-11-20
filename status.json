@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T18:43:00+00:00",
+ "updated": "2026-11-20T18:59:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -63,7 +63,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Noise area 706.24 to 723.19. Next check on the half hour.",
+   "thought": "Broke below the noise area (706.46). Going short.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -129,7 +129,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Price below VWAP 707.12. No cross yet.",
+   "thought": "Price below VWAP 706.85. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -162,7 +162,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 10,
-   "thought": "Higher timeframes not lined up (bias -2, chop). Sitting out.",
+   "thought": "Higher timeframes not lined up (bias -1, chop). Sitting out.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -194,8 +194,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 97,
-   "thought": "RSI(2) 2. Nothing stretched enough.",
+   "charge": 91,
+   "thought": "RSI(2) 9. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -226,9 +226,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 0,
-   "thought": "Nearest liquidity: opening range low 711.75. Waiting for a sweep.",
+   "focus": "DAMD",
+   "charge": 1,
+   "thought": "Nearest liquidity: opening range high 10.69. Waiting for a sweep.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -256,9 +256,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "ETH/USD",
-   "charge": 23,
-   "thought": "Channel 1620.64 to 1641.16. Waiting for a break.",
+   "focus": "BTC/USD",
+   "charge": 27,
+   "thought": "Channel 57992.01 to 59235.94. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -516,27 +516,27 @@
  "regime": {
   "lead": {
    "symbol": "SPY",
-   "bias": -2,
+   "bias": -1,
    "regime": "chop",
-   "rvol": 1.56,
+   "rvol": 1.57,
    "liquidity": {
     "prior day high": 739.77,
     "prior day low": 715.71,
     "opening range high": 714.1,
     "opening range low": 711.75
    },
-   "fvgs": 10
+   "fvgs": 9
   },
   "crypto": {
    "symbol": "BTC/USD",
    "bias": -3,
-   "regime": "chop",
+   "regime": "normal",
    "rvol": null,
    "liquidity": {
     "prior day high": 64024.31,
     "prior day low": 61357.49
    },
-   "fvgs": 15
+   "fvgs": 17
   }
  },
  "scanner": {
