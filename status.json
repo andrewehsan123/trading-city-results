@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T15:13:00+00:00",
+ "updated": "2026-11-20T15:28:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -57,13 +57,13 @@
     "SPY"
    ],
    "symbol_count": 1,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 2,
-   "thought": "Noise area 709.30 to 720.11. Next check on the half hour.",
+   "charge": 76,
+   "thought": "Noise area 708.87 to 720.55. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -90,13 +90,13 @@
     "SOXS"
    ],
    "symbol_count": 5,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SOXS",
-   "charge": 74,
-   "thought": "Inside the range. Watching 67.19 and 72.11.",
+   "focus": "SPY",
+   "charge": 0,
+   "thought": "Done for the day.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -123,13 +123,13 @@
     "SOXS"
    ],
    "symbol_count": 5,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "DAMD",
-   "charge": 97,
-   "thought": "Reclaimed VWAP 10.36 with the trend up. Going long.",
+   "focus": "SPY",
+   "charge": 0,
+   "thought": "Price below VWAP 713.20. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -156,13 +156,13 @@
     "SOXS"
    ],
    "symbol_count": 5,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 10,
-   "thought": "Higher timeframes not lined up (bias -3, chop). Sitting out.",
+   "charge": 80,
+   "thought": "Downtrend. Price is testing the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -189,13 +189,13 @@
     "SOXS"
    ],
    "symbol_count": 5,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 0,
-   "thought": "Waiting for enough data.",
+   "focus": "SOXS",
+   "charge": 70,
+   "thought": "RSI(2) 29. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -226,9 +226,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "IWM",
+   "focus": "SOXS",
    "charge": 85,
-   "thought": "Gap 265.00-265.31 ready. Waiting for price to tap it.",
+   "thought": "Gap 70.62-70.73 ready. Waiting for price to tap it.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -257,8 +257,8 @@
    "pending": [],
    "position": null,
    "focus": "BTC/USD",
-   "charge": 0,
-   "thought": "Channel 60978.94 to 62112.83. Waiting for a break.",
+   "charge": 13,
+   "thought": "Channel 60002.70 to 62112.83. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -272,6 +272,24 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-20T15:17:00+00:00",
+   "worker": "orb",
+   "kind": "shadow",
+   "text": "ORB (shadow) would long SOXS: Opening range breakout up"
+  },
+  {
+   "t": "2026-11-20T15:17:00+00:00",
+   "worker": "vwap",
+   "kind": "shadow",
+   "text": "VWAP (shadow) would short IWM: VWAP rejection"
+  },
+  {
+   "t": "2026-11-20T15:16:00+00:00",
+   "worker": "vwap",
+   "kind": "shadow",
+   "text": "VWAP (shadow) would short SPY: VWAP rejection"
+  },
   {
    "t": "2026-11-20T15:13:00+00:00",
    "worker": "vwap",
@@ -493,32 +511,14 @@
    "worker": "trend",
    "kind": "shadow",
    "text": "TREND (shadow) would long SOXS: Trend pullback long"
-  },
-  {
-   "t": "2026-11-19T15:46:00+00:00",
-   "worker": "trend",
-   "kind": "shadow",
-   "text": "TREND (shadow) would short SPY: Trend pullback short"
-  },
-  {
-   "t": "2026-11-19T15:46:00+00:00",
-   "worker": "trend",
-   "kind": "shadow",
-   "text": "TREND (shadow) would short QQQ: Trend pullback short"
-  },
-  {
-   "t": "2026-11-19T15:43:00+00:00",
-   "worker": "snapback",
-   "kind": "shadow",
-   "text": "SNAPBACK (shadow) would short SPY: RSI(2) overbought in downtrend"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
    "bias": -3,
-   "regime": "chop",
-   "rvol": 1.39,
+   "regime": "trend",
+   "rvol": 1.64,
    "liquidity": {
     "prior day high": 739.77,
     "prior day low": 715.71,
@@ -529,14 +529,14 @@
   },
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": -2,
-   "regime": "normal",
+   "bias": -3,
+   "regime": "trend",
    "rvol": null,
    "liquidity": {
     "prior day high": 64024.31,
     "prior day low": 61357.49
    },
-   "fvgs": 9
+   "fvgs": 11
   }
  },
  "scanner": {
