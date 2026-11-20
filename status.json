@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T17:28:00+00:00",
+ "updated": "2026-11-20T17:43:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -63,7 +63,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Noise area 707.18 to 722.25. Next check on the half hour.",
+   "thought": "Noise area 706.80 to 722.62. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -129,7 +129,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Price below VWAP 708.89. No cross yet.",
+   "thought": "Price below VWAP 708.47. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -160,9 +160,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "QQQ",
+   "focus": "DAMD",
    "charge": 80,
-   "thought": "Downtrend. Price is testing the 9 EMA.",
+   "thought": "Uptrend. Price is testing the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -193,9 +193,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "IWM",
-   "charge": 87,
-   "thought": "RSI(2) 13. Nothing stretched enough.",
+   "focus": "DAMD",
+   "charge": 76,
+   "thought": "RSI(2) 23. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -256,9 +256,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "BTC/USD",
-   "charge": 25,
-   "thought": "Channel 59080.65 to 59606.29. Waiting for a break.",
+   "focus": "ETH/USD",
+   "charge": 32,
+   "thought": "Channel 1617.55 to 1645.78. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -272,6 +272,18 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-20T17:32:00+00:00",
+   "worker": "snapback",
+   "kind": "shadow",
+   "text": "SNAPBACK (shadow) would short SPY: RSI(2) overbought in downtrend"
+  },
+  {
+   "t": "2026-11-20T17:32:00+00:00",
+   "worker": "snapback",
+   "kind": "shadow",
+   "text": "SNAPBACK (shadow) would short QQQ: RSI(2) overbought in downtrend"
+  },
   {
    "t": "2026-11-20T16:29:00+00:00",
    "worker": "momentum",
@@ -499,33 +511,21 @@
    "worker": "scanner",
    "kind": "scan",
    "text": "Stocks in play: DAMD +12.7%, SOXS +12.6%"
-  },
-  {
-   "t": "2026-11-20T14:31:06.893502+00:00",
-   "worker": "gapgo",
-   "kind": "scan",
-   "text": "GAP&GO picked 0: no gappers today"
-  },
-  {
-   "t": "2026-11-20T14:27:00+00:00",
-   "worker": "turtle",
-   "kind": "shadow",
-   "text": "TURTLE (shadow) would long ETH/USD: 60-bar breakout"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
    "bias": -3,
-   "regime": "normal",
-   "rvol": 1.49,
+   "regime": "chop",
+   "rvol": 1.48,
    "liquidity": {
     "prior day high": 739.77,
     "prior day low": 715.71,
     "opening range high": 714.1,
     "opening range low": 711.75
    },
-   "fvgs": 8
+   "fvgs": 9
   },
   "crypto": {
    "symbol": "BTC/USD",
