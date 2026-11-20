@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T21:04:00+00:00",
+ "updated": "2026-11-20T14:28:00+00:00",
  "mode": "paper",
  "market_open": false,
  "halted": null,
@@ -27,14 +27,14 @@
     "PLTR",
     "COIN"
    ],
-   "symbol_count": 52,
-   "state": "charging",
+   "symbol_count": 50,
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "MSFT",
-   "charge": 90,
-   "thought": "In play (1.3x volume). Buy stop at 522.43, stop-loss 513.71.",
+   "focus": "AAPL",
+   "charge": 0,
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -57,13 +57,13 @@
     "SPY"
    ],
    "symbol_count": 1,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 100,
-   "thought": "Noise area 723.55 to 744.39. Next check on the half hour.",
+   "charge": 0,
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -85,18 +85,16 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM",
-    "SNDQ",
-    "SOXS"
+    "IWM"
    ],
-   "symbol_count": 5,
+   "symbol_count": 3,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Done for the day.",
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -118,18 +116,16 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM",
-    "SNDQ",
-    "SOXS"
+    "IWM"
    ],
-   "symbol_count": 5,
+   "symbol_count": 3,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "VWAP 724.34. Waiting for the 10:00 to 3:00 window.",
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -151,18 +147,16 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM",
-    "SNDQ",
-    "SOXS"
+    "IWM"
    ],
-   "symbol_count": 5,
+   "symbol_count": 3,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Too late in the day.",
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -184,18 +178,16 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM",
-    "SNDQ",
-    "SOXS"
+    "IWM"
    ],
-   "symbol_count": 5,
+   "symbol_count": 3,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Too late in the day.",
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -217,18 +209,16 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM",
-    "SNDQ",
-    "SOXS"
+    "IWM"
    ],
-   "symbol_count": 5,
+   "symbol_count": 3,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SNDQ",
-   "charge": 50,
-   "thought": "Swept the prior day high at 35.80. Waiting for a fair value gap.",
+   "focus": "SPY",
+   "charge": 0,
+   "thought": "Waiting for the market.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -252,13 +242,13 @@
     "ETH/USD"
    ],
    "symbol_count": 2,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "ETH/USD",
-   "charge": 22,
-   "thought": "Channel 1750.00 to 1766.96. Waiting for a break.",
+   "charge": 97,
+   "thought": "Channel 1726.53 to 1756.85. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -272,6 +262,18 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-20T14:27:00+00:00",
+   "worker": "turtle",
+   "kind": "shadow",
+   "text": "TURTLE (shadow) would long ETH/USD: 60-bar breakout"
+  },
+  {
+   "t": "2026-11-20T14:24:00+00:00",
+   "worker": "turtle",
+   "kind": "shadow",
+   "text": "TURTLE (shadow) would long BTC/USD: 60-bar breakout"
+  },
   {
    "t": "2026-11-19T17:22:00+00:00",
    "worker": "snapback",
@@ -499,52 +501,25 @@
    "worker": "snapback",
    "kind": "shadow",
    "text": "SNAPBACK (shadow) would short SPY: RSI(2) overbought in downtrend"
-  },
-  {
-   "t": "2026-11-18T18:08:00+00:00",
-   "worker": "vwap",
-   "kind": "shadow",
-   "text": "VWAP (shadow) would short QQQ: VWAP rejection"
-  },
-  {
-   "t": "2026-11-18T16:08:00+00:00",
-   "worker": "vwap",
-   "kind": "shadow",
-   "text": "VWAP (shadow) would long QQQ: VWAP reclaim"
   }
  ],
  "regime": {
-  "lead": {
-   "symbol": "SPY",
-   "bias": -3,
-   "regime": "chop",
-   "rvol": 1.0,
-   "liquidity": {
-    "prior day high": 735.01,
-    "prior day low": 726.9,
-    "opening range high": 739.77,
-    "opening range low": 735.47
-   },
-   "fvgs": 2
-  },
+  "lead": null,
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": -3,
-   "regime": "chop",
+   "bias": 2,
+   "regime": "normal",
    "rvol": null,
    "liquidity": {
-    "prior day high": 64935.08,
-    "prior day low": 62003.8
+    "prior day high": 64024.31,
+    "prior day low": 61357.49
    },
-   "fvgs": 11
+   "fvgs": 9
   }
  },
  "scanner": {
-  "picks": [
-   "SNDQ",
-   "SOXS"
-  ],
-  "note": "SNDQ -16.6%, SOXS -11.8%"
+  "picks": [],
+  "note": "Scanner runs at 9:35 ET on market days."
  },
  "fills": {
   "n": 8,
@@ -670,89 +645,7 @@
   },
   "verdict": "not enough trades yet (need ~40)"
  },
- "gates": {
-  "day": "2026-11-19",
-  "counts": {
-   "liquid": 772,
-   "gap": 3,
-   "gap_atr": 1,
-   "volume": 1,
-   "short_rule": 1,
-   "calm": 1,
-   "odds": 0,
-   "news": 0
-  },
-  "picked": 0,
-  "stocks": [
-   {
-    "sym": "SLS",
-    "gap": -14.5,
-    "gap_atr": 1.06,
-    "rvol": 4.5,
-    "side": "long",
-    "level": 15.61,
-    "fail": "gap_band",
-    "aplus": {
-     "strong_close": true,
-     "big_body": false,
-     "under_25": true,
-     "jumpy": true,
-     "short": false,
-     "fades_gap": true
-    },
-    "rng_atr": 0.41,
-    "sure": false
-   },
-   {
-    "sym": "ASTS",
-    "gap": 8.6,
-    "gap_atr": 0.54,
-    "rvol": 0.8,
-    "side": "short",
-    "level": 27.28,
-    "fail": "gap_atr",
-    "aplus": {
-     "strong_close": true,
-     "big_body": true,
-     "under_25": true,
-     "jumpy": true,
-     "short": true,
-     "fades_gap": true
-    }
-   },
-   {
-    "sym": "COHR",
-    "gap": 7.9,
-    "gap_atr": 0.7,
-    "rvol": 0.5,
-    "side": "short",
-    "level": 225.22,
-    "fail": "gap_atr",
-    "aplus": {
-     "strong_close": false,
-     "big_body": true,
-     "under_25": false,
-     "jumpy": true,
-     "short": true,
-     "fades_gap": true
-    }
-   }
-  ],
-  "news_ok": false,
-  "rules": {
-   "min_price": 10,
-   "min_gap": 0.07,
-   "min_gap_atr": 1.0,
-   "min_rvol": 3.0,
-   "top_n": 10
-  },
-  "entries": {
-   "placed": 0,
-   "filled": 0,
-   "cancelled": 0,
-   "syms": {}
-  }
- },
+ "gates": null,
  "history": [
   {
    "date": "2026-11-05",
