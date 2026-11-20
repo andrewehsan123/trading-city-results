@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T18:59:00+00:00",
+ "updated": "2026-11-20T19:14:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -63,7 +63,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 100,
-   "thought": "Broke below the noise area (706.46). Going short.",
+   "thought": "Noise area 706.39 to 723.04. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -129,7 +129,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Price below VWAP 706.85. No cross yet.",
+   "thought": "Price below VWAP 706.64. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -162,7 +162,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 10,
-   "thought": "Higher timeframes not lined up (bias -1, chop). Sitting out.",
+   "thought": "Higher timeframes not lined up (bias -3, chop). Sitting out.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -194,8 +194,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 91,
-   "thought": "RSI(2) 9. Nothing stretched enough.",
+   "charge": 99,
+   "thought": "RSI(2) 1. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -226,9 +226,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "DAMD",
-   "charge": 1,
-   "thought": "Nearest liquidity: opening range high 10.69. Waiting for a sweep.",
+   "focus": "SPY",
+   "charge": 0,
+   "thought": "Nearest liquidity: opening range low 711.75. Waiting for a sweep.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -257,7 +257,7 @@
    "pending": [],
    "position": null,
    "focus": "BTC/USD",
-   "charge": 27,
+   "charge": 5,
    "thought": "Channel 57992.01 to 59235.94. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -516,7 +516,7 @@
  "regime": {
   "lead": {
    "symbol": "SPY",
-   "bias": -1,
+   "bias": -3,
    "regime": "chop",
    "rvol": 1.57,
    "liquidity": {
@@ -525,18 +525,18 @@
     "opening range high": 714.1,
     "opening range low": 711.75
    },
-   "fvgs": 9
+   "fvgs": 10
   },
   "crypto": {
    "symbol": "BTC/USD",
    "bias": -3,
-   "regime": "normal",
+   "regime": "trend",
    "rvol": null,
    "liquidity": {
     "prior day high": 64024.31,
     "prior day low": 61357.49
    },
-   "fvgs": 17
+   "fvgs": 19
   }
  },
  "scanner": {
