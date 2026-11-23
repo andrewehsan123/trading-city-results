@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-23T20:58:00+00:00",
+ "updated": "2026-11-23T21:03:00+00:00",
  "mode": "paper",
- "market_open": true,
+ "market_open": false,
  "halted": null,
  "equity": 101291.52,
  "day_pnl": 0,
@@ -286,7 +286,7 @@
    "pending": [],
    "position": null,
    "focus": "BTC/USD",
-   "charge": 54,
+   "charge": 41,
    "thought": "Channel 60984.38 to 61398.01. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -547,7 +547,7 @@
    "symbol": "SPY",
    "bias": 1,
    "regime": "normal",
-   "rvol": 1.48,
+   "rvol": 1.0,
    "liquidity": {
     "prior day high": 718.26,
     "prior day low": 686.75,
@@ -558,7 +558,7 @@
   },
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": -2,
+   "bias": -3,
    "regime": "chop",
    "rvol": null,
    "liquidity": {
