@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T16:43:00+00:00",
+ "updated": "2026-11-23T16:58:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -91,8 +91,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 52,
-   "thought": "Noise area 684.13 to 731.17. Next check on the half hour.",
+   "charge": 65,
+   "thought": "Noise area 683.55 to 731.77. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -156,9 +156,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 3,
-   "thought": "Price below VWAP 721.69. No cross yet.",
+   "focus": "SOXS",
+   "charge": 46,
+   "thought": "Price below VWAP 50.39. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -189,9 +189,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 10,
-   "thought": "Higher timeframes not lined up (bias +1, trend). Sitting out.",
+   "focus": "NVDL",
+   "charge": 40,
+   "thought": "Uptrend. Waiting for a dip to the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -218,13 +218,13 @@
     "SOXS"
    ],
    "symbol_count": 5,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "IWM",
-   "charge": 99,
-   "thought": "RSI(2) 0. Nothing stretched enough.",
+   "focus": "SOXS",
+   "charge": 51,
+   "thought": "RSI(2) 49. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -251,13 +251,13 @@
     "SOXS"
    ],
    "symbol_count": 5,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 85,
-   "thought": "Setup is ready but outside the trading windows.",
+   "charge": 32,
+   "thought": "Nearest liquidity: opening range high 724.76. Waiting for a sweep.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -286,8 +286,8 @@
    "pending": [],
    "position": null,
    "focus": "ETH/USD",
-   "charge": 12,
-   "thought": "Channel 1755.46 to 1780.40. Waiting for a break.",
+   "charge": 59,
+   "thought": "Channel 1750.91 to 1777.52. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -301,6 +301,18 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-23T16:55:00+00:00",
+   "worker": "vwap",
+   "kind": "shadow",
+   "text": "VWAP (shadow) would long NVDL: VWAP reclaim"
+  },
+  {
+   "t": "2026-11-23T16:48:00+00:00",
+   "worker": "vwap",
+   "kind": "shadow",
+   "text": "VWAP (shadow) would long SPY: VWAP reclaim"
+  },
   {
    "t": "2026-11-23T15:42:00+00:00",
    "worker": "snapback",
@@ -528,38 +540,26 @@
    "worker": "opener",
    "kind": "shadow",
    "text": "OPENER (shadow) would short AAL: Stock in play, 1.8x opening volume"
-  },
-  {
-   "t": "2026-11-23T14:35:10.220648+00:00",
-   "worker": "scanner",
-   "kind": "scan",
-   "text": "Stocks in play: NVDL +53.2%, SOXS -36.9%"
-  },
-  {
-   "t": "2026-11-23T14:31:06.415463+00:00",
-   "worker": "gapgo",
-   "kind": "scan",
-   "text": "GAP&GO picked 1: FUTU +10%"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
-   "bias": 1,
-   "regime": "trend",
-   "rvol": 1.75,
+   "bias": 3,
+   "regime": "chop",
+   "rvol": 1.73,
    "liquidity": {
     "prior day high": 718.26,
     "prior day low": 686.75,
     "opening range high": 724.76,
     "opening range low": 713.57
    },
-   "fvgs": 9
+   "fvgs": 8
   },
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": 0,
-   "regime": "trend",
+   "bias": -1,
+   "regime": "normal",
    "rvol": null,
    "liquidity": {
     "prior day high": 61571.02,
