@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T18:13:00+00:00",
+ "updated": "2026-11-23T18:28:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -91,8 +91,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 62,
-   "thought": "Noise area 682.55 to 732.82. Next check on the half hour.",
+   "charge": 65,
+   "thought": "Noise area 682.95 to 732.40. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -157,8 +157,8 @@
    "pending": [],
    "position": null,
    "focus": "SOXS",
-   "charge": 71,
-   "thought": "Price above VWAP 50.35. No cross yet.",
+   "charge": 98,
+   "thought": "Price below VWAP 50.34. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -218,13 +218,13 @@
     "SOXS"
    ],
    "symbol_count": 5,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SOXS",
-   "charge": 63,
-   "thought": "RSI(2) 37. Nothing stretched enough.",
+   "focus": "SPY",
+   "charge": 95,
+   "thought": "Sharp dip in an uptrend (RSI 4). Buying the snap back.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -256,8 +256,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 28,
-   "thought": "Nearest liquidity: opening range high 724.76. Waiting for a sweep.",
+   "charge": 50,
+   "thought": "Swept the opening range high at 724.76. Waiting for a fair value gap.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -285,9 +285,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "BTC/USD",
-   "charge": 40,
-   "thought": "Channel 61206.73 to 62017.68. Waiting for a break.",
+   "focus": "ETH/USD",
+   "charge": 55,
+   "thought": "Channel 1728.35 to 1756.85. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -547,14 +547,14 @@
    "symbol": "SPY",
    "bias": 3,
    "regime": "normal",
-   "rvol": 1.53,
+   "rvol": 1.51,
    "liquidity": {
     "prior day high": 718.26,
     "prior day low": 686.75,
     "opening range high": 724.76,
     "opening range low": 713.57
    },
-   "fvgs": 7
+   "fvgs": 9
   },
   "crypto": {
    "symbol": "BTC/USD",
@@ -565,7 +565,7 @@
     "prior day high": 61571.02,
     "prior day low": 58652.32
    },
-   "fvgs": 21
+   "fvgs": 22
   }
  },
  "scanner": {
