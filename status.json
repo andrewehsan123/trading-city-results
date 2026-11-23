@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T17:43:00+00:00",
+ "updated": "2026-11-23T17:58:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -91,8 +91,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 56,
-   "thought": "Noise area 683.33 to 732.00. Next check on the half hour.",
+   "charge": 57,
+   "thought": "Noise area 683.06 to 732.28. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -156,9 +156,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "IWM",
-   "charge": 90,
-   "thought": "Price below VWAP 264.58. No cross yet.",
+   "focus": "SPY",
+   "charge": 88,
+   "thought": "Reclaimed VWAP 721.79 with the trend up. Going long.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -191,7 +191,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 10,
-   "thought": "Fast and slow trend disagree. Waiting.",
+   "thought": "Higher timeframes not lined up (bias +2, chop). Sitting out.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -222,9 +222,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 99,
-   "thought": "RSI(2) 1. Nothing stretched enough.",
+   "focus": "IWM",
+   "charge": 70,
+   "thought": "RSI(2) 29. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -256,8 +256,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 15,
-   "thought": "Nearest liquidity: prior day high 718.26. Waiting for a sweep.",
+   "charge": 17,
+   "thought": "Nearest liquidity: opening range high 724.76. Waiting for a sweep.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -285,9 +285,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "ETH/USD",
-   "charge": 3,
-   "thought": "Channel 1732.94 to 1768.01. Waiting for a break.",
+   "focus": "BTC/USD",
+   "charge": 42,
+   "thought": "Channel 61206.73 to 62202.29. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -301,6 +301,12 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-23T17:45:00+00:00",
+   "worker": "vwap",
+   "kind": "shadow",
+   "text": "VWAP (shadow) would short IWM: VWAP rejection"
+  },
   {
    "t": "2026-11-23T16:55:00+00:00",
    "worker": "vwap",
@@ -534,38 +540,32 @@
    "worker": "opener",
    "kind": "shadow",
    "text": "OPENER (shadow) would short ARM: Stock in play, 2.0x opening volume"
-  },
-  {
-   "t": "2026-11-23T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short AAL: Stock in play, 1.8x opening volume"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
    "bias": 2,
-   "regime": "normal",
-   "rvol": 1.57,
+   "regime": "chop",
+   "rvol": 1.56,
    "liquidity": {
     "prior day high": 718.26,
     "prior day low": 686.75,
     "opening range high": 724.76,
     "opening range low": 713.57
    },
-   "fvgs": 9
+   "fvgs": 8
   },
   "crypto": {
    "symbol": "BTC/USD",
    "bias": -2,
-   "regime": "trend",
+   "regime": "chop",
    "rvol": null,
    "liquidity": {
     "prior day high": 61571.02,
     "prior day low": 58652.32
    },
-   "fvgs": 22
+   "fvgs": 23
   }
  },
  "scanner": {
