@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T16:13:00+00:00",
+ "updated": "2026-11-23T16:28:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -92,7 +92,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 73,
-   "thought": "Noise area 684.92 to 730.34. Next check on the half hour.",
+   "thought": "Noise area 684.85 to 730.41. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -157,8 +157,8 @@
    "pending": [],
    "position": null,
    "focus": "SOXS",
-   "charge": 33,
-   "thought": "Price below VWAP 50.34. No cross yet.",
+   "charge": 1,
+   "thought": "Price below VWAP 50.27. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -185,13 +185,13 @@
     "SOXS"
    ],
    "symbol_count": 5,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 10,
-   "thought": "Higher timeframes not lined up (bias +3, chop). Sitting out.",
+   "focus": "IWM",
+   "charge": 80,
+   "thought": "Uptrend. Price is testing the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -218,13 +218,13 @@
     "SOXS"
    ],
    "symbol_count": 5,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "NVDL",
-   "charge": 91,
-   "thought": "RSI(2) 9. Nothing stretched enough.",
+   "charge": 69,
+   "thought": "RSI(2) 30. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -286,8 +286,8 @@
    "pending": [],
    "position": null,
    "focus": "ETH/USD",
-   "charge": 33,
-   "thought": "Channel 1760.39 to 1794.59. Waiting for a break.",
+   "charge": 39,
+   "thought": "Channel 1760.39 to 1790.90. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -547,14 +547,14 @@
    "symbol": "SPY",
    "bias": 3,
    "regime": "chop",
-   "rvol": 1.82,
+   "rvol": 1.78,
    "liquidity": {
     "prior day high": 718.26,
     "prior day low": 686.75,
     "opening range high": 724.76,
     "opening range low": 713.57
    },
-   "fvgs": 6
+   "fvgs": 5
   },
   "crypto": {
    "symbol": "BTC/USD",
@@ -565,7 +565,7 @@
     "prior day high": 61571.02,
     "prior day low": 58652.32
    },
-   "fvgs": 17
+   "fvgs": 15
   }
  },
  "scanner": {
