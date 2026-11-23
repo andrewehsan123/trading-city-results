@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T14:44:00+00:00",
+ "updated": "2026-11-23T14:59:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -91,8 +91,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 49,
-   "thought": "Noise area 688.19 to 726.90. Next check on the half hour.",
+   "charge": 67,
+   "thought": "Inside the noise area 687.42 to 727.72. No trade.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -124,8 +124,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 37,
-   "thought": "Building the opening range: 713.57 to 724.76.",
+   "charge": 67,
+   "thought": "Inside the range. Watching 713.57 and 724.76.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -156,9 +156,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "NVDL",
-   "charge": 93,
-   "thought": "VWAP 16.15. Waiting for the 10:00 to 3:00 window.",
+   "focus": "QQQ",
+   "charge": 74,
+   "thought": "VWAP 648.24. Waiting for the 10:00 to 3:00 window.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -189,9 +189,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 0,
-   "thought": "Letting the averages settle.",
+   "focus": "QQQ",
+   "charge": 40,
+   "thought": "Uptrend. Waiting for a dip to the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -251,13 +251,13 @@
     "SOXS"
    ],
    "symbol_count": 5,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 50,
-   "thought": "Swept the prior day high at 718.26. Waiting for a fair value gap.",
+   "focus": "SOXS",
+   "charge": 85,
+   "thought": "Gap 54.20-55.23 ready. Waiting for price to tap it.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -281,13 +281,13 @@
     "ETH/USD"
    ],
    "symbol_count": 2,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "ETH/USD",
-   "charge": 75,
-   "thought": "Channel 1657.81 to 1843.03. Waiting for a break.",
+   "focus": "BTC/USD",
+   "charge": 13,
+   "thought": "Channel 62547.35 to 64614.09. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -301,6 +301,24 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-23T14:57:00+00:00",
+   "worker": "orb",
+   "kind": "shadow",
+   "text": "ORB (shadow) would long NVDL: Opening range breakout up"
+  },
+  {
+   "t": "2026-11-23T14:52:00+00:00",
+   "worker": "orb",
+   "kind": "shadow",
+   "text": "ORB (shadow) would long SOXS: Opening range breakout up"
+  },
+  {
+   "t": "2026-11-23T14:52:00+00:00",
+   "worker": "orb",
+   "kind": "shadow",
+   "text": "ORB (shadow) would short IWM: Opening range breakout down"
+  },
   {
    "t": "2026-11-23T14:35:00+00:00",
    "worker": "opener",
@@ -522,50 +540,32 @@
    "worker": "vwap",
    "kind": "shadow",
    "text": "VWAP (shadow) would short IWM: VWAP rejection"
-  },
-  {
-   "t": "2026-11-20T15:16:00+00:00",
-   "worker": "vwap",
-   "kind": "shadow",
-   "text": "VWAP (shadow) would short SPY: VWAP rejection"
-  },
-  {
-   "t": "2026-11-20T15:13:00+00:00",
-   "worker": "vwap",
-   "kind": "shadow",
-   "text": "VWAP (shadow) would long DAMD: VWAP reclaim"
-  },
-  {
-   "t": "2026-11-20T15:12:00+00:00",
-   "worker": "vwap",
-   "kind": "shadow",
-   "text": "VWAP (shadow) would short QQQ: VWAP rejection"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
-   "bias": 1,
-   "regime": "trend",
-   "rvol": 2.89,
+   "bias": 2,
+   "regime": "chop",
+   "rvol": 2.66,
    "liquidity": {
     "prior day high": 718.26,
     "prior day low": 686.75,
     "opening range high": 724.76,
     "opening range low": 713.57
    },
-   "fvgs": 3
+   "fvgs": 4
   },
   "crypto": {
    "symbol": "BTC/USD",
    "bias": 3,
-   "regime": "chop",
+   "regime": "trend",
    "rvol": null,
    "liquidity": {
     "prior day high": 61571.02,
     "prior day low": 58652.32
    },
-   "fvgs": 15
+   "fvgs": 14
   }
  },
  "scanner": {
