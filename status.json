@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T18:43:00+00:00",
+ "updated": "2026-11-24T18:59:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -62,8 +62,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 3,
-   "thought": "Noise area 707.25 to 730.70. Next check on the half hour.",
+   "charge": 16,
+   "thought": "Inside the noise area 707.53 to 730.41. No trade.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -125,13 +125,13 @@
     "INSM"
    ],
    "symbol_count": 6,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SOXS",
-   "charge": 56,
-   "thought": "Price below VWAP 60.17. No cross yet.",
+   "focus": "SOXL",
+   "charge": 79,
+   "thought": "Lost VWAP 33.27 with the trend down. Going short.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -159,13 +159,13 @@
     "INSM"
    ],
    "symbol_count": 6,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "INSM",
-   "charge": 40,
-   "thought": "Uptrend. Waiting for a dip to the 9 EMA.",
+   "charge": 80,
+   "thought": "Bounced off the 9 EMA in an uptrend. Going long.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -197,9 +197,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "IWM",
-   "charge": 94,
-   "thought": "RSI(2) 5. Nothing stretched enough.",
+   "focus": "QQQ",
+   "charge": 88,
+   "thought": "RSI(2) 12. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -232,8 +232,8 @@
    "pending": [],
    "position": null,
    "focus": "INSM",
-   "charge": 33,
-   "thought": "Nearest liquidity: opening range low 170.25. Waiting for a sweep.",
+   "charge": 60,
+   "thought": "Swept the opening range low at 170.25. Fair value gap formed. Waiting for the retrace.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -261,9 +261,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "ETH/USD",
-   "charge": 36,
-   "thought": "Channel 1677.55 to 1686.75. Waiting for a break.",
+   "focus": "BTC/USD",
+   "charge": 0,
+   "thought": "Channel 59832.21 to 60207.23. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -521,27 +521,27 @@
  "regime": {
   "lead": {
    "symbol": "SPY",
-   "bias": 3,
-   "regime": "chop",
-   "rvol": 1.07,
+   "bias": -1,
+   "regime": "trend",
+   "rvol": 1.06,
    "liquidity": {
     "prior day high": 727.98,
     "prior day low": 713.57,
     "opening range high": 717.78,
     "opening range low": 712.16
    },
-   "fvgs": 7
+   "fvgs": 6
   },
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": -1,
+   "bias": -2,
    "regime": "normal",
    "rvol": null,
    "liquidity": {
     "prior day high": 64614.09,
     "prior day low": 60283.06
    },
-   "fvgs": 13
+   "fvgs": 14
   }
  },
  "scanner": {
