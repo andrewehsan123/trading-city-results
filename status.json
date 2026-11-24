@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T20:13:00+00:00",
+ "updated": "2026-11-24T20:28:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -62,8 +62,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 16,
-   "thought": "Noise area 706.46 to 731.48. Next check on the half hour.",
+   "charge": 22,
+   "thought": "Noise area 706.41 to 731.54. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -261,9 +261,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "ETH/USD",
-   "charge": 37,
-   "thought": "Channel 1668.15 to 1683.04. Waiting for a break.",
+   "focus": "BTC/USD",
+   "charge": 18,
+   "thought": "Channel 59507.56 to 59858.03. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -523,14 +523,14 @@
    "symbol": "SPY",
    "bias": -3,
    "regime": "chop",
-   "rvol": 1.01,
+   "rvol": 1.0,
    "liquidity": {
     "prior day high": 727.98,
     "prior day low": 713.57,
     "opening range high": 717.78,
     "opening range low": 712.16
    },
-   "fvgs": 6
+   "fvgs": 5
   },
   "crypto": {
    "symbol": "BTC/USD",
@@ -541,7 +541,7 @@
     "prior day high": 64614.09,
     "prior day low": 60283.06
    },
-   "fvgs": 15
+   "fvgs": 16
   }
  },
  "scanner": {
