@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T17:43:00+00:00",
+ "updated": "2026-11-24T17:58:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -62,8 +62,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 7,
-   "thought": "Noise area 707.63 to 730.30. Next check on the half hour.",
+   "charge": 5,
+   "thought": "Noise area 707.45 to 730.49. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -125,12 +125,12 @@
     "INSM"
    ],
    "symbol_count": 6,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SOXS",
-   "charge": 73,
+   "charge": 57,
    "thought": "Price below VWAP 60.17. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -163,7 +163,7 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
+   "focus": "IWM",
    "charge": 40,
    "thought": "Uptrend. Waiting for a dip to the 9 EMA.",
    "pnl_today": 0,
@@ -193,13 +193,13 @@
     "INSM"
    ],
    "symbol_count": 6,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "INSM",
-   "charge": 67,
-   "thought": "RSI(2) 32. Nothing stretched enough.",
+   "focus": "SOXS",
+   "charge": 97,
+   "thought": "RSI(2) 2. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -262,8 +262,8 @@
    "pending": [],
    "position": null,
    "focus": "BTC/USD",
-   "charge": 93,
-   "thought": "Channel 59201.13 to 60048.89. Waiting for a break.",
+   "charge": 100,
+   "thought": "Breakout, but the hourly trend is down. Passing.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -277,6 +277,18 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-24T17:46:00+00:00",
+   "worker": "vwap",
+   "kind": "shadow",
+   "text": "VWAP (shadow) would long SOXS: VWAP reclaim"
+  },
+  {
+   "t": "2026-11-24T17:46:00+00:00",
+   "worker": "vwap",
+   "kind": "shadow",
+   "text": "VWAP (shadow) would short SOXL: VWAP rejection"
+  },
   {
    "t": "2026-11-24T17:33:00+00:00",
    "worker": "vwap",
@@ -504,44 +516,32 @@
    "worker": "gapgo",
    "kind": "scan",
    "text": "GAP&GO picked 0: no gappers today"
-  },
-  {
-   "t": "2026-11-23T19:04:00+00:00",
-   "worker": "turtle",
-   "kind": "shadow",
-   "text": "TURTLE (shadow) would long BTC/USD: 60-bar breakout"
-  },
-  {
-   "t": "2026-11-23T17:45:00+00:00",
-   "worker": "vwap",
-   "kind": "shadow",
-   "text": "VWAP (shadow) would short IWM: VWAP rejection"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
    "bias": 2,
-   "regime": "normal",
-   "rvol": 1.13,
+   "regime": "chop",
+   "rvol": 1.11,
    "liquidity": {
     "prior day high": 727.98,
     "prior day low": 713.57,
     "opening range high": 717.78,
     "opening range low": 712.16
    },
-   "fvgs": 7
+   "fvgs": 9
   },
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": 0,
-   "regime": "chop",
+   "bias": 1,
+   "regime": "normal",
    "rvol": null,
    "liquidity": {
     "prior day high": 64614.09,
     "prior day low": 60283.06
    },
-   "fvgs": 11
+   "fvgs": 12
   }
  },
  "scanner": {
