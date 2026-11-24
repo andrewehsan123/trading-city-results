@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T14:43:00+00:00",
+ "updated": "2026-11-24T14:58:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -62,8 +62,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 18,
-   "thought": "Noise area 712.64 to 725.25. Next check on the half hour.",
+   "charge": 10,
+   "thought": "Noise area 711.92 to 725.98. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -91,13 +91,13 @@
     "INSM"
    ],
    "symbol_count": 6,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 34,
-   "thought": "Building the opening range: 712.16 to 717.78.",
+   "focus": "SOXL",
+   "charge": 72,
+   "thought": "Inside the range. Watching 34.06 and 37.93.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -129,9 +129,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SOXS",
-   "charge": 94,
-   "thought": "VWAP 57.53. Waiting for the 10:00 to 3:00 window.",
+   "focus": "INSM",
+   "charge": 92,
+   "thought": "VWAP 170.38. Waiting for the 10:00 to 3:00 window.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -159,13 +159,13 @@
     "INSM"
    ],
    "symbol_count": 6,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 0,
-   "thought": "Letting the averages settle.",
+   "focus": "IWM",
+   "charge": 80,
+   "thought": "Bounced off the 9 EMA in an uptrend. Going long.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -233,7 +233,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 85,
-   "thought": "Setup is ready but outside the trading windows.",
+   "thought": "Gap 714.74-715.14 ready. Waiting for price to tap it.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -257,13 +257,13 @@
     "ETH/USD"
    ],
    "symbol_count": 2,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "BTC/USD",
-   "charge": 80,
-   "thought": "Channel 59900.51 to 60602.25. Waiting for a break.",
+   "charge": 51,
+   "thought": "Channel 59900.60 to 60602.25. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -277,6 +277,30 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-24T14:58:00+00:00",
+   "worker": "trend",
+   "kind": "shadow",
+   "text": "TREND (shadow) would long IWM: Trend pullback long"
+  },
+  {
+   "t": "2026-11-24T14:56:00+00:00",
+   "worker": "trend",
+   "kind": "shadow",
+   "text": "TREND (shadow) would short SOXL: Trend pullback short"
+  },
+  {
+   "t": "2026-11-24T14:45:00+00:00",
+   "worker": "orb",
+   "kind": "shadow",
+   "text": "ORB (shadow) would long SPY: Opening range breakout up"
+  },
+  {
+   "t": "2026-11-24T14:45:00+00:00",
+   "worker": "orb",
+   "kind": "shadow",
+   "text": "ORB (shadow) would long QQQ: Opening range breakout up"
+  },
   {
    "t": "2026-11-24T14:35:00+00:00",
    "worker": "opener",
@@ -492,45 +516,21 @@
    "worker": "orb",
    "kind": "shadow",
    "text": "ORB (shadow) would long NVDL: Opening range breakout up"
-  },
-  {
-   "t": "2026-11-23T14:52:00+00:00",
-   "worker": "orb",
-   "kind": "shadow",
-   "text": "ORB (shadow) would long SOXS: Opening range breakout up"
-  },
-  {
-   "t": "2026-11-23T14:52:00+00:00",
-   "worker": "orb",
-   "kind": "shadow",
-   "text": "ORB (shadow) would short IWM: Opening range breakout down"
-  },
-  {
-   "t": "2026-11-23T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short XYZ: Stock in play, 2.2x opening volume"
-  },
-  {
-   "t": "2026-11-23T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long UNH: Stock in play, 5.1x opening volume"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
    "bias": -1,
-   "regime": "trend",
-   "rvol": 1.08,
+   "regime": "normal",
+   "rvol": 1.35,
    "liquidity": {
     "prior day high": 727.98,
     "prior day low": 713.57,
     "opening range high": 717.78,
     "opening range low": 712.16
    },
-   "fvgs": 4
+   "fvgs": 5
   },
   "crypto": {
    "symbol": "BTC/USD",
@@ -541,7 +541,7 @@
     "prior day high": 64614.09,
     "prior day low": 60283.06
    },
-   "fvgs": 9
+   "fvgs": 10
   }
  },
  "scanner": {
