@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-24T14:28:00+00:00",
+ "updated": "2026-11-24T14:43:00+00:00",
  "mode": "paper",
- "market_open": false,
+ "market_open": true,
  "halted": null,
  "equity": 101291.52,
  "day_pnl": 0,
@@ -27,14 +27,14 @@
     "PLTR",
     "COIN"
    ],
-   "symbol_count": 50,
-   "state": "watching",
+   "symbol_count": 53,
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "AAPL",
-   "charge": 0,
-   "thought": "Waiting for the market.",
+   "focus": "AMD",
+   "charge": 90,
+   "thought": "In play (1.2x volume). Short stop at 410.33, stop-loss 437.27.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -62,8 +62,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 0,
-   "thought": "Waiting for the market.",
+   "charge": 18,
+   "thought": "Noise area 712.64 to 725.25. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -85,16 +85,19 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM"
+    "IWM",
+    "SOXL",
+    "SOXS",
+    "INSM"
    ],
-   "symbol_count": 3,
+   "symbol_count": 6,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 0,
-   "thought": "Waiting for the market.",
+   "charge": 34,
+   "thought": "Building the opening range: 712.16 to 717.78.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -116,16 +119,19 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM"
+    "IWM",
+    "SOXL",
+    "SOXS",
+    "INSM"
    ],
-   "symbol_count": 3,
-   "state": "watching",
+   "symbol_count": 6,
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 0,
-   "thought": "Waiting for the market.",
+   "focus": "SOXS",
+   "charge": 94,
+   "thought": "VWAP 57.53. Waiting for the 10:00 to 3:00 window.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -147,16 +153,19 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM"
+    "IWM",
+    "SOXL",
+    "SOXS",
+    "INSM"
    ],
-   "symbol_count": 3,
+   "symbol_count": 6,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Waiting for the market.",
+   "thought": "Letting the averages settle.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -178,16 +187,19 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM"
+    "IWM",
+    "SOXL",
+    "SOXS",
+    "INSM"
    ],
-   "symbol_count": 3,
+   "symbol_count": 6,
    "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Waiting for the market.",
+   "thought": "Waiting for enough data.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -209,16 +221,19 @@
    "symbols": [
     "SPY",
     "QQQ",
-    "IWM"
+    "IWM",
+    "SOXL",
+    "SOXS",
+    "INSM"
    ],
-   "symbol_count": 3,
-   "state": "watching",
+   "symbol_count": 6,
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 0,
-   "thought": "Waiting for the market.",
+   "charge": 85,
+   "thought": "Setup is ready but outside the trading windows.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -247,8 +262,8 @@
    "pending": [],
    "position": null,
    "focus": "BTC/USD",
-   "charge": 96,
-   "thought": "Channel 59859.61 to 60430.50. Waiting for a break.",
+   "charge": 80,
+   "thought": "Channel 59900.51 to 60602.25. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -262,6 +277,102 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-24T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would long SOXS: Stock in play, 2.1x opening volume"
+  },
+  {
+   "t": "2026-11-24T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would short SOXL: Stock in play, 1.3x opening volume"
+  },
+  {
+   "t": "2026-11-24T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would long SOFI: Stock in play, 1.2x opening volume"
+  },
+  {
+   "t": "2026-11-24T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would long SBUX: Stock in play, 1.4x opening volume"
+  },
+  {
+   "t": "2026-11-24T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would long NKE: Stock in play, 1.2x opening volume"
+  },
+  {
+   "t": "2026-11-24T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would short INSM: Stock in play, 39.7x opening volume"
+  },
+  {
+   "t": "2026-11-24T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would short HOOD: Stock in play, 1.0x opening volume"
+  },
+  {
+   "t": "2026-11-24T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would long CVX: Stock in play, 1.2x opening volume"
+  },
+  {
+   "t": "2026-11-24T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would long CRWD: Stock in play, 1.2x opening volume"
+  },
+  {
+   "t": "2026-11-24T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would long BAC: Stock in play, 1.0x opening volume"
+  },
+  {
+   "t": "2026-11-24T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would long BA: Stock in play, 1.4x opening volume"
+  },
+  {
+   "t": "2026-11-24T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would short AMD: Stock in play, 1.2x opening volume"
+  },
+  {
+   "t": "2026-11-24T14:35:00+00:00",
+   "worker": "opener",
+   "kind": "shadow",
+   "text": "OPENER (shadow) would long ADBE: Stock in play, 1.2x opening volume"
+  },
+  {
+   "t": "2026-11-24T14:35:07.566616+00:00",
+   "worker": "scanner",
+   "kind": "scan",
+   "text": "Stocks in play: SOXL -16.6%, SOXS +16.5%, INSM +14.3%"
+  },
+  {
+   "t": "2026-11-24T14:30:00+00:00",
+   "worker": "turtle",
+   "kind": "shadow",
+   "text": "TURTLE (shadow) would long BTC/USD: 60-bar breakout"
+  },
+  {
+   "t": "2026-11-24T14:31:06.431973+00:00",
+   "worker": "gapgo",
+   "kind": "scan",
+   "text": "GAP&GO picked 0: no gappers today"
+  },
   {
    "t": "2026-11-23T19:04:00+00:00",
    "worker": "turtle",
@@ -405,121 +516,41 @@
    "worker": "opener",
    "kind": "shadow",
    "text": "OPENER (shadow) would long UNH: Stock in play, 5.1x opening volume"
-  },
-  {
-   "t": "2026-11-23T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long SOXS: Stock in play, 2.0x opening volume"
-  },
-  {
-   "t": "2026-11-23T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short SOFI: Stock in play, 2.4x opening volume"
-  },
-  {
-   "t": "2026-11-23T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short SNOW: Stock in play, 1.8x opening volume"
-  },
-  {
-   "t": "2026-11-23T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short SMCI: Stock in play, 1.8x opening volume"
-  },
-  {
-   "t": "2026-11-23T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short SHOP: Stock in play, 2.0x opening volume"
-  },
-  {
-   "t": "2026-11-23T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long RIVN: Stock in play, 1.9x opening volume"
-  },
-  {
-   "t": "2026-11-23T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long RIOT: Stock in play, 2.0x opening volume"
-  },
-  {
-   "t": "2026-11-23T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short PANW: Stock in play, 2.0x opening volume"
-  },
-  {
-   "t": "2026-11-23T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short NVDL: Stock in play, 4.7x opening volume"
-  },
-  {
-   "t": "2026-11-23T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short MU: Stock in play, 1.7x opening volume"
-  },
-  {
-   "t": "2026-11-23T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short MSTR: Stock in play, 1.8x opening volume"
-  },
-  {
-   "t": "2026-11-23T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long MARA: Stock in play, 2.0x opening volume"
-  },
-  {
-   "t": "2026-11-23T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short CRWD: Stock in play, 4.9x opening volume"
-  },
-  {
-   "t": "2026-11-23T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short COIN: Stock in play, 2.0x opening volume"
-  },
-  {
-   "t": "2026-11-23T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short CCL: Stock in play, 2.9x opening volume"
-  },
-  {
-   "t": "2026-11-23T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short BAC: Stock in play, 1.7x opening volume"
   }
  ],
  "regime": {
-  "lead": null,
+  "lead": {
+   "symbol": "SPY",
+   "bias": -1,
+   "regime": "trend",
+   "rvol": 1.08,
+   "liquidity": {
+    "prior day high": 727.98,
+    "prior day low": 713.57,
+    "opening range high": 717.78,
+    "opening range low": 712.16
+   },
+   "fvgs": 4
+  },
   "crypto": {
    "symbol": "BTC/USD",
    "bias": 1,
-   "regime": "trend",
+   "regime": "chop",
    "rvol": null,
    "liquidity": {
     "prior day high": 64614.09,
     "prior day low": 60283.06
    },
-   "fvgs": 10
+   "fvgs": 9
   }
  },
  "scanner": {
-  "picks": [],
-  "note": "Scanner runs at 9:35 ET on market days."
+  "picks": [
+   "SOXL",
+   "SOXS",
+   "INSM"
+  ],
+  "note": "SOXL -16.6%, SOXS +16.5%, INSM +14.3%"
  },
  "fills": {
   "n": 8,
@@ -645,7 +676,233 @@
   },
   "verdict": "not enough trades yet (need ~40)"
  },
- "gates": null,
+ "gates": {
+  "day": "2026-11-24",
+  "counts": {
+   "liquid": 808,
+   "gap": 9,
+   "gap_atr": 8,
+   "volume": 6,
+   "short_rule": 6,
+   "calm": 6,
+   "gap_band": 4,
+   "odds": 4,
+   "news": 0
+  },
+  "picked": 0,
+  "stocks": [
+   {
+    "sym": "DKS",
+    "gap": 11.7,
+    "gap_atr": 2.5,
+    "rvol": 29.4,
+    "side": "long",
+    "level": 153.39,
+    "fail": "tone",
+    "aplus": {
+     "strong_close": true,
+     "big_body": true,
+     "under_25": false,
+     "jumpy": false,
+     "short": false,
+     "fades_gap": false,
+     "few_stories": true,
+     "no_analyst_news": true
+    },
+    "rng_atr": 0.66,
+    "sure": false,
+    "size_x": 1.423,
+    "short_ratio": 6.04,
+    "odds": 0.76,
+    "news": 1,
+    "score": 4,
+    "tone": false
+   },
+   {
+    "sym": "INSM",
+    "gap": 14.4,
+    "gap_atr": 2.96,
+    "rvol": 25.7,
+    "side": "short",
+    "level": 170.4,
+    "fail": "gap_band",
+    "aplus": {
+     "strong_close": true,
+     "big_body": true,
+     "under_25": false,
+     "jumpy": false,
+     "short": true,
+     "fades_gap": true
+    },
+    "rng_atr": 0.02,
+    "sure": false
+   },
+   {
+    "sym": "SNY",
+    "gap": 7.6,
+    "gap_atr": 3.49,
+    "rvol": 8.1,
+    "side": "long",
+    "level": 50.66,
+    "fail": "tone",
+    "aplus": {
+     "strong_close": true,
+     "big_body": true,
+     "under_25": false,
+     "jumpy": false,
+     "short": false,
+     "fades_gap": false,
+     "few_stories": true,
+     "no_analyst_news": true
+    },
+    "rng_atr": 0.36,
+    "sure": false,
+    "size_x": 0.949,
+    "short_ratio": 3.27,
+    "odds": 0.76,
+    "news": 1,
+    "score": 4,
+    "tone": false
+   },
+   {
+    "sym": "SMTC",
+    "gap": -12.1,
+    "gap_atr": 0.95,
+    "rvol": 6.3,
+    "side": "long",
+    "level": 94.97,
+    "fail": "gap_atr",
+    "aplus": {
+     "strong_close": true,
+     "big_body": true,
+     "under_25": false,
+     "jumpy": true,
+     "short": false,
+     "fades_gap": true
+    }
+   },
+   {
+    "sym": "DLTR",
+    "gap": 8.0,
+    "gap_atr": 2.04,
+    "rvol": 5.9,
+    "side": "short",
+    "level": 148.41,
+    "fail": "tone",
+    "aplus": {
+     "strong_close": false,
+     "big_body": true,
+     "under_25": false,
+     "jumpy": false,
+     "short": true,
+     "fades_gap": true,
+     "few_stories": true,
+     "no_analyst_news": true
+    },
+    "rng_atr": 0.36,
+    "sure": true,
+    "size_x": 0.712,
+    "short_ratio": 4.11,
+    "odds": 0.88,
+    "news": 1,
+    "score": 5,
+    "tone": false
+   },
+   {
+    "sym": "ADI",
+    "gap": -12.3,
+    "gap_atr": 1.95,
+    "rvol": 5.5,
+    "side": "long",
+    "level": 337.31,
+    "fail": "gap_band",
+    "aplus": {
+     "strong_close": false,
+     "big_body": false,
+     "under_25": false,
+     "jumpy": true,
+     "short": false,
+     "fades_gap": true
+    },
+    "rng_atr": 0.26,
+    "sure": true
+   },
+   {
+    "sym": "KYMR",
+    "gap": 7.9,
+    "gap_atr": 1.2,
+    "rvol": 3.4,
+    "side": "long",
+    "level": 168.1,
+    "fail": "offering",
+    "aplus": {
+     "strong_close": true,
+     "big_body": true,
+     "under_25": false,
+     "jumpy": true,
+     "short": false,
+     "fades_gap": false,
+     "few_stories": true,
+     "no_analyst_news": true
+    },
+    "rng_atr": 0.59,
+    "sure": false,
+    "size_x": 1.423,
+    "short_ratio": 5.61,
+    "odds": 0.8,
+    "news": 2,
+    "score": 5
+   },
+   {
+    "sym": "ANF",
+    "gap": 14.9,
+    "gap_atr": 2.63,
+    "rvol": 2.6,
+    "side": "short",
+    "level": 161.1,
+    "fail": "volume",
+    "aplus": {
+     "strong_close": true,
+     "big_body": true,
+     "under_25": false,
+     "jumpy": false,
+     "short": true,
+     "fades_gap": true
+    }
+   },
+   {
+    "sym": "HPE",
+    "gap": -12.1,
+    "gap_atr": 1.43,
+    "rvol": 0.1,
+    "side": "short",
+    "level": 41.92,
+    "fail": "volume",
+    "aplus": {
+     "strong_close": true,
+     "big_body": true,
+     "under_25": false,
+     "jumpy": true,
+     "short": true,
+     "fades_gap": false
+    }
+   }
+  ],
+  "news_ok": true,
+  "rules": {
+   "min_price": 10,
+   "min_gap": 0.07,
+   "min_gap_atr": 1.0,
+   "min_rvol": 3.0,
+   "top_n": 10
+  },
+  "entries": {
+   "placed": 0,
+   "filled": 0,
+   "cancelled": 0,
+   "syms": {}
+  }
+ },
  "history": [
   {
    "date": "2026-11-05",
