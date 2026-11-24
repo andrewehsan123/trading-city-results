@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T19:14:00+00:00",
+ "updated": "2026-11-24T19:29:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -62,8 +62,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 7,
-   "thought": "Noise area 707.34 to 730.60. Next check on the half hour.",
+   "charge": 3,
+   "thought": "Inside the noise area 707.17 to 730.77. No trade.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -129,9 +129,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SOXS",
-   "charge": 61,
-   "thought": "Price below VWAP 60.18. No cross yet.",
+   "focus": "INSM",
+   "charge": 19,
+   "thought": "Price below VWAP 170.31. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -159,13 +159,13 @@
     "INSM"
    ],
    "symbol_count": 6,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 10,
-   "thought": "Higher timeframes not lined up (bias +0, chop). Sitting out.",
+   "charge": 80,
+   "thought": "Uptrend. Price is testing the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -197,9 +197,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "INSM",
-   "charge": 76,
-   "thought": "RSI(2) 24. Nothing stretched enough.",
+   "focus": "IWM",
+   "charge": 89,
+   "thought": "RSI(2) 11. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -262,7 +262,7 @@
    "pending": [],
    "position": null,
    "focus": "ETH/USD",
-   "charge": 46,
+   "charge": 24,
    "thought": "Channel 1672.90 to 1685.84. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -277,6 +277,12 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-24T19:25:00+00:00",
+   "worker": "sweep",
+   "kind": "shadow",
+   "text": "SWEEP (shadow) would long INSM: Sweep of opening range low + FVG"
+  },
   {
    "t": "2026-11-24T18:30:00+00:00",
    "worker": "snapback",
@@ -510,27 +516,21 @@
    "worker": "opener",
    "kind": "shadow",
    "text": "OPENER (shadow) would long ADBE: Stock in play, 1.2x opening volume"
-  },
-  {
-   "t": "2026-11-24T14:35:07.566616+00:00",
-   "worker": "scanner",
-   "kind": "scan",
-   "text": "Stocks in play: SOXL -16.6%, SOXS +16.5%, INSM +14.3%"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
-   "bias": 0,
-   "regime": "chop",
-   "rvol": 1.04,
+   "bias": 2,
+   "regime": "normal",
+   "rvol": 1.03,
    "liquidity": {
     "prior day high": 727.98,
     "prior day low": 713.57,
     "opening range high": 717.78,
     "opening range low": 712.16
    },
-   "fvgs": 7
+   "fvgs": 8
   },
   "crypto": {
    "symbol": "BTC/USD",
