@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T21:03:00+00:00",
+ "updated": "2026-11-24T21:04:00+00:00",
  "mode": "paper",
  "market_open": false,
  "halted": null,
@@ -262,7 +262,7 @@
    "pending": [],
    "position": null,
    "focus": "BTC/USD",
-   "charge": 63,
+   "charge": 55,
    "thought": "Channel 59388.79 to 59823.30. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -534,7 +534,7 @@
   },
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": -1,
+   "bias": -2,
    "regime": "normal",
    "rvol": null,
    "liquidity": {
