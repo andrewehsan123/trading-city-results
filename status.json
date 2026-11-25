@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T18:59:00+00:00",
+ "updated": "2026-11-25T19:14:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -62,8 +62,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 30,
-   "thought": "Inside the noise area 695.68 to 726.55. No trade.",
+   "charge": 35,
+   "thought": "Noise area 695.48 to 726.76. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -131,7 +131,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Price above VWAP 703.92. No cross yet.",
+   "thought": "Price above VWAP 704.53. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -159,13 +159,13 @@
     "SOXL"
    ],
    "symbol_count": 6,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 10,
-   "thought": "Higher timeframes not lined up (bias +2, chop). Sitting out.",
+   "focus": "SOXS",
+   "charge": 80,
+   "thought": "Downtrend. Price is testing the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -197,9 +197,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "IWM",
-   "charge": 99,
-   "thought": "Sharp dip in an uptrend (RSI 1). Buying the snap back.",
+   "focus": "SOXL",
+   "charge": 93,
+   "thought": "RSI(2) 6. Nothing stretched enough.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -231,9 +231,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "IWM",
+   "focus": "SOXS",
    "charge": 38,
-   "thought": "Nearest liquidity: prior day high 268.30. Waiting for a sweep.",
+   "thought": "Nearest liquidity: prior day high 63.84. Waiting for a sweep.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -257,12 +257,12 @@
     "ETH/USD"
    ],
    "symbol_count": 2,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "BTC/USD",
-   "charge": 39,
+   "charge": 72,
    "thought": "Channel 59411.99 to 60021.14. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -277,6 +277,18 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-25T19:10:00+00:00",
+   "worker": "trend",
+   "kind": "shadow",
+   "text": "TREND (shadow) would long QQQ: Trend pullback long"
+  },
+  {
+   "t": "2026-11-25T19:07:00+00:00",
+   "worker": "sweep",
+   "kind": "shadow",
+   "text": "SWEEP (shadow) would short SOXS: Sweep of prior day high + FVG"
+  },
   {
    "t": "2026-11-25T18:48:00+00:00",
    "worker": "sweep",
@@ -504,44 +516,32 @@
    "worker": "opener",
    "kind": "shadow",
    "text": "OPENER (shadow) would short NFLX: Stock in play, 1.1x opening volume"
-  },
-  {
-   "t": "2026-11-25T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short MSTR: Stock in play, 5.0x opening volume"
-  },
-  {
-   "t": "2026-11-25T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short META: Stock in play, 1.4x opening volume"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
-   "bias": 2,
+   "bias": 3,
    "regime": "chop",
-   "rvol": 1.16,
+   "rvol": 1.18,
    "liquidity": {
     "prior day high": 720.89,
     "prior day low": 712.16,
     "opening range high": 703.31,
     "opening range low": 696
    },
-   "fvgs": 14
+   "fvgs": 16
   },
   "crypto": {
    "symbol": "BTC/USD",
    "bias": 3,
-   "regime": "chop",
+   "regime": "normal",
    "rvol": null,
    "liquidity": {
     "prior day high": 61601.72,
     "prior day low": 59201.13
    },
-   "fvgs": 5
+   "fvgs": 6
   }
  },
  "scanner": {
