@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T17:43:00+00:00",
+ "updated": "2026-11-25T17:58:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -62,8 +62,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 2,
-   "thought": "Noise area 695.64 to 726.59. Next check on the half hour.",
+   "charge": 1,
+   "thought": "Noise area 695.52 to 726.72. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -131,7 +131,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Price above VWAP 701.45. No cross yet.",
+   "thought": "Price above VWAP 701.89. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -163,9 +163,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "AMBA",
+   "focus": "IWM",
    "charge": 40,
-   "thought": "Downtrend. Waiting for a pop to the 9 EMA.",
+   "thought": "Uptrend. Waiting for a dip to the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -197,9 +197,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SOXS",
-   "charge": 98,
-   "thought": "RSI(2) 2. Nothing stretched enough.",
+   "focus": "QQQ",
+   "charge": 81,
+   "thought": "Strong move against the hourly trend. Not fading it.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -232,8 +232,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 33,
-   "thought": "Nearest liquidity: prior day low 712.16. Waiting for a sweep.",
+   "charge": 50,
+   "thought": "Swept the prior day low at 712.16. Waiting for a fair value gap.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -262,8 +262,8 @@
    "pending": [],
    "position": null,
    "focus": "ETH/USD",
-   "charge": 92,
-   "thought": "Channel 1628.11 to 1681.47. Waiting for a break.",
+   "charge": 84,
+   "thought": "Channel 1640.10 to 1683.54. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -522,15 +522,15 @@
   "lead": {
    "symbol": "SPY",
    "bias": 1,
-   "regime": "normal",
-   "rvol": 1.11,
+   "regime": "trend",
+   "rvol": 1.12,
    "liquidity": {
     "prior day high": 720.89,
     "prior day low": 712.16,
     "opening range high": 703.31,
     "opening range low": 696
    },
-   "fvgs": 11
+   "fvgs": 12
   },
   "crypto": {
    "symbol": "BTC/USD",
@@ -541,7 +541,7 @@
     "prior day high": 61601.72,
     "prior day low": 59201.13
    },
-   "fvgs": 4
+   "fvgs": 5
   }
  },
  "scanner": {
