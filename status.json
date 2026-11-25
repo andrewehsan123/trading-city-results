@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T14:58:00+00:00",
+ "updated": "2026-11-25T15:13:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -62,8 +62,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 70,
-   "thought": "Noise area 699.78 to 722.36. Next check on the half hour.",
+   "charge": 72,
+   "thought": "Noise area 699.11 to 723.05. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -91,13 +91,13 @@
     "SOXL"
    ],
    "symbol_count": 6,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 97,
-   "thought": "Inside the range. Watching 696.00 and 703.31.",
+   "focus": "IWM",
+   "charge": 64,
+   "thought": "Inside the range. Watching 261.04 and 263.50.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -125,13 +125,13 @@
     "SOXL"
    ],
    "symbol_count": 6,
-   "state": "watching",
+   "state": "charging",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "IWM",
-   "charge": 29,
-   "thought": "VWAP 261.97. Waiting for the 10:00 to 3:00 window.",
+   "focus": "SOXL",
+   "charge": 87,
+   "thought": "Price above VWAP 26.20. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -231,9 +231,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
+   "focus": "QQQ",
    "charge": 85,
-   "thought": "Gap 698.27-698.92 ready. Waiting for price to tap it.",
+   "thought": "Gap 616.13-616.43 ready. Waiting for price to tap it.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -257,13 +257,13 @@
     "ETH/USD"
    ],
    "symbol_count": 2,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "ETH/USD",
-   "charge": 100,
-   "thought": "Breakout, but the hourly trend is down. Passing.",
+   "focus": "BTC/USD",
+   "charge": 49,
+   "thought": "Channel 57209.46 to 58630.71. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -277,6 +277,24 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-25T15:10:00+00:00",
+   "worker": "vwap",
+   "kind": "shadow",
+   "text": "VWAP (shadow) would short SOXL: VWAP rejection"
+  },
+  {
+   "t": "2026-11-25T15:01:00+00:00",
+   "worker": "turtle",
+   "kind": "shadow",
+   "text": "TURTLE (shadow) would long ETH/USD: 60-bar breakout"
+  },
+  {
+   "t": "2026-11-25T14:59:00+00:00",
+   "worker": "orb",
+   "kind": "shadow",
+   "text": "ORB (shadow) would long SPY: Opening range breakout up"
+  },
   {
    "t": "2026-11-25T14:58:00+00:00",
    "worker": "orb",
@@ -498,32 +516,14 @@
    "worker": "snapback",
    "kind": "shadow",
    "text": "SNAPBACK (shadow) would short QQQ: RSI(2) overbought in downtrend"
-  },
-  {
-   "t": "2026-11-24T15:25:00+00:00",
-   "worker": "vwap",
-   "kind": "shadow",
-   "text": "VWAP (shadow) would long INSM: VWAP reclaim"
-  },
-  {
-   "t": "2026-11-24T15:22:00+00:00",
-   "worker": "trend",
-   "kind": "shadow",
-   "text": "TREND (shadow) would short SPY: Trend pullback short"
-  },
-  {
-   "t": "2026-11-24T15:22:00+00:00",
-   "worker": "trend",
-   "kind": "shadow",
-   "text": "TREND (shadow) would short QQQ: Trend pullback short"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
-   "bias": -2,
+   "bias": -3,
    "regime": "trend",
-   "rvol": 1.3,
+   "rvol": 1.33,
    "liquidity": {
     "prior day high": 720.89,
     "prior day low": 712.16,
@@ -534,14 +534,14 @@
   },
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": -2,
-   "regime": "chop",
+   "bias": -3,
+   "regime": "normal",
    "rvol": null,
    "liquidity": {
     "prior day high": 61601.72,
     "prior day low": 59201.13
    },
-   "fvgs": 6
+   "fvgs": 5
   }
  },
  "scanner": {
