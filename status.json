@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T18:43:00+00:00",
+ "updated": "2026-11-25T18:59:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -62,8 +62,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 29,
-   "thought": "Noise area 695.33 to 726.92. Next check on the half hour.",
+   "charge": 30,
+   "thought": "Inside the noise area 695.68 to 726.55. No trade.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -131,7 +131,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 0,
-   "thought": "Price above VWAP 703.34. No cross yet.",
+   "thought": "Price above VWAP 703.92. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -159,13 +159,13 @@
     "SOXL"
    ],
    "symbol_count": 6,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 80,
-   "thought": "Bounced off the 9 EMA in an uptrend. Going long.",
+   "charge": 10,
+   "thought": "Higher timeframes not lined up (bias +2, chop). Sitting out.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -197,9 +197,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SOXS",
-   "charge": 94,
-   "thought": "Strong move against the hourly trend. Not fading it.",
+   "focus": "IWM",
+   "charge": 99,
+   "thought": "Sharp dip in an uptrend (RSI 1). Buying the snap back.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -227,13 +227,13 @@
     "SOXL"
    ],
    "symbol_count": 6,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 85,
-   "thought": "Gap 711.49-712.65 ready. Waiting for price to tap it.",
+   "focus": "IWM",
+   "charge": 38,
+   "thought": "Nearest liquidity: prior day high 268.30. Waiting for a sweep.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -261,9 +261,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "ETH/USD",
-   "charge": 41,
-   "thought": "Channel 1668.86 to 1693.67. Waiting for a break.",
+   "focus": "BTC/USD",
+   "charge": 39,
+   "thought": "Channel 59411.99 to 60021.14. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -277,6 +277,12 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-25T18:48:00+00:00",
+   "worker": "sweep",
+   "kind": "shadow",
+   "text": "SWEEP (shadow) would long QQQ: Sweep of prior day low + FVG"
+  },
   {
    "t": "2026-11-25T18:31:00+00:00",
    "worker": "snapback",
@@ -510,19 +516,13 @@
    "worker": "opener",
    "kind": "shadow",
    "text": "OPENER (shadow) would short META: Stock in play, 1.4x opening volume"
-  },
-  {
-   "t": "2026-11-25T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short MARA: Stock in play, 3.1x opening volume"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
    "bias": 2,
-   "regime": "trend",
+   "regime": "chop",
    "rvol": 1.16,
    "liquidity": {
     "prior day high": 720.89,
@@ -541,7 +541,7 @@
     "prior day high": 61601.72,
     "prior day low": 59201.13
    },
-   "fvgs": 6
+   "fvgs": 5
   }
  },
  "scanner": {
