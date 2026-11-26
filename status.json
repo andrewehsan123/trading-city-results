@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T21:03:00+00:00",
+ "updated": "2026-11-26T21:04:00+00:00",
  "mode": "paper",
  "market_open": false,
  "halted": null,
@@ -247,7 +247,7 @@
    "pending": [],
    "position": null,
    "focus": "BTC/USD",
-   "charge": 71,
+   "charge": 90,
    "thought": "Channel 60599.32 to 60753.70. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
