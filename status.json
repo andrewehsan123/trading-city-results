@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T15:58:00+00:00",
+ "updated": "2026-11-26T16:13:00+00:00",
  "mode": "paper",
  "market_open": false,
  "halted": null,
@@ -247,8 +247,8 @@
    "pending": [],
    "position": null,
    "focus": "BTC/USD",
-   "charge": 79,
-   "thought": "Channel 59849.39 to 60731.04. Waiting for a break.",
+   "charge": 74,
+   "thought": "Channel 60063.81 to 60784.46. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -262,6 +262,18 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-26T16:01:00+00:00",
+   "worker": "turtle",
+   "kind": "shadow",
+   "text": "TURTLE (shadow) would long ETH/USD: 60-bar breakout"
+  },
+  {
+   "t": "2026-11-26T16:00:00+00:00",
+   "worker": "turtle",
+   "kind": "shadow",
+   "text": "TURTLE (shadow) would long BTC/USD: 60-bar breakout"
+  },
   {
    "t": "2026-11-25T19:30:00+00:00",
    "worker": "trend",
@@ -489,32 +501,20 @@
    "worker": "opener",
    "kind": "shadow",
    "text": "OPENER (shadow) would long PYPL: Stock in play, 1.4x opening volume"
-  },
-  {
-   "t": "2026-11-25T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would short NVDA: Stock in play, 1.0x opening volume"
-  },
-  {
-   "t": "2026-11-25T14:35:00+00:00",
-   "worker": "opener",
-   "kind": "shadow",
-   "text": "OPENER (shadow) would long NKE: Stock in play, 1.2x opening volume"
   }
  ],
  "regime": {
   "lead": null,
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": 1,
-   "regime": "trend",
+   "bias": 2,
+   "regime": "normal",
    "rvol": null,
    "liquidity": {
     "prior day high": 60492.83,
     "prior day low": 57209.46
    },
-   "fvgs": 5
+   "fvgs": 4
   }
  },
  "scanner": {
