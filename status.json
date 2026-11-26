@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T16:28:00+00:00",
+ "updated": "2026-11-26T16:43:00+00:00",
  "mode": "paper",
  "market_open": false,
  "halted": null,
@@ -246,9 +246,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "BTC/USD",
-   "charge": 35,
-   "thought": "Channel 60203.42 to 60784.46. Waiting for a break.",
+   "focus": "ETH/USD",
+   "charge": 55,
+   "thought": "Channel 1681.40 to 1696.01. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -507,7 +507,7 @@
   "lead": null,
   "crypto": {
    "symbol": "BTC/USD",
-   "bias": -2,
+   "bias": 0,
    "regime": "chop",
    "rvol": null,
    "liquidity": {
