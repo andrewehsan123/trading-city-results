@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T16:13:00+00:00",
+ "updated": "2026-11-27T16:28:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -62,8 +62,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 36,
-   "thought": "Noise area 712.20 to 730.47. Next check on the half hour.",
+   "charge": 40,
+   "thought": "Noise area 712.04 to 730.63. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -126,7 +126,7 @@
    "pending": [],
    "position": null,
    "focus": "XP",
-   "charge": 29,
+   "charge": 38,
    "thought": "Price below VWAP 17.08. No cross yet.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -159,7 +159,7 @@
    "position": null,
    "focus": "SPY",
    "charge": 10,
-   "thought": "Fast and slow trend disagree. Waiting.",
+   "thought": "Higher timeframes not lined up (bias +3, chop). Sitting out.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -190,7 +190,7 @@
    "pending": [],
    "position": null,
    "focus": "XP",
-   "charge": 75,
+   "charge": 89,
    "thought": "Strong move against the hourly trend. Not fading it.",
    "pnl_today": 0,
    "trades_today": 0,
@@ -221,9 +221,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
+   "focus": "IWM",
    "charge": 85,
-   "thought": "Gap 725.79-726.10 ready. Waiting for price to tap it.",
+   "thought": "Gap 272.38-272.45 ready. Waiting for price to tap it.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -247,13 +247,13 @@
     "ETH/USD"
    ],
    "symbol_count": 2,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "BTC/USD",
-   "charge": 79,
-   "thought": "Channel 59334.21 to 60171.58. Waiting for a break.",
+   "focus": "ETH/USD",
+   "charge": 63,
+   "thought": "Channel 1660.21 to 1676.74. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -267,6 +267,12 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-27T16:24:00+00:00",
+   "worker": "vwap",
+   "kind": "shadow",
+   "text": "VWAP (shadow) would long XP: VWAP reclaim"
+  },
   {
    "t": "2026-11-27T15:53:00+00:00",
    "worker": "snapback",
@@ -500,27 +506,21 @@
    "worker": "trend",
    "kind": "shadow",
    "text": "TREND (shadow) would long IWM: Trend pullback long"
-  },
-  {
-   "t": "2026-11-25T17:06:00+00:00",
-   "worker": "turtle",
-   "kind": "shadow",
-   "text": "TURTLE (shadow) would long BTC/USD: 60-bar breakout"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
    "bias": 3,
-   "regime": "normal",
-   "rvol": 0.73,
+   "regime": "chop",
+   "rvol": 0.78,
    "liquidity": {
     "prior day high": 718.4,
     "prior day low": 695.54,
     "opening range high": 726.05,
     "opening range low": 720.99
    },
-   "fvgs": 4
+   "fvgs": 3
   },
   "crypto": {
    "symbol": "BTC/USD",
@@ -531,7 +531,7 @@
     "prior day high": 61515.96,
     "prior day low": 59849.39
    },
-   "fvgs": 11
+   "fvgs": 10
   }
  },
  "scanner": {
