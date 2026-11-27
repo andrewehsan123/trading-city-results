@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T14:43:00+00:00",
+ "updated": "2026-11-27T14:58:00+00:00",
  "mode": "paper",
  "market_open": true,
  "halted": null,
@@ -62,8 +62,8 @@
    "pending": [],
    "position": null,
    "focus": "SPY",
-   "charge": 14,
-   "thought": "Noise area 714.24 to 728.40. Next check on the half hour.",
+   "charge": 12,
+   "thought": "Noise area 714.14 to 728.51. Next check on the half hour.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -93,9 +93,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 34,
-   "thought": "Building the opening range: 720.99 to 726.05.",
+   "focus": "XP",
+   "charge": 57,
+   "thought": "Inside the range. Watching 16.67 and 17.32.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -121,13 +121,13 @@
     "XP"
    ],
    "symbol_count": 4,
-   "state": "charging",
+   "state": "watching",
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 81,
-   "thought": "VWAP 722.78. Waiting for the 10:00 to 3:00 window.",
+   "focus": "XP",
+   "charge": 55,
+   "thought": "VWAP 16.94. Waiting for the 10:00 to 3:00 window.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -157,9 +157,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "SPY",
-   "charge": 0,
-   "thought": "Letting the averages settle.",
+   "focus": "XP",
+   "charge": 40,
+   "thought": "Uptrend. Waiting for a dip to the 9 EMA.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -221,9 +221,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "QQQ",
-   "charge": 38,
-   "thought": "Nearest liquidity: opening range low 638.14. Waiting for a sweep.",
+   "focus": "SPY",
+   "charge": 50,
+   "thought": "Swept the opening range low at 720.99. Waiting for a fair value gap.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -251,9 +251,9 @@
    "open_count": 0,
    "pending": [],
    "position": null,
-   "focus": "ETH/USD",
-   "charge": 12,
-   "thought": "Channel 1674.96 to 1726.69. Waiting for a break.",
+   "focus": "BTC/USD",
+   "charge": 8,
+   "thought": "Channel 59011.51 to 61458.36. Waiting for a break.",
    "pnl_today": 0,
    "trades_today": 0,
    "wins_today": 0,
@@ -267,6 +267,18 @@
   }
  ],
  "tape": [
+  {
+   "t": "2026-11-27T14:56:00+00:00",
+   "worker": "trend",
+   "kind": "shadow",
+   "text": "TREND (shadow) would long XP: Trend pullback long"
+  },
+  {
+   "t": "2026-11-27T14:52:00+00:00",
+   "worker": "sweep",
+   "kind": "shadow",
+   "text": "SWEEP (shadow) would long QQQ: Sweep of opening range low + FVG"
+  },
   {
    "t": "2026-11-27T14:35:00+00:00",
    "worker": "opener",
@@ -494,26 +506,14 @@
    "worker": "trend",
    "kind": "shadow",
    "text": "TREND (shadow) would long SOXS: Trend pullback long"
-  },
-  {
-   "t": "2026-11-25T15:29:00+00:00",
-   "worker": "trend",
-   "kind": "shadow",
-   "text": "TREND (shadow) would short SOXL: Trend pullback short"
-  },
-  {
-   "t": "2026-11-25T15:18:00+00:00",
-   "worker": "sweep",
-   "kind": "shadow",
-   "text": "SWEEP (shadow) would short SPY: Sweep of opening range high + FVG"
   }
  ],
  "regime": {
   "lead": {
    "symbol": "SPY",
    "bias": 3,
-   "regime": "trend",
-   "rvol": 0.67,
+   "regime": "normal",
+   "rvol": 0.71,
    "liquidity": {
     "prior day high": 718.4,
     "prior day low": 695.54,
@@ -531,7 +531,7 @@
     "prior day high": 61515.96,
     "prior day low": 59849.39
    },
-   "fvgs": 10
+   "fvgs": 11
   }
  },
  "scanner": {
